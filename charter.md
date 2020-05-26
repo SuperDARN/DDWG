@@ -1,20 +1,20 @@
-Charter of Data Distribution Working Group (DD-WG)
+# Charter of Data Distribution Working Group (DDWG)
 
-Working Group Purpose
+## Purpose
 
 This working group (WG) is charged with maintaining the protocols for transferring RAWACF and DAT files from the PI institutions, first to a holding institution (Virginia Tech) and ultimately to a distribution institution (University of Saskatchewan) where they are merged and copied onto hard drives for distribution. The cadence for distribution of the drives is every four months (Jan-Apr, May-August, September-December). This working group was created after the SuperDARN workshop in Moose Jaw, Saskatchewan in 2013. The group is also charged with maintaining an augmentation to the hard drive distribution, any networked SuperDARN Data Mirrors.
 
-Holding Institution
+## Holding Institution
 
 The holding institution prior to October 1<sup>st</sup>, 2013 was JHU/APL. See Appendix A for a description of the system that was in place at JHU/APL.
 
 The holding institution beginning October 1<sup>st</sup>, 2013 is Virginia Tech. See Appendix B for a description of the system in place at Virginia Tech.
 
-Distribution Institution(s)
+## Distribution Institution(s)
 
 The distribution institution is the University of Saskatchewan. See Appendix C for a description of the current system in place at the University of Saskatchewan, and a brief description of the previous system.
 
-Membership
+## Membership
 
 The membership of the working group should consist of several types of members:
 
@@ -25,71 +25,44 @@ The membership of the working group should consist of several types of members:
 
 The current membership includes:
 
-Chair: Kevin Krieger University of Saskatchewan
+Responsibilty | Name | Institution
+--- | --- | ---
+Chair | Kevin Krieger | University of Saskatchewan
+Co-Chair | Kevin Sterne | Virginia Tech
+Member | Simon Shepherd | Dartmouth
+Member | Akira Sessai Yukimatu | NIPR
+Member | Kehe Wang | IPS
+Member | Andrew McDonald | LaTrobe
+Member | Paul Breen | BAS
+Member | Member | Bill Bristow | UAF
+Member | Member | Jef Spaleta | UAF
+Member | Jianjun Liu | PRIC
+Member | Judy Stephenson | Durban
+Member | Member | Tomoaki Hori | STELAB
+Member | Member | Nozomu Nishitani | STELAB
+Member | Aurélie Marchaudon | IRAP/CNRS
+Member | Member | Nigel Wade | Leicester
+Member | Member | Tsutomu Nagatsuma | NICT
+Member | Keisuke Hosokawa | DICE
+Member | Ethan Miller | JHU/APL
+Member | Member | Ermanno Amata | IAPS-INAF
+Member | Tom Kane | LaTrobe
+Member | Hong-Qiao Hu | PRIC
+Member | Xavier Vallieres | CNRS
+Member | Chris Thomas | Leicester
+Member | Manabu Kunitake | NICT
+Observer | Mike Ruohoniemi | Virginia Tech
+Observer | Kathryn McWilliams | University of Saskatchewan
+Observer | Dieter Andre | University of Saskatchewan
+Observer | Jean-Pierre St.Maurice | University of Saskatchewan
 
-Co-Chair: Kevin Sterne Virginia Tech
-
-Simon ShepherdDartmouth
-
-Akira Sessai YukimatuNIPR
-
-Kehe WangIPS
-
-Andrew McDonaldLaTrobe
-
-Paul BreenBAS
-
-Bill BristowUAF
-
-Jef SpaletaUAF
-
-Jianjun LiuPRIC
-
-Judy StephensonDurban
-
-Tomoaki HoriSTELAB
-
-Nozomu NishitaniSTELAB
-
-Aurélie MarchaudonIRAP/CNRS
-
-Nigel WadeLeicester
-
-Tsutomu NagatsumaNICT
-
-Keisuke HosokawaDICE
-
-Ethan MillerJHU/APL
-
-Ermanno AmataIAPS-INAF
-
-Tom KaneLaTrobe
-
-Hong-Qiao HuPRIC
-
-Xavier VallieresCNRS
-
-Chris ThomasLeicester
-
-Manabu KunitakeNICT
-
-Observers:
-
-Mike RuohoniemiVirginia Tech
-
-Kathryn McWilliamsUniversity of Saskatchewan
-
-Dieter AndreUniversity of Saskatchewan
-
-Jean-Pierre St.MauriceUniversity of Saskatchewan
-
-Communications
+## Communications
 
 Communication shall primarily be done over email via the Data-Distribution Working-Group (Darn-ddwg) mailing list set up by Julian Thornhill, maintained by Leicester University. To send email to the list, send mail to <darn-ddwg@ion.le.ac.uk>.
 
 A person wishing to subscribe to the Data Distribution emailing list should contact the Chair (or co-Chairs) or the current PI institution’s member about subscribing to this list. Subscribing to the list should be only at the approval of the Chair (or co-Chairs) so that they are aware of an addition or change within a PI institution.
 
-Responsibilities
+## Responsibilities
 
 Chair/Co-Chair: Provide updates on the status of the SuperDARN data distribution system to the members of the ddwg. Operate and maintain the SuperDARN holding and Distribution institution systems. Track down gaps in data and resolve them, either by providing an explanation for why the data is missing, or retrieving it from the PI institution responsible if it is not a real gap.
 
@@ -101,14 +74,14 @@ Members responsible for receiving distributed hard drives: Make sure the hard dr
 
 Observers: Provide feedback or input on discussions.
 
-Immediate Action items
+## Immediate Action items
 
 1.  An introduction email shall be sent out by the Chair/Co-Chair to the Darn-ddwg mailing list, with this charter.
 2.  An email shall be sent out detailing the current status of data distribution, including the mirror.
 3.  Documentation shall be done on the Primary SuperDARN Data Mirror.
 4.  Discussion among all members should happen regarding the “Points for Consideration” below.
 
-Points for Consideration
+## Points for Consideration
 
 1.  Are there problems with accessing files from certain institutions?
 2.  How do we become aware of, and deal with, gaps in the distribution?
