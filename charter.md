@@ -65,6 +65,7 @@ Member | Evan Thomas | Dartmouth | cve, cvw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
 Member | Alex Chartier | JHU/APL | wal
 Member | Federica Marcucci | IAPS/INAF | dce, dcn
+Member | Enrico Simeoli | IAPS/INAF | dce, dcn
 Member | Kehe Wang | BOM
 Member | John Devlin | LaTrobe | tig, unw, bpk
 Member | Jim Whittington | LaTrobe | tig, unw, bpk
