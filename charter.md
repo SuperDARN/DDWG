@@ -1,5 +1,7 @@
 # Charter of Data Distribution Working Group (DDWG)
 
+This charter outlines the necessary information that the DDWG requires to operate effectively.
+
 ## Updates
 | Date | Changes |
 | --- | --- |
@@ -14,6 +16,10 @@
  - Level 1 Data: RAWACF or DAT data
  - WG: Working group
  - PI Institutions: Institutions that produce SuperDARN radar data adhering to the PI agreement
+ - DSWG: Data Standards Working Group: <https://github.com/SuperDARN/dswg-published-docs>
+ - DAWG: Data Analysis Working Group: 
+ 
+## Institutions
  - BAS: British Antarctic Survey
  - USASK: University of Saskatchewan
  - VT : Virginia Tech
@@ -85,7 +91,7 @@ Member | Mark Gentile | LaTrobe | tig, unw, bpk
 Member | Andrew McDonald | LaTrobe | tig, unw, bpk
 Member | Paul Breen | BAS | fir
 Member | Tim Barnes | BAS | fir
-Member | Bill Bristow | UAF | sps, mcm, ade, adw, kod
+Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod
 Member | Jianjun Liu | PRIC | zho
 Member | Hongqiao Hu | PRIC | zho
 Member | Judy Stephenson | UKZN | san
@@ -134,3 +140,20 @@ data from the mirrors in a timely fashion for their PI institution.
 Provide feedback on the mirror setup.
 
 Observers: Provide feedback or input on discussions.
+
+## Raising Issues
+
+Anyone can raise issues to the DDWG. The order of preference for raising issues is:
+ 1. Via the github repository here: <https://github.com/SuperDARN/DDWG/issues/new/choose>
+ 2. Via an email to the DDWG mailing list: <darn-ddwg@isee.nagoya-u.ac.jp>
+ 3. Via an email to the chair or co-chair(s)
+
+## Blacklisting policy
+
+TODO
+
+## File checking policy 
+
+TODO
+
+## TODO: OTHER POLICIES
