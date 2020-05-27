@@ -63,8 +63,8 @@ Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
 Member | Simon Shepherd | Dartmouth | cve, cvw
 Member | Evan Thomas | Dartmouth | cve, cvw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
-Member | Alex Chartier | JHU/APL | wal
-Member | Federica Marcucci | IAPS/INAF | dce, dcn
+Member | Jordan Wiker | JHU/APL | wal
+Member | Enrico Simeoli | IAPS/INAF | dce, dcn
 Member | Kehe Wang | BOM
 Member | John Devlin | LaTrobe | tig, unw, bpk
 Member | Jim Whittington | LaTrobe | tig, unw, bpk
@@ -80,7 +80,6 @@ Member | Tomoaki Hori | STELAB | hok, hkw
 Member | Nozomu Nishitani | STELAB | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
 Member | Tsutomu Nagatsuma | NICT | ksr
-Member | Kazunori Yamamoto | NICT | ksr
 Member | Keisuke Hosokawa | DICE/UEC |
 Member | Chris Thomas | Leicester | han, pyk, sto
 Member | Tim Yeoman | Leicester | han, pyk, sto
@@ -91,6 +90,7 @@ Observer | Mike Ruohoniemi | VT
 Observer | Kathryn McWilliams | USASK
 Observer | Dieter Andre | USASK
 Observer | Jean-Pierre St.Maurice | USASK
+Observer | Federica Marcucci | IAPS/INAF 
 
 ## Communications
 
