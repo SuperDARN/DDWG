@@ -74,17 +74,16 @@ Member | Paul Breen | BAS | fir
 Member | Tim Barnes | BAS | fir
 Member | Bill Bristow | UAF | sps, mcm, ade, adw, kod
 Member | Jianjun Liu | PRIC | zho
-Member | Hong-Qiao Hu | PRIC | zho
+Member | Hongqiao Hu | PRIC | zho
 Member | Judy Stephenson | Durban | san
-Member | Tomoaki Hori | STELAB | hok, hkw
-Member | Nozomu Nishitani | STELAB | hok, hkw
+Member | Tomoaki Hori | ISEE | hok, hkw
+Member | Nozomu Nishitani | ISEE | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
 Member | Tsutomu Nagatsuma | NICT | ksr
 Member | Keisuke Hosokawa | DICE/UEC |
 Member | Chris Thomas | Leicester | han, pyk, sto
 Member | Tim Yeoman | Leicester | han, pyk, sto
 Member | Qing-He Zhang | SDU
-Member | Emma Bland | UNIS | lyr 
 Member | Mikko Syrjäsuo| UNIS | lyr
 Observer | Mike Ruohoniemi | VT
 Observer | Kathryn McWilliams | USASK
