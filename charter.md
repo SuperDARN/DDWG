@@ -12,11 +12,24 @@
  - RAWACF/DAT: Correlation data
  - Level 0 Data: IQDAT or BFIQ data
  - Level 1 Data: RAWACF or DAT data
+ - WG: Working group
+ - PI Institutions: Institutions that produce SuperDARN radar data adhering to the PI agreement
  - BAS: British Antarctic Survey
  - USASK: University of Saskatchewan
  - VT : Virginia Tech
- - WG: Working group
- - PI Institutions: Institutions that produce SuperDARN radar data adhering to the PI agreement
+ - NIPR: National Institute of Polar Research
+ - JHU/APL: Johns Hopkins University Applied Physics Laboratory
+ - UAF: University of Alaska Fairbanks
+ - IAPS/INAF: Institute for Space Astrophysics and Planetology 
+ - BOM: Bureau of Meteorology
+ - PRIC: Polar Research Institute of China
+ - ISEE: Institute for Space-Earth Environmental Research
+ - IRAP: Research Institute in Astrophysics and Planetology 
+ - NICT: National Institute of Information and Communications Technology
+ - DICE/UEC: University of Electro-Communications
+ - SDU: Shandong University
+ - UNIS: The University Centre in Svalbard
+ - UKZN: University of KwaZulu-Natal
  
 ## Purpose
 
@@ -75,7 +88,7 @@ Member | Tim Barnes | BAS | fir
 Member | Bill Bristow | UAF | sps, mcm, ade, adw, kod
 Member | Jianjun Liu | PRIC | zho
 Member | Hongqiao Hu | PRIC | zho
-Member | Judy Stephenson | Durban | san
+Member | Judy Stephenson | UKZN | san
 Member | Tomoaki Hori | ISEE | hok, hkw
 Member | Nozomu Nishitani | ISEE | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
@@ -83,7 +96,8 @@ Member | Tsutomu Nagatsuma | NICT | ksr
 Member | Keisuke Hosokawa | DICE/UEC |
 Member | Chris Thomas | Leicester | han, pyk, sto
 Member | Tim Yeoman | Leicester | han, pyk, sto
-Member | Qing-He Zhang | SDU
+Member | Qinghe Zhang | SDU
+Member | Zanyang Xing | SDU
 Member | Mikko Syrjäsuo| UNIS | lyr
 Observer | Mike Ruohoniemi | VT
 Observer | Kathryn McWilliams | USASK
