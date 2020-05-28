@@ -55,7 +55,7 @@ segregated environment on the Linux computer. The segregation allowed the users 
 Primary Data Mirror read-only access to the data, and only the directories that contain the data. 
 In this way, the rest of the file system was inaccessible to users.
 
-![structure](img/cssdp_dir_structure.png)
+![structure](../img/cssdp_dir_structure.png)
 
 The above image shows a view of the directory structure of the old SuperDARN data mirror.
 
@@ -77,3 +77,15 @@ in the `/sddata/raw/2010/04/` directory, it will be updated. It is not sorted.
 
 ## Current Distribution
 
+The current system utilizes [Globus](<https://www.globus.org/>), which is a system for research data
+management. At a very high level, it allows fast, parallel transfers of large data sets between 
+`endpoints`. An endpoint can be a server in the cloud or your personal laptop or desktop. 
+
+At SuperDARN Canada, we have access to the Globus endpoint on `cedar.computecanada.ca`, which has 
+the Globus server software installed and acts as an endpoint. We are able to share subdirectories of
+this storage with groups of users. In this way, we can customize the user's access to various data.
+Currently, we use this sharing ability with a group of users to allow read-only access to the main
+RAWACF and DAT file distribution. Alongside the main distribution, we expose the directory 
+containing files removed from the distribution for any reason (blacklisted, failed in some way, etc).
+
+A user wishing to have access to this data should contact the DDWG.  
