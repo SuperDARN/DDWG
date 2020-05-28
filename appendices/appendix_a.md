@@ -9,31 +9,31 @@ VT, Fairbanks, CNRS, etc.
 * At 0200 LT each night, APL’s morpheus runs a cron job to download all the latest rawacf and 
 fitacf files and processes them (creating a log file in the process).  The stages of this 
 processing are as follows
-    * Download: Each data file is downloaded from the remote site to a station-specific 
+    * **Download**: Each data file is downloaded from the remote site to a station-specific 
     subdirectory under the incoming directory and, as record, an zero-lengthed file 
     (<filename>.cat) is created in a station-specific subdirectory under the cat directory.  
     For some remote sites, the remote files are deleted once they are downloaded to APL.
-    * Backup: All downloaded files are copied to a station-specific subdirectory under the backup 
+    * **Backup**: All downloaded files are copied to a station-specific subdirectory under the backup 
     directory.  This unchanged files serves as a record of the stations’ version of the original 
     file.
-    * Tests: Most remote sites’ data files are posted as compress files (gzip or bzip2), so a next 
+    * **Tests**: Most remote sites’ data files are posted as compress files (gzip or bzip2), so a next 
     step is to check that the compress files is good (i.e., as a test of a valid network transfer).
     If the compressed file is bad, the file is moved to a station-specific subdirectory under the 
     bad directory.  Similarly, the file is moved to the station-specific bad directory if it is 
     empty, had a problem in naming or in being stored locally (i.e., an APL disk becomes full).  
     Error entries for each of these cases are made in a station-specific log file.
-    * Conversion: The file is next modified/converted slightly (e.g., headers properly filled in, 
+    * **Conversion**: The file is next modified/converted slightly (e.g., headers properly filled in, 
     etc) – I am not familiar with this conversion step, and Rob had talked about 
     changing/eliminating it.  If any problem is detected, the file is put in a station-specific 
     subdirectory under the bad directory.
-    * Storage: The converted file is next copied to a type-specific subdirectory (rawacf, fitacf, 
+    * **Storage**: The converted file is next copied to a type-specific subdirectory (rawacf, fitacf, 
     iqdat) under the data directory for storage.
-    * Upload: The uploading of files to Saskatchewan is done in two steps – an automatic 
+    * **Upload**: The uploading of files to Saskatchewan is done in two steps – an automatic 
     preliminary step under the process cron job and a manual step performed periodically
-        * Automatic: The converted file is next copied to a type-specific subdirectory 
+        * **Automatic**: The converted file is next copied to a type-specific subdirectory 
         (new.rawacf, new.fitacf) under the outgoing directory for accumulation and subsequent 
         uploading to Saskatchewan.  
-        * Manual: An upload is later manually initiated by scripts (via upload.rawacf and 
+        * **Manual**: An upload is later manually initiated by scripts (via upload.rawacf and 
         upload.fitacf); under either script, the files are moved to a type-specific subdirectory 
         (rawacf, fitacf) under the outgoing directory, all files in this subdirectory are rsync 
         uploaded to Saskatchewan, and finally each file is then moved to a type-specific 

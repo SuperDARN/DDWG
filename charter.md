@@ -32,8 +32,9 @@ This charter outlines the necessary information that the DDWG requires to operat
  - ISEE: Institute for Space-Earth Environmental Research
  - IRAP: Research Institute in Astrophysics and Planetology 
  - NICT: National Institute of Information and Communications Technology
- - DICE/UEC: University of Electro-Communications
+ - UEC: University of Electro-Communications
  - SDU: Shandong University
+ - NSSC-CAS: National Space Science Center, Chinese Academy of Sciences
  - UNIS: The University Centre in Svalbard
  - UKZN: University of KwaZulu-Natal
  
@@ -93,11 +94,13 @@ Member | Nozomu Nishitani | ISEE | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
 Member | Tsutomu Nagatsuma | NICT | ksr
 Member | Keisuke Hosokawa | DICE/UEC |
-Member | Chris Thomas | Leicester | han, pyk, sto
-Member | Tim Yeoman | Leicester | han, pyk, sto
-Member | Qinghe Zhang | SDU
-Member | Zanyang Xing | SDU
+Member | Chris Thomas | Leicester | han, pyk
+Member | Tim Yeoman | Leicester | han, pyk
+Member |  | Lancaster | sto
+Member |  | NSSC-CAS | jme
 Member | Mikko Syrjäsuo| UNIS | lyr
+Member | Zanyang Xing | SDU
+Observer | Qinghe Zhang | SDU
 Observer | Mike Ruohoniemi | VT
 Observer | Kathryn McWilliams | USASK
 Observer | Dieter Andre | USASK
