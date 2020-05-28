@@ -1,10 +1,49 @@
 The current agenda for the annual workshop DDWG meeting on June 3rd at 12:00 UTC is:
 
  - Github DDWG repository
- - dattorawacf concerns
+ 
+ - dattorawacf concerns:
+ Evan brought up the issue and described it:
+ "
+I've just spot checked a random UNW rawacf file (20120217.1400.00.unw.rawacf) from the BAS mirror and compared the
+dmapdump contents to the output of a dattorawacf command using the original dat file on VT's server.  
+As expected, the slist parameter (indicating the ranges with valid data) is smaller for the VT-produced rawacf 
+files when compared to the new rawacf file produced with a dattorawacf command.  This is because, as 
+previously noted, there was a low power thresholding issue which was only recently fixed in the dattorawacf 
+conversion routine which caused some ranges to be dropped from the rawacf file.
+
+I also noticed the time of the first record in this particular file (14:01:24 UT) does not match the time as 
+suggested from the filename (14:00:00 UT).  So I think we need to reprocess all of these dat files with the 
+updated dattorawacf command (with the low-power thresholding disabled) and a more rigorous file naming extraction 
+based on the first timestamp."
+
+"I was just trying to track down a few rogue CPIDs from Stokkseyri and noticed some January 2009 RAWACF files
+ were also produced using a dattorawacf command with low-power thresholding enabled (eg, 20090104.0000.00.sto.rawacf.bz2):
+
+         string  "origin.command" = "/home/dproc/bin/dattorawacf /data1/tmp/tmp.T30861"
+         ...
+         string  "combf" = "$Id: fast_fte.c,v 1.01 2004/10/10 11:55:01 J.P. Villain$"
+         float   "thr" = 3.000000
+
+
+I'm guessing this is when the site was still using RADOPS2000 and just before the hardware and electronics were
+upgraded/replaced in 2010.  So the rawacf files from Stokkseyri for July 2006 to January 2009 may also need 
+reprocessing if possible.  Would anyone still have the original dat files from these dates?"
+ 
  - Charter update
+ 
  - Mirror sync issues
+ 
  - Metadata/context for removed files
- - Any issues with radar data not properly distributed to VT/USASK/BAS
+ 
+ - Any issues with radar data not properly distributed to VT/USASK/BAS:
+ From Simon: "What is the purpose of "holding" institutions? Do they add anything, other than another point 
+ of failure and overly complicating the system? Why are data from some radars distributed to both servers 
+ (are they?) but not all? Do we want additional servers and which data do they get? How can we reduce manual 
+ processes necessary to keep things running properly (data flow and synchronization between servers) 
+ There are lots of questions regarding the state of the system and how we can realistically improve it.
+ You will note that I have stopped using the term "mirror". In order to move toward a "mirror" system we need 
+ to use common protocols. At least I think we do..."
+ 
  - How do we ensure that corrected data is distributed through PI institutions?
  
