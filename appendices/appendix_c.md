@@ -88,4 +88,152 @@ Currently, we use this sharing ability with a group of users to allow read-only 
 RAWACF and DAT file distribution. Alongside the main distribution, we expose the directory 
 containing files removed from the distribution for any reason (blacklisted, failed in some way, etc).
 
-A user wishing to have access to this data should contact the DDWG.  
+A user wishing to have access to this data should contact the DDWG.
+
+### Data flow into USASK holding directories
+
+In general, RAWACF data flows into the USASK server *superdarn-cssdp.usask.ca* (*cssdp*) holding 
+directories from three sources:
+
+1. *sd-data.ece.vt.edu* (VT)
+1. *sdcopy.usask.ca* (*sdcopy* - USASK)
+1. *bslsuperdarnb.nerc-bas.ac.uk* (BAS)
+
+Crontab entries on *cssdp* control downloading RAWACF data from VT and BAS with two scripts:
+
+1. *download_vt_data* (VT)
+1. *sync_bas_data* (BAS)
+
+Crontab entries on *sdcopy* control pushing Canadian RAWACF data to *cssdp* with the script:
+
+1. *auto_check_radar*
+
+#### download_vt_data
+This bash script takes two arguments:
+
+1. The top-level holding directory to place the files in 
+1. The radar to download files for (three letter radar code)
+
+This script performs one main task: download all staged files from VT that are not already located
+within the *cssdp* holding directories, then remove all files that were staged by VT.
+
+It is scheduled to run at the following times for the following radars. **NOTE**, not all radars 
+are supplied by VT, but these crontab entries are scheduled anyways.
+
+```
+01 17 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding ade
+03 20 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding bks 
+21 17 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding adw
+41 17 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding bks
+01 18 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding bpk
+21 18 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding cly
+31 18 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding cve 
+41 18 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding cvw
+01 22 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding dce
+11 22 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding dcn
+21 22 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding fhe
+41 22 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding fhw
+01 23 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding fir
+24 23 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding gbr
+41 23 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding hal
+01 00 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding han
+21 00 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding hkw
+41 00 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding hok
+00 23 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding inv
+11 23 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding jme 
+21 01 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding kap
+41 01 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding ker
+01 02 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding kod
+21 02 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding ksr
+31 02 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding lyr
+41 02 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding mcm
+01 03 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding pgr
+21 03 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding pyk
+41 03 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding rkn
+01 04 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding san
+21 04 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sas
+41 04 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sch
+01 05 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sps
+21 05 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sto
+41 05 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sye
+01 06 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding sys
+21 06 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding tig
+41 06 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding unw
+01 07 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding wal
+21 07 * * * /home/dataman/script/download_vt_data /local_data/local_data/holding zho
+``` 
+
+#### sync_bas_data
+
+This bash script takes one or two arguments, the location to store BAS data in, and an optional date
+(year and month) to get data for. This script performs two main tasks:
+
+1. Compare hashes files for the specified dates (default is the current year and month) with the 
+hashes files on Globus and produce the following lists:
+    1. Files that USASK has, but BAS doesn't (emailed to Kevin if there are any)
+    1. Files that BAS has that are blacklisted (emailed to Kevin if there are any)
+    1. Files that BAS has that have failed (emailed to Kevin if there are any)
+    1. Files that BAS has, but USASK doesn't (that aren't blacklisted, or failed, these are downloaded)
+2. Download any files that BAS has, that USASK doesn't (from the list above), and place in a 
+holding directory.
+
+It is scheduled at the following time via cron:
+
+```
+01 19 * * 0,1,3,4,5,6 flock /home/dataman/.baslock -c '/home/dataman/script/sync_bas_data.sh /local_data/local_data/holding/BAS'
+```
+
+In addition, a batch synchronization script is run once per week, and once per month for 
+comparing files from previous months and years back to the start of SuperDARN data.
+
+```
+04 20 * * 2 flock /home/dataman/.baslock -c '/home/dataman/script/batch_bas_sync_weekly /local_data/local_data/holding/BAS'
+12 21 11 * * flock /home/dataman/.baslock -c '/home/dataman/script/batch_bas_sync /local_data/local_data/holding/BAS'
+```
+
+#### auto_check_radar
+
+This bash script takes one argument, the 3 letter radar code to check data for. This script performs
+three main tasks:
+
+1. Check the files for bunzip2 compression failures
+1. Stage the files for VT
+1. Copy the files to the *cssdp* server holding directory for Canadian data. 
+
+It is scheduled via cron at the following times **NOTE** Borealis data is not currently being
+distributed, so crontab entries for sas, pgr and cly do not appear here:
+
+```
+27 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/bin/auto_check_radar rkn >> /home/mrcopy/datacheck/rkn.log 2>&1
+25 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/bin/auto_check_radar inv >> /home/mrcopy/datacheck/inv.log 2>&1
+```
+
+### Data flow from USASK holding directories onto Globus
+
+In general, RAWACF data flows out of the USASK server *cssdp* holding directories from one script,
+*gatekeeper_globus.py*. This singleton python script utilizes the 
+[Globus Python SDK](https://globus-sdk-python.readthedocs.io/en/stable/). It takes several command
+line arguments:
+ 
+1. Path to local holding directory with SuperDARN data files
+1. Path to the mirror root directory with directories for data type in it such as 'raw', 'dat' or 'fit'
+1. An optional pattern for which files to place on the mirror
+
+It performs several main tasks:
+
+1. Test all files for the following:
+    1. Are they blacklisted?
+    1. Does the file already exist on the mirror? and if so, is it the same?
+    1. Does the file pass all bzip2 tests?
+    1. Is the file too small?
+    1. Does the file pass all DMAP tests in [backscatter](https://github.com/SuperDARNCanada/backscatter)?
+1. Upload those files that passed all the tests onto the Globus mirror in the appropriate place
+and update the hash file(s) (as atomically as possible).
+1. Email Kevin with files that failed any test.
+
+It is scheduled via cron at the following times, for both files from VT and *sdcopy*, another time
+for files from BAS.
+```
+39 */2 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/globus/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
+01 18 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/BAS/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
+```
