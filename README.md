@@ -1,19 +1,11 @@
 # DDWG
 A repository for Data Distribution Working Group information
 
-charter.md - The DDWG charter
+Files within this repository:
 
-policies_procedures.md - The DDWG policies and procedures
-
-## appendices/
-
-Appendices for the charter
-
-## img/
-
-Any media used in documents
-
-## meetings/
-
-Meeting agendas, minutes, reports, presentations
-
+1. charter.md - The DDWG charter
+1. policies_procedures.md - The DDWG policies and procedures
+1. FAQ.md - A list of frequently asked questions and answers
+1. appendices/ -  A directory containing any appendices referenced in DDWG documents
+1. img/ - A directory containing any media referenced in DDWG documents
+1. meetings/ - A directory containing meeting agendas, minutes, reports and presentations
