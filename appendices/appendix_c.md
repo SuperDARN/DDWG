@@ -237,3 +237,53 @@ for files from BAS.
 39 */2 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/globus/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
 01 18 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/BAS/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
 ```
+
+### Manually executed tasks
+
+There are occasional tasks that require human intervention.
+
+#### Removing files
+
+When a data file requires removal from the main distribution, it is placed into a 
+'deletions' directory. This is done manually by executing the script *delete_files_globus.py*.
+This python script takes 5 arguments:
+
+1. An optional data type, the default is 'raw' (-t DATA_TYPE)
+1. The location of the mirror root directory, under which appear directories for each data 
+type (-r MIRROR_ROOT)
+1. The location of the mirror deletions directory, to place the removed files in 
+(-d DELETIONS_DIRECTORY) 
+1. The location of the logging directory (-l LOGGING_DIRECTORY)
+1. Finally, a text file with a list of files to delete from the distribution, one per line
+
+The script performs two main tasks:
+
+1. Remove the files from the hashes file on the mirror
+1. Move the files into a dated directory under the DELETIONS_DIRECTORY
+
+#### Blacklisting files
+
+Blacklisting files is done by first updating the blacklist on Globus, located in the 
+directory: `/chroot/sddata/config/blacklist/`. The files to be blacklisted are simply placed in
+a text file with a descriptive name, then appended to the file `all_blacklisted.txt` as well as
+described succinctly in the text file `README`, usually just referencing the issue number.
+
+After manual updating of the blacklist is complete, if the files exist on the mirror, they are 
+removed using the 'Removing files' section above
+
+#### Updating files
+
+Updating files is done by manually executing the *update_files_globus.py* script.
+This python script takes 4 arguments:
+
+1. Data type (-t DATA_TYPE)
+1. Mirror root directory (-r MIRROR_ROOT)
+1. Mirror updates directory (-d UPDATES_DIRECTORY)
+1. Local directory containing files to update on the mirror
+
+The script performs three main tasks for each file to be updated:
+
+1. Find the file entry in the appropriate hash file on the mirror and replace it with the new 
+file's hash
+1. Move the old file to the UPDATES_DIRECTORY
+1. Upload the new file
