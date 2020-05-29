@@ -25,10 +25,11 @@ location (i.e. a README file).
 The procedure for blacklisting a set of files is:
 1. A PI, data manager, DDWG member, etc, will raise an issue outlining certain data files, 
 recommending them to be blacklisted.
-2. The DDWG member(s) responsible for maintaining the official SuperDARN data repositories will 
+1. Consensus should be reached about whether the files should be blacklisted
+1. The DDWG member(s) responsible for maintaining the official SuperDARN data repositories will 
 remove the list of files from the repository, placing them in a parallel directory on the repository
-clearly labelled.
-3. The DDWG member will then communicate this blacklist update to the DDWG mailing list, and provide
+that is clearly labelled (i.e. 'deletions')
+1. The DDWG member will then communicate this blacklist update to the DDWG mailing list, and provide
 the updated master list of blacklisted files.
 
 ### File checking
@@ -36,27 +37,34 @@ the updated master list of blacklisted files.
 Files that are in holding to be placed on an official SuperDARN data repository shall first be
 checked for the following:
 1. File size is appropriate
-2. File is not corrupt
-3. DMAP records are consistent
-4. File is not currently in the blacklist
-5. File is not pre-commission data
+1. File is not corrupt
+1. DMAP records are consistent
+1. File is not currently in the blacklist
+1. File is not pre-commission data
 
 The policy to handle failures 1 through 3 above is:
 1. The file should be placed in a 'failed files' directory accessible to the users of the official 
 SuperDARN data repository. 
-2. The DDWG members responsible for those files will then be informed that their files have failed
-one of the checks. 
+1. The DDWG members responsible for those files will then be informed that their files have failed
+one of the checks.
 
 If a file is currently blacklisted, or is from a pre-commissioning date, the policy is:
-TODO: 
+TODO:
 
 ### Updating Files
 
-TODO:
+If a file needs to be updated, the policy is:
+1. Remove the file from the distribution's hash file first
+1. Move the old file to a directory in parallel with the main distribution
+1. Upload the new file, updating the hash file in the process
+1. Inform the DDWG via the mailing list
 
 ### Removing Files
 
-TODO:
+If a file needs to be removed from the main distribution, the policy is:
+1. Remove the file from the distibution's hash file first
+1. Move the file to a directory in parallel with the main distribution
+1. Inform the DDWG via the mailing list
 
 ### Record-keeping/backups
 
