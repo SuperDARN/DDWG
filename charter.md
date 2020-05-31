@@ -27,7 +27,6 @@ This charter outlines the necessary information that the DDWG requires to operat
  - JHU/APL: Johns Hopkins University Applied Physics Laboratory
  - UAF: University of Alaska Fairbanks
  - IAPS/INAF: Institute for Space Astrophysics and Planetology 
- - BOM: Bureau of Meteorology
  - PRIC: Polar Research Institute of China
  - ISEE: Institute for Space-Earth Environmental Research
  - IRAP: Research Institute in Astrophysics and Planetology 
@@ -76,9 +75,9 @@ Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
 Member | Simon Shepherd | Dartmouth | cve, cvw
 Member | Evan Thomas | Dartmouth | cve, cvw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
+Member | Yuka Kadowaki | NIPR | sye, sys
 Member | Jordan Wiker | JHU/APL | wal
 Member | Enrico Simeoli | IAPS/INAF | dce, dcn
-Member | Kehe Wang | BOM
 Member | John Devlin | LaTrobe | tig, unw, bpk
 Member | Jim Whittington | LaTrobe | tig, unw, bpk
 Member | Mark Gentile | LaTrobe | tig, unw, bpk
@@ -97,7 +96,7 @@ Member | Keisuke Hosokawa | DICE/UEC |
 Member | Chris Thomas | Leicester | han, pyk
 Member | Tim Yeoman | Leicester | han, pyk
 Member |  | Lancaster | sto
-Member |  | NSSC-CAS | jme
+Member | Wei Wang | NSSC | jme
 Member | Mikko Syrjäsuo| UNIS | lyr
 Member | Zanyang Xing | SDU
 Observer | Qinghe Zhang | SDU

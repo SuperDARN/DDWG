@@ -10,7 +10,7 @@ files to appear on the Globus mirror within ~45 minutes of being written.
 Please see [this summary](summary_data_transfers.md).
 
 ## Why are the BAS and Globus mirrors not synchronized?
-Good question.
+Good question: TODO
 
 ## What checks are done on the files before they get to the mirror(s)?
 There are a few basic checks done on the files for quality control. Please see the 
@@ -54,8 +54,8 @@ send mail to the DDWG mailing list <darn-ddwg@, or raise this as an issue on the
 [issue](https://github.com/SuperDARN/DDWG/issues) page
 
 ## How much data does SuperDARN have?
-SuperDARN has been producing data from September 1993, continuously. Currently (202005) there is 
-about xx TB of RAWACF data and xx TB of DAT data.
+SuperDARN has been producing data from September 14 1993 at three radars, to today with ~36 radars 
+continuously. Currently (202005) there is about 42 TB of RAWACF data and 2.2 TB of DAT data.
 
 
 ## What would the ideal mirror setup look like for SuperDARN?
