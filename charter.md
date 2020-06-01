@@ -95,7 +95,7 @@ Member | Tsutomu Nagatsuma | NICT | ksr
 Member | Keisuke Hosokawa | DICE/UEC |
 Member | Chris Thomas | Leicester | han, pyk
 Member | Tim Yeoman | Leicester | han, pyk
-Member |  | Lancaster | sto
+Member | Adrian Grocott | Lancaster | sto
 Member | Wei Wang | NSSC | jme
 Member | Mikko Syrjäsuo| UNIS | lyr
 Member | Zanyang Xing | SDU
