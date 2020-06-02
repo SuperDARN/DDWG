@@ -92,7 +92,7 @@ Member | Tomoaki Hori | ISEE | hok, hkw
 Member | Nozomu Nishitani | ISEE | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
 Member | Tsutomu Nagatsuma | NICT | ksr
-Member | Keisuke Hosokawa | DICE/UEC |
+Member | Keisuke Hosokawa | UEC |
 Member | Chris Thomas | Leicester | han, pyk
 Member | Tim Yeoman | Leicester | han, pyk
 Member | Adrian Grocott | Lancaster | sto
