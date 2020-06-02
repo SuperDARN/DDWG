@@ -3,14 +3,15 @@
 ## Why do Canadian files take two different paths to the Globus mirror?
 This is done for several reasons:
 1. This will act as a 'check' for files that are going through VT. If VT changes the files in any
-way (either inadvertantly or on purpose), then the automated data processes will catch this. 
+way (either inadvertently or on purpose), then the automated data processes will catch this. 
 2. Data transfers for Canadian data are done on a 2 hour cadence. This allows Canadian radar
 files to appear on the Globus mirror within ~45 minutes of being written.
 
 Please see [this summary](summary_data_transfers.md).
 
 ## Why are the BAS and Globus mirrors not synchronized?
-Good question: TODO
+Good question: TODO (temporary mirror requires manual intervention, having issues with hard drive,
+had issues with network, files rotated out before BAS could access?)
 
 ## What checks are done on the files before they get to the mirror(s)?
 There are a few basic checks done on the files for quality control. Please see the 
@@ -27,14 +28,14 @@ See [this page](https://www.bas.ac.uk/project/superdarn/#data)
     1. Go to <https://www.globus.org/globus-connect-personal> and get the `globusconnectpersonal` 
     software installed on your machine. This turns your machine into an endpoint if the 
     `globusconnectpersonal` software is running.
-    1. Let Kevin Krieger know what your globus ID is to be invited to the SuperDARN endpoint 
-    (an endpoint is like a server in the context of Globus).
+    1. Let Kevin Krieger know what your globus ID is to be invited to have read-only access the 
+    SuperDARN endpoint (an endpoint is like a server in the context of Globus).
     
 ## How can I see what data is available on the mirrors?
 If you have access to Globus, you can download a listing of all the RAWACF files by navigating to 
 the directory `/config/raw_hashes/`. This directory contains symlinks to the 
 `/raw/YYYY/mm/YYYYmm.hashes` files which contain the `sha1sum` output for each file, conveniently 
-located in one place.
+located in one place. The `YYYYmm.hashes` files are not guaranteed to be sorted in any meaningful way.
 
 If you want to see the equivalent file listing for DAT files, just navigate to `/config/dat_hashes/`.
 
@@ -49,14 +50,15 @@ There are a multitude of reasons why you might not find data for a specific date
 1. The radar data exists somewhere, but hasn't been uploaded yet
 
 In order to narrow down which one of these reasons is true, you can search the 'blacklist' and the
-'failed' list for the files. If the files are not blacklisted, or didn't fail a check, then please
-send mail to the DDWG mailing list <darn-ddwg@, or raise this as an issue on the DDWG github 
-[issue](https://github.com/SuperDARN/DDWG/issues) page
+'failed' list for the files. If the files are not blacklisted, or didn't fail a check, then please 
+raise this as an issue on the DDWG github [issue](https://github.com/SuperDARN/DDWG/issues) page,
+or send mail to the DDWG mailing list <darn-ddwg@isee.nagoya-u.ac.jp>.
 
 ## How much data does SuperDARN have?
-SuperDARN has been producing data from September 14 1993 at three radars, to today with ~36 radars 
-continuously. Currently (202005) there is about 42 TB of RAWACF data and 2.2 TB of DAT data.
+Currently (202005) there is about 42 TB of RAWACF data and 2.2 TB of DAT data.
 
+SuperDARN began producing data on September 14 1993 from three radars. Today, the network has 
+~36 radars. Data is nominally produced continuously, 24/7/365. 
 
 ## What would the ideal mirror setup look like for SuperDARN?
 I believe that the ideal situation would involve every radar sending 2 hour files 12 times per day
