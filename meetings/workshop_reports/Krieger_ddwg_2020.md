@@ -2,6 +2,10 @@
 
 ## Activity over the past year
 1. Still doing online distribution, no hard drives requested
+1. VT has purchased and set up two new NAS systems in Jan/Feb 2020, each has roughly 73TB capacity.
+The group expects they may be able to purchase an additional two NAS systems to contain 1993 to 2018
+data, this data is currently on two RAID arrays set up in 2012/13, with at least one failed disk 
+among them.
 1. Sessai/Yuka retrieved DAT files 
 1. Judy retrieved DAT files
 1. 'Deletions' directory made available on Globus
