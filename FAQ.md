@@ -31,6 +31,9 @@ See [this page](https://www.bas.ac.uk/project/superdarn/#data)
     1. Let Kevin Krieger know what your globus ID is to be invited to have read-only access the 
     SuperDARN endpoint (an endpoint is like a server in the context of Globus).
     
+In addition to this, there is a utility python script so you can automate transfers using Globus.
+Please see documentation and the script here: <https://github.com/SuperDARNCanada/globus>
+    
 ## How can I see what data is available on the mirrors?
 If you have access to Globus, you can download a listing of all the RAWACF files by navigating to 
 the directory `/config/raw_hashes/`. This directory contains symlinks to the 
