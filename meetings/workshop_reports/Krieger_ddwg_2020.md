@@ -23,17 +23,17 @@ among them.
 1. Issues brought up on mailing list (* - not yet resolved):
     1. *RAWACF files produced by `dattorawacf` with low-power thresholding issue
     1. *Nonsequential DAT files (records are out-of-order in time)
-    1. Two blacklisted Canadian files from RKN/SAS due to main computer failure at RKN and old MAIN
+    1. Two blocked Canadian files from RKN/SAS due to main computer failure at RKN and old MAIN
 computer from SAS shipped to RKN
     1. *Still 2255 DAT files to be recovered (most from 2000-2006, 14 files from 1995-1998)
     1. DAT hashes file on Globus issue
-    1. A BPK file with a timing error was blacklisted
-    1. A RKN file was blacklisted, as it was corrupt on the QNX filesystem, and not recoverable.
+    1. A BPK file with a timing error was blocked
+    1. A RKN file was blocked, as it was corrupt on the QNX filesystem, and not recoverable.
     1. Clyde River Borealis files were removed from the distribution, as they did not follow a naming
-    1. DCE files were blacklisted from July 5 and July 6 2018 due to failures in the Phasing Matrix.
+    1. DCE files were blocked from July 5 and July 6 2018 due to failures in the Phasing Matrix.
 This is in addition to files from June 22nd 2018 - January 28th 2019. 
     1. A power outage at Kapuskasing caused some files to be corrupted from 20191208.17* to 
-20191210.08*, they were blacklisted. 
+20191210.08*, they were blocked. 
     1. One JME file from 20200102.0000 was updated  
 standard. They are currently in a separate directory (along with Saskatoon and Prince George data)
 1. DDWG Mailing list updated with a representative from every group (*Still waiting to hear from Australian group*)
@@ -64,7 +64,7 @@ Please see relevant files on the DDWG github page
     1. Check consistency of responsibilities section with the PI agreement
     1. Check with DSWG about data level definitions, to make sure we are consistent with their docs
     1. Keep track of which files were converted from DAT to RAWACF and place in separate directory to 'dat'
-    1. Make available a list of 'fixed' files alongside blacklist and failed files lists
+    1. Make available a list of 'fixed' files alongside blocklist and failed files lists
     1. Add step 6 for gap resolution procedure: Inform DDWG of old files added
     1. Add to charter old file formats such as FIT that are also in the distribution (if any)
     1. Send message asking group to look for missing DAT files and original DAT files from the 
@@ -72,7 +72,7 @@ issue Evan outlined with low-pwr thresholding
 1. DAWG:
     1. Provide tool for checking DAT files similar to the tool for checking RAWACF files
     1. Provide tool for checking RAWACF files that were converted to DAT with low-pwr issue
-    1. Provide tools for fixing blacklisted files
+    1. Provide tools for fixing blocked files
     1. Provide guidance on possible fixes to DCE files that had phasing matrix issue
 1. Kevin Sterne/Paul Breen/DDWG members who stage files for them:
     1. Work to get all PI institutions' radar data flowing to both VT and BAS
@@ -92,7 +92,7 @@ temporary repo is a risk (failing hard drives, manual tasks) and an inefficient 
 and I recommend it to be decommissioned ASAP
     1. Discuss potential future servers within the SuperDARN Community. Dartmouth has expressed interest
 1. DSWG:
-    1. Add categories for blacklisting to level 1 standard documentation
+    1. Add categories for blocking to level 1 standard documentation
     1. Provide guidance on data product level definitions (level 0, level 1, etc)
 
 #### Other topics discussed

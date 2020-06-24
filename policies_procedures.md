@@ -13,25 +13,25 @@ Anyone can raise issues. The order of preference for raising issues is:
  2. Via an email to the DDWG mailing list: <darn-ddwg@isee.nagoya-u.ac.jp>
  3. Via an email to the chair or co-chair(s)
 
-### Blacklisting
+### Blocking
 
-Blacklisting refers to the listing of specific SuperDARN level 1 data that should not be distributed
-to the SuperDARN community via the official SuperDARN data repositories. A file may be blacklisted
+Blocking refers to the listing of specific SuperDARN level 1 data that should not be distributed
+to the SuperDARN community via the official SuperDARN data repositories. A file may be blocked
 for any number of reasons.
 
-The blacklist of SuperDARN files shall be accessible on a publicly visible website, in 
-human-readable text file format. All files that are part of the blacklist should have context for 
-their blacklisting in another text file in the same location (i.e. a README file).
+The blocklist of SuperDARN files shall be accessible on a publicly visible website, in 
+human-readable text file format. All files that are part of the blocklist should have context for 
+their blocking in another text file in the same location (i.e. a README file).
 
-The procedure for blacklisting a set of files is:
+The procedure for blocking a set of files is:
 1. A PI, data manager, DDWG member, etc, will raise an issue outlining certain data files, 
-recommending them to be blacklisted.
-1. Consensus should be reached amongst an expert panel about whether the files should be blacklisted
+recommending them to be blocked.
+1. Consensus should be reached amongst an expert panel about whether the files should be blocked
 1. The DDWG member(s) responsible for maintaining the official SuperDARN data repositories will 
 remove the list of files from the repository, placing them in a parallel directory on the repository
 that is clearly labelled (i.e. 'deletions')
-1. The DDWG member will then communicate this blacklist update to the DDWG mailing list, and provide
-the updated master list of blacklisted files along with the context for blacklisting of the files.
+1. The DDWG member will then communicate this blocklist update to the DDWG mailing list, and provide
+the updated master list of blocked files along with the context for blocking of the files.
 
 ### File checking
 
@@ -49,11 +49,11 @@ one of the checks, and they will be asked for a file that passes all checks if a
 1. If a version of the file exists that passes the checks, then follow the "Updating Files" policy
 
 In addition, the following checks shall be done on the files:
-1. File is not currently in the blacklist
+1. File is not currently in the blocklist
 1. File is not pre-commission data
 
-If a file is currently blacklisted, or is from a pre-commissioning date, the policy is:
-TODO: (If file is already blacklisted or pre-commission data and exists somewhere parallel to the
+If a file is currently blocked, or is from a pre-commissioning date, the policy is:
+TODO: (If file is already blocked or pre-commission data and exists somewhere parallel to the
 distribution, then just delete, otherwise place in a directory parallel to the main distribution?)
 
 ### Updating Files
@@ -107,7 +107,7 @@ present an update to the SuperDARN community. The basic information that should 
 * Any problems or roadblocks the DDWG encountered over the past year
 * Any major or noteworthy events that occurred over the past year
 * A summary of certain data statistics such as the quantity of data placed in repositories, 
-blacklisted files, updated files, and a comparison with previous years’ statistics
+blocked files, updated files, and a comparison with previous years’ statistics
 * A summary of gap resolution activities
 * A summary of any official SuperDARN mirror downtimes over the past year
 * Any future work that will be performed

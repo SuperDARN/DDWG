@@ -86,7 +86,7 @@ the Globus server software installed and acts as an endpoint. We are able to sha
 this storage with groups of users. In this way, we can customize the user's access to various data.
 Currently, we use this sharing ability with a group of users to allow read-only access to the main
 RAWACF and DAT file distribution. Alongside the main distribution, we expose the directory 
-containing files removed from the distribution for any reason (blacklisted, failed in some way, etc).
+containing files removed from the distribution for any reason (blocked, failed in some way, etc).
 
 A user wishing to have access to this data should contact the DDWG.
 
@@ -171,9 +171,9 @@ This bash script takes one or two arguments, the location to store BAS data in, 
 1. Compare hashes files for the specified dates (default is the current year and month) with the 
 hashes files on Globus and produce the following lists:
     1. Files that USASK has, but BAS doesn't (emailed to Kevin if there are any)
-    1. Files that BAS has that are blacklisted (emailed to Kevin if there are any)
+    1. Files that BAS has that are blocked (emailed to Kevin if there are any)
     1. Files that BAS has that have failed (emailed to Kevin if there are any)
-    1. Files that BAS has, but USASK doesn't (that aren't blacklisted, or failed, these are downloaded)
+    1. Files that BAS has, but USASK doesn't (that aren't blocked, or failed, these are downloaded)
 2. Download any files that BAS has, that USASK doesn't (from the list above), and place in a 
 holding directory.
 
@@ -222,7 +222,7 @@ line arguments:
 It performs several main tasks:
 
 1. Test all files for the following:
-    1. Are they blacklisted?
+    1. Are they blocked?
     1. Does the file already exist on the mirror? and if so, is it the same?
     1. Does the file pass all bzip2 tests?
     1. Is the file too small?
@@ -261,14 +261,14 @@ The script performs two main tasks:
 1. Remove the files from the hashes file on the mirror
 1. Move the files into a dated directory under the DELETIONS_DIRECTORY
 
-#### Blacklisting files
+#### Blocking files
 
-Blacklisting files is done by first updating the blacklist on Globus, located in the 
-directory: `/chroot/sddata/config/blacklist/`. The files to be blacklisted are simply placed in
-a text file with a descriptive name, then appended to the file `all_blacklisted.txt` as well as
+Blocking files is done by first updating the blocklist on Globus, located in the 
+directory: `/chroot/sddata/config/blocklist/`. The files to be blocked are simply placed in
+a text file with a descriptive name, then appended to the file `all_blocked.txt` as well as
 described succinctly in the text file `README`, usually just referencing the issue number.
 
-After manual updating of the blacklist is complete, if the files exist on the mirror, they are 
+After manual updating of the blocklist is complete, if the files exist on the mirror, they are 
 removed using the 'Removing files' section above
 
 #### Updating files

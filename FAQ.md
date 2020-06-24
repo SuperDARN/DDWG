@@ -48,12 +48,12 @@ If you have access to the BAS mirror, you can download a listing of all files us
 ## Why can't I find data for [Insert date here]?
 There are a multitude of reasons why you might not find data for a specific date or range of dates.
 1. The radar was not operating at that time
-1. The radar data was blacklisted for that date
+1. The radar data was blocked for that date
 1. The radar data failed one of the basic checks
 1. The radar data exists somewhere, but hasn't been uploaded yet
 
-In order to narrow down which one of these reasons is true, you can search the 'blacklist' and the
-'failed' list for the files. If the files are not blacklisted, or didn't fail a check, then please 
+In order to narrow down which one of these reasons is true, you can search the 'blocklist' and the
+'failed' list for the files. If the files are not blocked, or didn't fail a check, then please 
 raise this as an issue on the DDWG github [issue](https://github.com/SuperDARN/DDWG/issues) page,
 or send mail to the DDWG mailing list <darn-ddwg@isee.nagoya-u.ac.jp>.
 
