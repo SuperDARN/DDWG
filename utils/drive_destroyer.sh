@@ -87,21 +87,21 @@ do
             # Uncomment the following if you have udisks available
             #MOUNT_POINT=$(udisks --mount ${DISK_DEVICE} |awk -F' ' '{print $4}')
             MOUNT_POINT=$(udisksctl mount -b ${DISK_DEVICE} |awk -F' ' '{print $4}' | rev | cut -c2- | rev)
-	    ret_val=$?
-	    if [[ $ret_val -ne 0 ]]
-	    then
-		    echo "Failure to mount disk ${LABEL} in ${DISK_DEVICE}. Please try again"
-		    alarm
-		    eject ${DISK_DEVICE}
-		    break
-	    fi
+      ret_val=$?
+      if [[ $ret_val -ne 0 ]]
+      then
+        echo "Failure to mount disk ${LABEL} in ${DISK_DEVICE}. Please try again"
+        alarm
+        eject ${DISK_DEVICE}
+        break
+      fi
             FILES=$(ls -1 "${MOUNT_POINT}")
             echo "Label: ${LABEL}" >> ${LOGFILE} 2>&1
             for f in ${FILES}
             do 
-		f_basename="${f%.*}"
-		grep -Fq "$f_basename" "${MISSING_LIST}"
-		ret_val=$?
+    f_basename="${f%.*}"
+    grep -Fq "$f_basename" "${MISSING_LIST}"
+    ret_val=$?
                 if [ $ret_val -eq 0 ]
                 then
                     cp -vp "${MOUNT_POINT}"/"${f}" "${COPY_DIRECTORY}" >> ${LOGFILE} 2>&1
@@ -113,27 +113,27 @@ do
             datetime=$(date +%Y%M%d.%H%m.%S)
             timeend=$(date +%s)
             disktime=$((timeend - timestart))
-	    if [[ ${totalFiles} -eq 0 ]]
-	    then
-		    echo "Didn't get any files from ${LABEL}. Please try again"
-		    alarm
-		    eject ${DISK_DEVICE}
-		    break
-	    fi
+    if [[ ${totalFiles} -eq 0 ]]
+      then
+        echo "Didn't get any files from ${LABEL}. Please try again"
+        alarm
+        eject ${DISK_DEVICE}
+        break
+      fi
             echo "${totalFiles} files copied in ${disktime} seconds" >> ${LOGFILE} 2>&1
             sleep 3
             # Uncomment the following if you have udisks available
             #udisks --unmount ${DISK_DEVICE}
             udisksctl unmount -b ${DISK_DEVICE}
-	    ret_val=$?
-	    if [[ $ret_val -ne 0 ]]
-	    then
-		    echo "Failed to unmount, please do so manually by ejecting disk and restart this script"
-		    alarm
-		    exit
-	    fi
-	    eject ${DISK_DEVICE}
-	    disk_done_beep
+      ret_val=$?
+      if [[ $ret_val -ne 0 ]]
+      then
+        echo "Failed to unmount, please do so manually by ejecting disk and restart this script"
+        alarm
+        exit
+      fi
+      eject ${DISK_DEVICE}
+      disk_done_beep
         else
             echo "Disk ${LABEL} not required, moving on" >> ${LOGFILE} 2>&1
             eject ${DISK_DEVICE}
