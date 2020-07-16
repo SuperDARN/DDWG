@@ -11,7 +11,7 @@ among them.
 1. 'Deletions' directory made available on Globus
 1. hdw.dat files responsibility passed to another working group
 1. Data management audit performed, October 2019, please see a summary 
-[here](https://github.com/SuperDARN/DDWG/blob/charter_update/audit_20191030.md)
+[here](https://github.com/SuperDARN/DDWG/blob/master/audit_20191030.md)
 1. Downtime summary:
     1. BAS mirror down temporarily from June 5th to 11th
     1. VT had downtime affecting data access for 2019 data, on October 31, 2019 to add more storage
@@ -51,15 +51,15 @@ generated from DAT files.
 
 ## Meeting summary, June 3 2020 12:00 - 15:25 UTC
 Please see the minutes/agenda for the meeting 
-[here](https://github.com/SuperDARN/DDWG/blob/charter_update/meetings/minutes_20200603_12utc.md)
+[here](https://github.com/SuperDARN/DDWG/blob/master/meetings/minutes_20200603_12utc.md)
 
 Please see relevant files on the DDWG github page 
-[here](https://github.com/SuperDARN/DDWG/tree/charter_update) 
+[here](https://github.com/SuperDARN/DDWG/tree/master) 
 
 #### Action items
 
 1. Kevin Krieger/USASK:
-    1. Share results of audit (please see summary [here](https://github.com/SuperDARN/DDWG/blob/charter_update/audit_20191030.md))
+    1. Share results of audit (please see summary [here](https://github.com/SuperDARN/DDWG/blob/master/audit_20191030.md))
     1. Reconcile issue numbers on github with historical issues
     1. Check consistency of responsibilities section with the PI agreement
     1. Check with DSWG about data level definitions, to make sure we are consistent with their docs
