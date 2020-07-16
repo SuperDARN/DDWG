@@ -1,16 +1,50 @@
 # Charter of Data Distribution Working Group (DDWG)
 
+This charter outlines the necessary information that the DDWG requires to operate effectively.
+
+## Updates
+| Date | Changes |
+| --- | --- |
+| November 2013 | Initial Charter creation |
+| October 2018 | Hard drives no longer distributed regularly, BAS now distribution institution | 
+| May 2020 | Members list updated, mailing list change, definitions, appendices & policies added |
+
+## Definitions
+ - IQDAT/BFIQ: Beamformed IQ data
+ - RAWACF/DAT: Correlation data
+ - Level 0 Data: IQDAT or BFIQ data
+ - Level 1 Data: RAWACF or DAT data
+ - WG: Working group
+ - PI Institutions: Institutions that produce SuperDARN radar data adhering to the PI agreement
+ - DSWG: Data Standards Working Group: <https://github.com/SuperDARN/dswg-published-docs>
+ - DAWG: Data Analysis Working Group: <https://github.com/SuperDARN/rst/wiki>
+ 
+## Institutions
+ - BAS: British Antarctic Survey
+ - USASK: University of Saskatchewan
+ - VT : Virginia Tech
+ - NIPR: National Institute of Polar Research
+ - JHU/APL: Johns Hopkins University Applied Physics Laboratory
+ - UAF: University of Alaska Fairbanks
+ - IAPS/INAF: Institute for Space Astrophysics and Planetology 
+ - PRIC: Polar Research Institute of China
+ - ISEE: Institute for Space-Earth Environmental Research
+ - IRAP: Research Institute in Astrophysics and Planetology 
+ - NICT: National Institute of Information and Communications Technology
+ - UEC: University of Electro-Communications
+ - SDU: Shandong University
+ - NSSC-CAS: National Space Science Center, Chinese Academy of Sciences
+ - UNIS: The University Centre in Svalbard
+ - UKZN: University of KwaZulu-Natal
+ 
 ## Purpose
 
-This working group (WG) is charged with maintaining the protocols for transferring RAWACF and DAT 
-files from the PI institutions, first to a holding institution (Virginia Tech) and ultimately to
-a distribution institution (University of Saskatchewan) where they are merged and copied onto hard 
-drives for distribution. The cadence for distribution of the drives is every four months 
-(Jan-Apr, May-August, September-December). This working group was created after the SuperDARN 
-workshop in Moose Jaw, Saskatchewan in 2013. The group is also charged with maintaining an 
-augmentation to the hard drive distribution, any networked SuperDARN Data Mirrors.
+This WG is charged with maintaining the protocols for transferring Level 1 data 
+files from PI institutions, first to holding institutions and 
+ultimately to distribution institutions where they are merged, checked, catalogued and copied to 
+servers for community access.
 
-## Holding Institution
+## Holding Institution(s)
 
 The holding institution prior to October 1<sup>st</sup>, 2013 was JHU/APL. See Appendix A 
 for a description of the system that was in place at JHU/APL.
@@ -18,117 +52,92 @@ for a description of the system that was in place at JHU/APL.
 The holding institution beginning October 1<sup>st</sup>, 2013 is Virginia Tech. 
 See Appendix B for a description of the system in place at Virginia Tech.
 
+An additional holding institution was put in place in 2016 at BAS, and the official 
+announcement was made on January 24 2017. Note that BAS is also a distribution institution.
+
 ## Distribution Institution(s)
 
-The distribution institution is the University of Saskatchewan. See Appendix C for a description
-of the current system in place at the University of Saskatchewan, and a brief description of the 
-previous system.
+The distribution institutions are currently USASK and BAS. See Appendix C for a description
+of the current system in place at USASK, and a brief description of the 
+previous systems. See Appendix D for a description of the current system in place at BAS.
 
 ## Membership
 
-The membership of the working group should consist of several types of members:
-
-1.  Those responsible for providing data to the holding institution.
-2.  Those responsible for accessing data from data mirrors to download to their PI institution.
-3.  Those responsible for receiving hard drives from the four month distribution.
-4.  Others who wish to observe.
-
 The current membership includes:
 
-Responsibilty | Name | Institution
---- | --- | ---
-Chair | Kevin Krieger | University of Saskatchewan
-Co-Chair | Kevin Sterne | Virginia Tech
-Member | Simon Shepherd | Dartmouth
-Member | Akira Sessai Yukimatu | NIPR
-Member | Kehe Wang | IPS
-Member | Andrew McDonald | LaTrobe
-Member | Paul Breen | BAS
-Member | Member | Bill Bristow | UAF
-Member | Member | Jef Spaleta | UAF
-Member | Jianjun Liu | PRIC
-Member | Judy Stephenson | Durban
-Member | Member | Tomoaki Hori | STELAB
-Member | Member | Nozomu Nishitani | STELAB
-Member | Aurélie Marchaudon | IRAP/CNRS
-Member | Member | Nigel Wade | Leicester
-Member | Member | Tsutomu Nagatsuma | NICT
-Member | Keisuke Hosokawa | DICE
-Member | Ethan Miller | JHU/APL
-Member | Member | Ermanno Amata | IAPS-INAF
-Member | Tom Kane | LaTrobe
-Member | Hong-Qiao Hu | PRIC
-Member | Xavier Vallieres | CNRS
-Member | Chris Thomas | Leicester
-Member | Manabu Kunitake | NICT
-Observer | Mike Ruohoniemi | Virginia Tech
-Observer | Kathryn McWilliams | University of Saskatchewan
-Observer | Dieter Andre | University of Saskatchewan
-Observer | Jean-Pierre St.Maurice | University of Saskatchewan
+Responsibilty | Name | Institution | Radars
+--- | --- | --- | ---
+Chair | Kevin Krieger | USASK | sas, pgr, rkn, inv, cly
+Member | Marci Detwiller | USASK | sas, pgr, rkn, inv, cly
+Member | Marina Schmidt | USASK | sas, pgr, rkn, inv, cly
+Member | Keith Kotyk | USASK | sas, pgr, rkn, inv, cly
+Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
+Member | Simon Shepherd | Dartmouth | cve, cvw
+Member | Evan Thomas | Dartmouth | cve, cvw
+Member | Akira Sessai Yukimatu | NIPR | sye, sys
+Member | Yuka Kadowaki | NIPR | sye, sys
+Member | Jordan Wiker | JHU/APL | wal
+Member | Enrico Simeoli | IAPS/INAF | dce, dcn
+Member | John Devlin | LaTrobe | tig, unw, bpk
+Member | Jim Whittington | LaTrobe | tig, unw, bpk
+Member | Mark Gentile | LaTrobe | tig, unw, bpk
+Member | Andrew McDonald | LaTrobe | tig, unw, bpk
+Member | Paul Breen | BAS | fir
+Member | Tim Barnes | BAS | fir
+Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod
+Member | Jianjun Liu | PRIC | zho
+Member | Hongqiao Hu | PRIC | zho
+Member | Judy Stephenson | UKZN | san
+Member | Tomoaki Hori | ISEE | hok, hkw
+Member | Nozomu Nishitani | ISEE | hok, hkw
+Member | Aurélie Marchaudon | IRAP | ker
+Member | Tsutomu Nagatsuma | NICT | ksr
+Member | Keisuke Hosokawa | UEC |
+Member | Chris Thomas | Leicester | han, pyk
+Member | Tim Yeoman | Leicester | han, pyk
+Member | Adrian Grocott | Lancaster | sto
+Member | Wei Wang | NSSC | jme
+Member | Mikko Syrjäsuo| UNIS | lyr
+Member | Zanyang Xing | SDU
+Observer | Qinghe Zhang | SDU
+Observer | Mike Ruohoniemi | VT
+Observer | Kathryn McWilliams | USASK
+Observer | Dieter Andre | USASK
+Observer | Jean-Pierre St.Maurice | USASK
+Observer | Federica Marcucci | IAPS/INAF 
 
 ## Communications
 
-Communication shall primarily be done over email via the Data-Distribution Working-Group (Darn-ddwg)
-mailing list set up by Julian Thornhill, maintained by Leicester University. To send email to the 
-list, send mail to <darn-ddwg@ion.le.ac.uk>.
+Communication shall primarily be done over email via the DDWG mailing list set up by Nozomu Nishitani,
+maintained at Nagoya University. To send email to the list, send mail to <darn-ddwg@isee.nagoya-u.ac.jp>.
+Previously, a mailing list set up by Julian Thornhill, maintained by Leicester University, was used. 
+That list address was <darn-ddwg@ion.le.ac.uk>.
 
-A person wishing to subscribe to the Data Distribution emailing list should contact the Chair 
+A person wishing to subscribe to the DDWG emailing list should contact the Chair 
 (or co-Chairs) or the current PI institution’s member about subscribing to this list. 
 Subscribing to the list should be only at the approval of the Chair (or co-Chairs) so that they 
 are aware of an addition or change within a PI institution.
 
 ## Responsibilities
 
-Chair/Co-Chair: Provide updates on the status of the SuperDARN data distribution system to the 
-members of the ddwg. Operate and maintain the SuperDARN holding and Distribution institution 
-systems. Track down gaps in data and resolve them, either by providing an explanation for why 
+All member types have the following responsibilities in addition to those listed below:
+1. Provide feedback and input on discussions.
+
+Chair/Co-Chair(s): 
+1. Provide updates on the status of the SuperDARN data distribution system to the members of the 
+DDWG and the PIs. 
+1. Host annual meetings.
+
+Members who operate the SuperDARN holding and distribution institution systems: 
+1. Maintain technical aspects of the data distribution system, including codebase and hardware. 
+1. Regularly Track down gaps in data and resolve them, either by providing an explanation for why
 the data is missing, or retrieving it from the PI institution responsible if it is not a real gap.
+ 
+Members responsible for providing data to the holding institution: 
+1. Provide data in a timely and preferably automated manner to the holding institution(s), either 
+by 'pushing' the data or by placing it in a holding area for the holding institution to 'pull'. 
+1. Help with gap resolution when requested.
 
-Members responsible for providing data to the holding institution: Provide data in a timely and 
-preferably automated manner to the holding institution, either by 'pushing' the data or by 
-placing it in a holding area for the holding institution to 'pull'. 
-Help with gap resolution when requested.
-
-Members responsible for accessing data from mirrors: Set up and maintain a way of downloading 
-data from the mirrors in a timely fashion for their PI institution. 
-Provide feedback on the mirror setup.
-
-Members responsible for receiving distributed hard drives: Make sure the hard drive received 
-contains the data that it is labeled for, and is readable.
-
-Observers: Provide feedback or input on discussions.
-
-## Immediate Action items
-
-1.  An introduction email shall be sent out by the Chair/Co-Chair to the Darn-ddwg mailing list, with this charter.
-2.  An email shall be sent out detailing the current status of data distribution, including the mirror.
-3.  Documentation shall be done on the Primary SuperDARN Data Mirror.
-4.  Discussion among all members should happen regarding the “Points for Consideration” below.
-
-## Points for Consideration
-
-1.  Are there problems with accessing files from certain institutions?
-2.  How do we become aware of, and deal with, gaps in the distribution?
-3.  Have bad files been passed to the general distribution? Should these be identified and 
-corrected, deleted, or somehow flagged? (Should be less of a problem after Oct. 1, 2013)
-4.  How do we make rawacf files available on a next-day (or better) basis?
-5.  Do we have issues with the amount of data and storage capacity?
-6.  The files currently distributed by U Sas are apparently not identical to those that were 
-provided by the PI institutions. Why is this, and is it a problem?
-7.  Should the Data Mirror set up at U Sas eventually replace distribution of data by hard drives?
-8.  How do we ensure that Virginia Tech has the most complete data archive? There are known gaps 
-within the Virginia Tech data archive across several radars (April 29 – May 6, 2008; 
-July 30, 2008; December 30, 2008)
-9.  How do we ensure that much older data that is corrected by an institution is distributed 
-throughout the SuperDARN community? For example, if a flaw is found in 2009 Blackstone data and 
-it is corrected, how do we ensure the corrected data is distributed throughout the PI institutions?
-10. Building upon \#4, how can the community quickly scrutinize/analyze data to ensure, at least 
-at first glance, proper radar operation? If a days worth of data contains 10 return-cells per beam 
-per hour, is the radar broken? Hopefully this will help keep faulty data from quickly being 
-distributed and lessen the need for my \#2.
-11. How do we process different/irregular file formats into the distribution? The University of 
-Alaska Fairbanks radars have begun producing multi-channel data that cannot utilize the channel 
-variable in the dmap header due to stereo-ops logic in the rst code that breaks. So, to keep things 
-sensible, the channel information is being stored into the filename. As well, older radars still 
-produce data in the old fit and dat file formats. Which do we use as a basis for converting to 
-the new file format?
+Members responsible for accessing data from mirrors: 
+1. Set up and maintain a way of synchronizing data from the mirrors in a timely fashion for their 
+PI institution. 
