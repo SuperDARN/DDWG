@@ -1,0 +1,122 @@
+JD_FILE=INV2010032110_2010033012.jd
+CD_YEAR=2010
+CD_LABEL=2010032110-2010033012
+CD_NUMBER=8
+CD_TEMPLATE=/usr/ymi/label-maker/labels/inv.pcl
+CD_VOL_SI="INUVIK SUPERDARN DATA "
+CD_VOL_VI=2010032110_2010033012
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/inv_cd_data
+FILES_TO_WRITE="\
+20100321.1002.00.inv.rawacf.bz2 \
+20100321.1202.00.inv.rawacf.bz2 \
+20100321.1402.00.inv.rawacf.bz2 \
+20100321.1602.00.inv.rawacf.bz2 \
+20100321.1802.00.inv.rawacf.bz2 \
+20100321.2002.00.inv.rawacf.bz2 \
+20100321.2202.00.inv.rawacf.bz2 \
+20100322.0000.11.inv.rawacf.bz2 \
+20100322.0201.00.inv.rawacf.bz2 \
+20100322.0401.00.inv.rawacf.bz2 \
+20100322.0601.00.inv.rawacf.bz2 \
+20100322.0801.00.inv.rawacf.bz2 \
+20100322.1001.00.inv.rawacf.bz2 \
+20100322.1201.00.inv.rawacf.bz2 \
+20100322.1401.00.inv.rawacf.bz2 \
+20100322.1601.00.inv.rawacf.bz2 \
+20100322.1801.00.inv.rawacf.bz2 \
+20100322.2001.00.inv.rawacf.bz2 \
+20100322.2201.00.inv.rawacf.bz2 \
+20100323.0001.00.inv.rawacf.bz2 \
+20100323.0201.00.inv.rawacf.bz2 \
+20100323.0401.00.inv.rawacf.bz2 \
+20100323.0601.00.inv.rawacf.bz2 \
+20100323.0801.00.inv.rawacf.bz2 \
+20100323.1001.00.inv.rawacf.bz2 \
+20100323.1201.00.inv.rawacf.bz2 \
+20100323.1401.00.inv.rawacf.bz2 \
+20100323.1601.00.inv.rawacf.bz2 \
+20100323.1801.00.inv.rawacf.bz2 \
+20100323.2001.00.inv.rawacf.bz2 \
+20100323.2201.00.inv.rawacf.bz2 \
+20100324.0001.00.inv.rawacf.bz2 \
+20100324.0201.00.inv.rawacf.bz2 \
+20100324.0401.00.inv.rawacf.bz2 \
+20100324.0601.00.inv.rawacf.bz2 \
+20100324.0801.00.inv.rawacf.bz2 \
+20100324.1001.00.inv.rawacf.bz2 \
+20100324.1201.00.inv.rawacf.bz2 \
+20100324.1401.00.inv.rawacf.bz2 \
+20100324.1601.00.inv.rawacf.bz2 \
+20100324.1801.00.inv.rawacf.bz2 \
+20100324.2001.00.inv.rawacf.bz2 \
+20100324.2201.00.inv.rawacf.bz2 \
+20100325.0001.00.inv.rawacf.bz2 \
+20100325.0201.00.inv.rawacf.bz2 \
+20100325.0401.00.inv.rawacf.bz2 \
+20100325.0601.00.inv.rawacf.bz2 \
+20100325.0801.00.inv.rawacf.bz2 \
+20100325.1001.00.inv.rawacf.bz2 \
+20100325.1201.00.inv.rawacf.bz2 \
+20100325.1401.00.inv.rawacf.bz2 \
+20100325.1601.00.inv.rawacf.bz2 \
+20100325.1801.00.inv.rawacf.bz2 \
+20100325.2001.00.inv.rawacf.bz2 \
+20100325.2201.00.inv.rawacf.bz2 \
+20100326.0001.00.inv.rawacf.bz2 \
+20100326.0201.00.inv.rawacf.bz2 \
+20100326.0401.00.inv.rawacf.bz2 \
+20100326.0601.00.inv.rawacf.bz2 \
+20100326.0801.00.inv.rawacf.bz2 \
+20100326.1001.00.inv.rawacf.bz2 \
+20100326.1201.00.inv.rawacf.bz2 \
+20100326.1401.00.inv.rawacf.bz2 \
+20100326.1601.00.inv.rawacf.bz2 \
+20100326.1801.00.inv.rawacf.bz2 \
+20100326.2001.00.inv.rawacf.bz2 \
+20100326.2201.00.inv.rawacf.bz2 \
+20100327.0000.12.inv.rawacf.bz2 \
+20100327.0202.00.inv.rawacf.bz2 \
+20100327.0402.00.inv.rawacf.bz2 \
+20100327.0602.00.inv.rawacf.bz2 \
+20100327.0802.00.inv.rawacf.bz2 \
+20100327.1002.00.inv.rawacf.bz2 \
+20100327.1202.00.inv.rawacf.bz2 \
+20100327.1402.00.inv.rawacf.bz2 \
+20100327.1602.00.inv.rawacf.bz2 \
+20100327.1802.00.inv.rawacf.bz2 \
+20100327.2002.00.inv.rawacf.bz2 \
+20100327.2202.00.inv.rawacf.bz2 \
+20100328.0002.00.inv.rawacf.bz2 \
+20100328.0202.00.inv.rawacf.bz2 \
+20100328.0402.00.inv.rawacf.bz2 \
+20100328.0602.00.inv.rawacf.bz2 \
+20100328.0802.00.inv.rawacf.bz2 \
+20100328.1002.00.inv.rawacf.bz2 \
+20100328.1202.00.inv.rawacf.bz2 \
+20100328.1402.00.inv.rawacf.bz2 \
+20100328.1602.00.inv.rawacf.bz2 \
+20100328.1802.00.inv.rawacf.bz2 \
+20100328.2002.00.inv.rawacf.bz2 \
+20100328.2202.00.inv.rawacf.bz2 \
+20100329.0002.00.inv.rawacf.bz2 \
+20100329.0202.00.inv.rawacf.bz2 \
+20100329.0402.00.inv.rawacf.bz2 \
+20100329.0602.00.inv.rawacf.bz2 \
+20100329.0802.00.inv.rawacf.bz2 \
+20100329.1002.00.inv.rawacf.bz2 \
+20100329.1202.00.inv.rawacf.bz2 \
+20100329.1402.00.inv.rawacf.bz2 \
+20100329.1602.00.inv.rawacf.bz2 \
+20100329.1802.00.inv.rawacf.bz2 \
+20100329.2002.00.inv.rawacf.bz2 \
+20100329.2202.00.inv.rawacf.bz2 \
+20100330.0000.11.inv.rawacf.bz2 \
+20100330.0201.00.inv.rawacf.bz2 \
+20100330.0401.00.inv.rawacf.bz2 \
+20100330.0601.00.inv.rawacf.bz2 \
+20100330.0801.00.inv.rawacf.bz2 \
+20100330.1001.00.inv.rawacf.bz2 \
+20100330.1201.00.inv.rawacf.bz2 \
+"

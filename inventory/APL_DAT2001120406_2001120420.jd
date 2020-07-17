@@ -1,0 +1,101 @@
+JD_FILE=APL_DAT2001120406_2001120420.jd
+CD_YEAR=2001
+CD_LABEL=2001120406-2001120420
+CD_NUMBER=410
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001120406_2001120420
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001120406a.dat.gz \
+2001120406b.dat.gz \
+2001120406c.dat.gz \
+2001120406e.dat.gz \
+2001120406f.dat.gz \
+2001120406g.dat.gz \
+2001120406k.dat.gz \
+2001120406r.dat.gz \
+2001120406t.dat.gz \
+2001120406w.dat.gz \
+2001120408a.dat.gz \
+2001120408b.dat.gz \
+2001120408c.dat.gz \
+2001120408e.dat.gz \
+2001120408f.dat.gz \
+2001120408g.dat.gz \
+2001120408k.dat.gz \
+2001120408r.dat.gz \
+2001120408t.dat.gz \
+2001120408w.dat.gz \
+2001120410a.dat.gz \
+2001120410b.dat.gz \
+2001120410c.dat.gz \
+2001120410e.dat.gz \
+2001120410f.dat.gz \
+2001120410g.dat.gz \
+2001120410k.dat.gz \
+2001120410r.dat.gz \
+2001120410t.dat.gz \
+2001120410w.dat.gz \
+2001120412a.dat.gz \
+2001120412aa.dat.gz \
+2001120412b.dat.gz \
+2001120412ba.dat.gz \
+2001120412c.dat.gz \
+2001120412e.dat.gz \
+2001120412ea.dat.gz \
+2001120412f.dat.gz \
+2001120412g.dat.gz \
+2001120412ga.dat.gz \
+2001120412k.dat.gz \
+2001120412r.dat.gz \
+2001120412ra.dat.gz \
+2001120412t.dat.gz \
+2001120412ta.dat.gz \
+2001120412w.dat.gz \
+2001120412wa.dat.gz \
+2001120414a.dat.gz \
+2001120414b.dat.gz \
+2001120414c.dat.gz \
+2001120414e.dat.gz \
+2001120414f.dat.gz \
+2001120414fa.dat.gz \
+2001120414g.dat.gz \
+2001120414k.dat.gz \
+2001120414r.dat.gz \
+2001120414t.dat.gz \
+2001120414w.dat.gz \
+2001120415f.dat.gz \
+2001120416a.dat.gz \
+2001120416b.dat.gz \
+2001120416c.dat.gz \
+2001120416e.dat.gz \
+2001120416f.dat.gz \
+2001120416g.dat.gz \
+2001120416k.dat.gz \
+2001120416r.dat.gz \
+2001120416t.dat.gz \
+2001120416w.dat.gz \
+2001120418a.dat.gz \
+2001120418b.dat.gz \
+2001120418c.dat.gz \
+2001120418e.dat.gz \
+2001120418f.dat.gz \
+2001120418g.dat.gz \
+2001120418k.dat.gz \
+2001120418r.dat.gz \
+2001120418t.dat.gz \
+2001120418w.dat.gz \
+2001120419k.dat.gz \
+2001120420a.dat.gz \
+2001120420b.dat.gz \
+2001120420c.dat.gz \
+2001120420e.dat.gz \
+2001120420f.dat.gz \
+2001120420g.dat.gz \
+2001120420k.dat.gz \
+2001120420r.dat.gz \
+2001120420t.dat.gz \
+2001120420w.dat.gz \
+"

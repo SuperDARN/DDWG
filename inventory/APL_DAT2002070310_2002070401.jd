@@ -1,0 +1,99 @@
+JD_FILE=APL_DAT2002070310_2002070401.jd
+CD_YEAR=2002
+CD_LABEL=2002070310-2002070401
+CD_NUMBER=267
+CD_TEMPLATE=/usr/ymi/label-maker/labels/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002070310_2002070401
+DATA_THRESHOLD=650
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002070310a.dat.gz \
+2002070310b.dat.gz \
+2002070310e.dat.gz \
+2002070310f.dat.gz \
+2002070310g.dat.gz \
+2002070310k.dat.gz \
+2002070310r.dat.gz \
+2002070310t.dat.gz \
+2002070310w.dat.gz \
+2002070312a.dat.gz \
+2002070312b.dat.gz \
+2002070312e.dat.gz \
+2002070312f.dat.gz \
+2002070312g.dat.gz \
+2002070312k.dat.gz \
+2002070312r.dat.gz \
+2002070312t.dat.gz \
+2002070312w.dat.gz \
+2002070314a.dat.gz \
+2002070314b.dat.gz \
+2002070314e.dat.gz \
+2002070314f.dat.gz \
+2002070314k.dat.gz \
+2002070314r.dat.gz \
+2002070314t.dat.gz \
+2002070314w.dat.gz \
+2002070316a.dat.gz \
+2002070316b.dat.gz \
+2002070316e.dat.gz \
+2002070316f.dat.gz \
+2002070316k.dat.gz \
+2002070316r.dat.gz \
+2002070316t.dat.gz \
+2002070316w.dat.gz \
+2002070318a.dat.gz \
+2002070318aa.dat.gz \
+2002070318ab.dat.gz \
+2002070318ac.dat.gz \
+2002070318ad.dat.gz \
+2002070318b.dat.gz \
+2002070318e.dat.gz \
+2002070318f.dat.gz \
+2002070318k.dat.gz \
+2002070318r.dat.gz \
+2002070318t.dat.gz \
+2002070318w.dat.gz \
+2002070319a.dat.gz \
+2002070319aa.dat.gz \
+2002070319ab.dat.gz \
+2002070319ac.dat.gz \
+2002070319ad.dat.gz \
+2002070319ae.dat.gz \
+2002070319af.dat.gz \
+2002070319ag.dat.gz \
+2002070320a.dat.gz \
+2002070320b.dat.gz \
+2002070320e.dat.gz \
+2002070320f.dat.gz \
+2002070320k.dat.gz \
+2002070320r.dat.gz \
+2002070320t.dat.gz \
+2002070320w.dat.gz \
+2002070322a.dat.gz \
+2002070322b.dat.gz \
+2002070322e.dat.gz \
+2002070322f.dat.gz \
+2002070322k.dat.gz \
+2002070322r.dat.gz \
+2002070322t.dat.gz \
+2002070322w.dat.gz \
+2002070400a.dat.gz \
+2002070400aa.dat.gz \
+2002070400b.dat.gz \
+2002070400ba.dat.gz \
+2002070400e.dat.gz \
+2002070400ea.dat.gz \
+2002070400f.dat.gz \
+2002070400fa.dat.gz \
+2002070400k.dat.gz \
+2002070400ka.dat.gz \
+2002070400r.dat.gz \
+2002070400ra.dat.gz \
+2002070400t.dat.gz \
+2002070400ta.dat.gz \
+2002070400w.dat.gz \
+2002070400wa.dat.gz \
+2002070401r.dat.gz \
+"

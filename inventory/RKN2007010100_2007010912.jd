@@ -1,0 +1,117 @@
+JD_FILE=RKN2007010100_2007010912.jd
+CD_YEAR=2007
+CD_LABEL=2007010100-2007010912
+CD_NUMBER=1
+CD_TEMPLATE=/usr/ymi/label-maker/labels/rkn.pcl
+CD_VOL_SI="RANKIN INLET SUPERDARN DATA "
+CD_VOL_VI=2007010100_2007010912
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=2
+SOURCE_DIRECTORY=/data/rkn_cd_data
+FILES_TO_WRITE="\
+20070101.0000.12.rkn.rawacf.bz2 \
+20070101.0201.00.rkn.rawacf.bz2 \
+20070101.0401.00.rkn.rawacf.bz2 \
+20070101.0601.00.rkn.rawacf.bz2 \
+20070101.0801.00.rkn.rawacf.bz2 \
+20070101.1001.00.rkn.rawacf.bz2 \
+20070101.1201.00.rkn.rawacf.bz2 \
+20070101.1401.00.rkn.rawacf.bz2 \
+20070101.1601.00.rkn.rawacf.bz2 \
+20070101.1801.00.rkn.rawacf.bz2 \
+20070101.2001.00.rkn.rawacf.bz2 \
+20070101.2026.38.rkn.rawacf.bz2 \
+20070101.2201.00.rkn.rawacf.bz2 \
+20070102.0001.00.rkn.rawacf.bz2 \
+20070102.0201.00.rkn.rawacf.bz2 \
+20070102.0401.00.rkn.rawacf.bz2 \
+20070102.0601.00.rkn.rawacf.bz2 \
+20070102.0801.00.rkn.rawacf.bz2 \
+20070102.1001.00.rkn.rawacf.bz2 \
+20070102.1201.00.rkn.rawacf.bz2 \
+20070102.1401.00.rkn.rawacf.bz2 \
+20070102.1601.00.rkn.rawacf.bz2 \
+20070102.1801.00.rkn.rawacf.bz2 \
+20070102.2001.00.rkn.rawacf.bz2 \
+20070102.2145.35.rkn.rawacf.bz2 \
+20070102.2201.00.rkn.rawacf.bz2 \
+20070103.0001.00.rkn.rawacf.bz2 \
+20070103.0201.00.rkn.rawacf.bz2 \
+20070103.0401.00.rkn.rawacf.bz2 \
+20070103.0601.00.rkn.rawacf.bz2 \
+20070103.0801.00.rkn.rawacf.bz2 \
+20070103.1001.00.rkn.rawacf.bz2 \
+20070103.1201.00.rkn.rawacf.bz2 \
+20070103.1401.00.rkn.rawacf.bz2 \
+20070103.1601.00.rkn.rawacf.bz2 \
+20070103.1801.00.rkn.rawacf.bz2 \
+20070103.2001.00.rkn.rawacf.bz2 \
+20070103.2201.00.rkn.rawacf.bz2 \
+20070104.0001.00.rkn.rawacf.bz2 \
+20070104.0201.00.rkn.rawacf.bz2 \
+20070104.0401.00.rkn.rawacf.bz2 \
+20070104.0601.00.rkn.rawacf.bz2 \
+20070104.0801.00.rkn.rawacf.bz2 \
+20070104.1001.00.rkn.rawacf.bz2 \
+20070104.1201.00.rkn.rawacf.bz2 \
+20070104.1401.00.rkn.rawacf.bz2 \
+20070104.1601.00.rkn.rawacf.bz2 \
+20070104.1801.00.rkn.rawacf.bz2 \
+20070104.2001.00.rkn.rawacf.bz2 \
+20070104.2201.00.rkn.rawacf.bz2 \
+20070105.0001.00.rkn.rawacf.bz2 \
+20070105.0201.00.rkn.rawacf.bz2 \
+20070105.0401.00.rkn.rawacf.bz2 \
+20070105.0601.00.rkn.rawacf.bz2 \
+20070105.0801.00.rkn.rawacf.bz2 \
+20070105.1001.00.rkn.rawacf.bz2 \
+20070105.1202.00.rkn.rawacf.bz2 \
+20070105.1404.00.rkn.rawacf.bz2 \
+20070105.1601.00.rkn.rawacf.bz2 \
+20070105.1801.00.rkn.rawacf.bz2 \
+20070105.2001.00.rkn.rawacf.bz2 \
+20070105.2201.00.rkn.rawacf.bz2 \
+20070106.0001.00.rkn.rawacf.bz2 \
+20070106.0201.00.rkn.rawacf.bz2 \
+20070106.0401.00.rkn.rawacf.bz2 \
+20070106.0601.00.rkn.rawacf.bz2 \
+20070106.0801.00.rkn.rawacf.bz2 \
+20070106.1001.00.rkn.rawacf.bz2 \
+20070106.1201.00.rkn.rawacf.bz2 \
+20070106.1401.00.rkn.rawacf.bz2 \
+20070106.1601.00.rkn.rawacf.bz2 \
+20070106.1801.00.rkn.rawacf.bz2 \
+20070106.2001.00.rkn.rawacf.bz2 \
+20070106.2201.00.rkn.rawacf.bz2 \
+20070107.0001.00.rkn.rawacf.bz2 \
+20070107.0201.00.rkn.rawacf.bz2 \
+20070107.0401.00.rkn.rawacf.bz2 \
+20070107.0601.00.rkn.rawacf.bz2 \
+20070107.0801.00.rkn.rawacf.bz2 \
+20070107.1001.00.rkn.rawacf.bz2 \
+20070107.1201.00.rkn.rawacf.bz2 \
+20070107.1401.00.rkn.rawacf.bz2 \
+20070107.1601.00.rkn.rawacf.bz2 \
+20070107.1801.00.rkn.rawacf.bz2 \
+20070107.2001.00.rkn.rawacf.bz2 \
+20070107.2201.00.rkn.rawacf.bz2 \
+20070108.0001.00.rkn.rawacf.bz2 \
+20070108.0201.00.rkn.rawacf.bz2 \
+20070108.0401.00.rkn.rawacf.bz2 \
+20070108.0601.00.rkn.rawacf.bz2 \
+20070108.0801.00.rkn.rawacf.bz2 \
+20070108.1001.00.rkn.rawacf.bz2 \
+20070108.1201.00.rkn.rawacf.bz2 \
+20070108.1401.00.rkn.rawacf.bz2 \
+20070108.1601.00.rkn.rawacf.bz2 \
+20070108.1801.00.rkn.rawacf.bz2 \
+20070108.2001.00.rkn.rawacf.bz2 \
+20070108.2201.00.rkn.rawacf.bz2 \
+20070109.0001.00.rkn.rawacf.bz2 \
+20070109.0201.00.rkn.rawacf.bz2 \
+20070109.0401.00.rkn.rawacf.bz2 \
+20070109.0601.00.rkn.rawacf.bz2 \
+20070109.0801.00.rkn.rawacf.bz2 \
+20070109.1001.00.rkn.rawacf.bz2 \
+20070109.1203.00.rkn.rawacf.bz2 \
+"

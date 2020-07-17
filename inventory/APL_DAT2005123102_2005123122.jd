@@ -1,0 +1,125 @@
+JD_FILE=APL_DAT2005123102_2005123122.jd
+CD_YEAR=2005
+CD_LABEL=2005123102-2005123122
+CD_NUMBER=54
+CD_TEMPLATE=/usr/ymi/label-maker/labels/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2005123102_2005123122
+DATA_THRESHOLD=435
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2005123102a.dat.gz \
+2005123102b.dat.gz \
+2005123102c.dat.gz \
+2005123102e.dat.gz \
+2005123102f.dat.gz \
+2005123102g.dat.gz \
+2005123102r.dat.gz \
+2005123102t.dat.gz \
+2005123102u.dat.gz \
+2005123102w.dat.gz \
+2005123104a.dat.gz \
+2005123104b.dat.gz \
+2005123104c.dat.gz \
+2005123104e.dat.gz \
+2005123104f.dat.gz \
+2005123104g.dat.gz \
+2005123104r.dat.gz \
+2005123104t.dat.gz \
+2005123104u.dat.gz \
+2005123104w.dat.gz \
+2005123106a.dat.gz \
+2005123106b.dat.gz \
+2005123106c.dat.gz \
+2005123106e.dat.gz \
+2005123106f.dat.gz \
+2005123106g.dat.gz \
+2005123106r.dat.gz \
+2005123106t.dat.gz \
+2005123106u.dat.gz \
+2005123106w.dat.gz \
+2005123108a.dat.gz \
+2005123108b.dat.gz \
+2005123108c.dat.gz \
+2005123108e.dat.gz \
+2005123108f.dat.gz \
+2005123108g.dat.gz \
+2005123108ra.dat.gz \
+2005123108r.dat.gz \
+2005123108t.dat.gz \
+2005123108u.dat.gz \
+2005123108w.dat.gz \
+2005123110a.dat.gz \
+2005123110b.dat.gz \
+2005123110ca.dat.gz \
+2005123110c.dat.gz \
+2005123110e.dat.gz \
+2005123110f.dat.gz \
+2005123110g.dat.gz \
+2005123110r.dat.gz \
+2005123110t.dat.gz \
+2005123110u.dat.gz \
+2005123110w.dat.gz \
+2005123112a.dat.gz \
+2005123112b.dat.gz \
+2005123112c.dat.gz \
+2005123112e.dat.gz \
+2005123112f.dat.gz \
+2005123112g.dat.gz \
+2005123112r.dat.gz \
+2005123112t.dat.gz \
+2005123112u.dat.gz \
+2005123112w.dat.gz \
+2005123114a.dat.gz \
+2005123114b.dat.gz \
+2005123114c.dat.gz \
+2005123114e.dat.gz \
+2005123114f.dat.gz \
+2005123114g.dat.gz \
+2005123114r.dat.gz \
+2005123114t.dat.gz \
+2005123114u.dat.gz \
+2005123114w.dat.gz \
+2005123116a.dat.gz \
+2005123116b.dat.gz \
+2005123116c.dat.gz \
+2005123116e.dat.gz \
+2005123116f.dat.gz \
+2005123116g.dat.gz \
+2005123116r.dat.gz \
+2005123116t.dat.gz \
+2005123116u.dat.gz \
+2005123116w.dat.gz \
+2005123118a.dat.gz \
+2005123118b.dat.gz \
+2005123118c.dat.gz \
+2005123118e.dat.gz \
+2005123118f.dat.gz \
+2005123118g.dat.gz \
+2005123118ra.dat.gz \
+2005123118r.dat.gz \
+2005123118t.dat.gz \
+2005123118u.dat.gz \
+2005123118w.dat.gz \
+2005123120a.dat.gz \
+2005123120b.dat.gz \
+2005123120c.dat.gz \
+2005123120e.dat.gz \
+2005123120f.dat.gz \
+2005123120g.dat.gz \
+2005123120r.dat.gz \
+2005123120t.dat.gz \
+2005123120u.dat.gz \
+2005123120w.dat.gz \
+2005123122a.dat.gz \
+2005123122b.dat.gz \
+2005123122c.dat.gz \
+2005123122e.dat.gz \
+2005123122f.dat.gz \
+2005123122g.dat.gz \
+2005123122r.dat.gz \
+2005123122t.dat.gz \
+2005123122u.dat.gz \
+2005123122w.dat.gz \
+"

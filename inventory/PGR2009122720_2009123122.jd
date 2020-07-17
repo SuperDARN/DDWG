@@ -1,0 +1,62 @@
+JD_FILE=PGR2009122720_2009123122.jd
+CD_YEAR=2009
+CD_LABEL=2009122720-2009123122
+CD_NUMBER=28
+CD_TEMPLATE=/usr/ymi/label-maker/labels/pgr.pcl
+CD_VOL_SI="PRINCE GEORGE SUPERDARN DATA "
+CD_VOL_VI=2009122720_2009123122
+DATA_THRESHOLD=1270
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/pgr_cd_data
+FILES_TO_WRITE="\
+20091227.2002.00.pgr.rawacf.bz2 \
+20091227.2202.00.pgr.rawacf.bz2 \
+20091228.0002.00.pgr.rawacf.bz2 \
+20091228.0202.00.pgr.rawacf.bz2 \
+20091228.0402.00.pgr.rawacf.bz2 \
+20091228.0600.11.pgr.rawacf.bz2 \
+20091228.0801.00.pgr.rawacf.bz2 \
+20091228.1001.00.pgr.rawacf.bz2 \
+20091228.1201.00.pgr.rawacf.bz2 \
+20091228.1401.00.pgr.rawacf.bz2 \
+20091228.1601.00.pgr.rawacf.bz2 \
+20091228.1800.12.pgr.rawacf.bz2 \
+20091228.2001.00.pgr.rawacf.bz2 \
+20091228.2201.00.pgr.rawacf.bz2 \
+20091229.0001.00.pgr.rawacf.bz2 \
+20091229.0201.00.pgr.rawacf.bz2 \
+20091229.0401.00.pgr.rawacf.bz2 \
+20091229.0601.00.pgr.rawacf.bz2 \
+20091229.0801.00.pgr.rawacf.bz2 \
+20091229.1001.00.pgr.rawacf.bz2 \
+20091229.1201.00.pgr.rawacf.bz2 \
+20091229.1401.00.pgr.rawacf.bz2 \
+20091229.1601.00.pgr.rawacf.bz2 \
+20091229.1800.12.pgr.rawacf.bz2 \
+20091229.2002.00.pgr.rawacf.bz2 \
+20091229.2202.00.pgr.rawacf.bz2 \
+20091230.0002.00.pgr.rawacf.bz2 \
+20091230.0202.00.pgr.rawacf.bz2 \
+20091230.0402.00.pgr.rawacf.bz2 \
+20091230.0600.11.pgr.rawacf.bz2 \
+20091230.0801.00.pgr.rawacf.bz2 \
+20091230.1001.00.pgr.rawacf.bz2 \
+20091230.1201.00.pgr.rawacf.bz2 \
+20091230.1401.00.pgr.rawacf.bz2 \
+20091230.1601.00.pgr.rawacf.bz2 \
+20091230.1801.00.pgr.rawacf.bz2 \
+20091230.2001.00.pgr.rawacf.bz2 \
+20091230.2201.00.pgr.rawacf.bz2 \
+20091231.0001.00.pgr.rawacf.bz2 \
+20091231.0201.00.pgr.rawacf.bz2 \
+20091231.0401.00.pgr.rawacf.bz2 \
+20091231.0601.00.pgr.rawacf.bz2 \
+20091231.0801.00.pgr.rawacf.bz2 \
+20091231.1001.00.pgr.rawacf.bz2 \
+20091231.1201.00.pgr.rawacf.bz2 \
+20091231.1401.00.pgr.rawacf.bz2 \
+20091231.1601.00.pgr.rawacf.bz2 \
+20091231.1801.00.pgr.rawacf.bz2 \
+20091231.2001.00.pgr.rawacf.bz2 \
+20091231.2201.00.pgr.rawacf.bz2 \
+"

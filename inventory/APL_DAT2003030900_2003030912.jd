@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2003030900_2003030912.jd
+CD_YEAR=2003
+CD_LABEL=2003030900-2003030912
+CD_NUMBER=74
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2003030900_2003030912
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2003030900a.dat.gz \
+2003030900aa.dat.gz \
+2003030900b.dat.gz \
+2003030900e.dat.gz \
+2003030900f.dat.gz \
+2003030900g.dat.gz \
+2003030900k.dat.gz \
+2003030900r.dat.gz \
+2003030900t.dat.gz \
+2003030900w.dat.gz \
+2003030901a.dat.gz \
+2003030902a.dat.gz \
+2003030902b.dat.gz \
+2003030902e.dat.gz \
+2003030902f.dat.gz \
+2003030902g.dat.gz \
+2003030902k.dat.gz \
+2003030902r.dat.gz \
+2003030902t.dat.gz \
+2003030902w.dat.gz \
+2003030903a.dat.gz \
+2003030903aa.dat.gz \
+2003030903ab.dat.gz \
+2003030903ac.dat.gz \
+2003030903ad.dat.gz \
+2003030904a.dat.gz \
+2003030904aa.dat.gz \
+2003030904ab.dat.gz \
+2003030904ac.dat.gz \
+2003030904ad.dat.gz \
+2003030904ae.dat.gz \
+2003030904af.dat.gz \
+2003030904b.dat.gz \
+2003030904e.dat.gz \
+2003030904f.dat.gz \
+2003030904g.dat.gz \
+2003030904k.dat.gz \
+2003030904r.dat.gz \
+2003030904t.dat.gz \
+2003030904w.dat.gz \
+2003030905a.dat.gz \
+2003030905aa.dat.gz \
+2003030905ab.dat.gz \
+2003030906a.dat.gz \
+2003030906b.dat.gz \
+2003030906e.dat.gz \
+2003030906f.dat.gz \
+2003030906g.dat.gz \
+2003030906k.dat.gz \
+2003030906r.dat.gz \
+2003030906t.dat.gz \
+2003030906w.dat.gz \
+2003030908a.dat.gz \
+2003030908b.dat.gz \
+2003030908e.dat.gz \
+2003030908f.dat.gz \
+2003030908g.dat.gz \
+2003030908k.dat.gz \
+2003030908r.dat.gz \
+2003030908t.dat.gz \
+2003030908w.dat.gz \
+2003030910a.dat.gz \
+2003030910b.dat.gz \
+2003030910e.dat.gz \
+2003030910f.dat.gz \
+2003030910g.dat.gz \
+2003030910k.dat.gz \
+2003030910r.dat.gz \
+2003030910t.dat.gz \
+2003030910w.dat.gz \
+2003030912a.dat.gz \
+2003030912b.dat.gz \
+2003030912e.dat.gz \
+2003030912f.dat.gz \
+2003030912g.dat.gz \
+2003030912k.dat.gz \
+2003030912r.dat.gz \
+2003030912t.dat.gz \
+2003030912w.dat.gz \
+"

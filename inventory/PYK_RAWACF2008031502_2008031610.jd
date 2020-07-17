@@ -1,0 +1,28 @@
+JD_FILE=PYK_RAWACF2008031502_2008031610.jd
+CD_YEAR=2008
+CD_LABEL=2008031502-2008031610
+CD_NUMBER=2
+CD_TEMPLATE=/usr/ymi/label-maker/labels/hanpykrawacf.pcl
+CD_VOL_SI="SUPERDARN RAWACF DATA HAN & PYK"
+CD_VOL_VI=2008031502_2008031610
+DATA_THRESHOLD=791
+CDS_TO_WRITE=17
+SOURCE_DIRECTORY=/data/pyk
+FILES_TO_WRITE="\
+20080315.0201.00.pyk.rawacf.bz2 \
+20080315.0401.00.pyk.rawacf.bz2 \
+20080315.0601.00.pyk.rawacf.bz2 \
+20080315.0801.00.pyk.rawacf.bz2 \
+20080315.1001.00.pyk.rawacf.bz2 \
+20080315.1201.00.pyk.rawacf.bz2 \
+20080315.1401.00.pyk.rawacf.bz2 \
+20080315.1601.00.pyk.rawacf.bz2 \
+20080315.1801.00.pyk.rawacf.bz2 \
+20080315.2001.00.pyk.rawacf.bz2 \
+20080315.2201.00.pyk.rawacf.bz2 \
+20080316.0001.00.pyk.rawacf.bz2 \
+20080316.0201.00.pyk.rawacf.bz2 \
+20080316.0401.00.pyk.rawacf.bz2 \
+20080316.0601.00.pyk.rawacf.bz2 \
+20080316.1001.00.pyk.rawacf.bz2 \
+"

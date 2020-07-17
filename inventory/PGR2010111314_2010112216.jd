@@ -1,0 +1,122 @@
+JD_FILE=PGR2010111314_2010112216.jd
+CD_YEAR=2010
+CD_LABEL=2010111314-2010112216
+CD_NUMBER=26
+CD_TEMPLATE=/usr/ymi/label-maker/labels/pgr.pcl
+CD_VOL_SI="PRINCE GEORGE SUPERDARN DATA "
+CD_VOL_VI=2010111314_2010112216
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/pgr_cd_data
+FILES_TO_WRITE="\
+20101113.1401.00.pgr.rawacf.bz2 \
+20101113.1601.00.pgr.rawacf.bz2 \
+20101113.1801.00.pgr.rawacf.bz2 \
+20101113.2001.00.pgr.rawacf.bz2 \
+20101113.2201.00.pgr.rawacf.bz2 \
+20101114.0001.00.pgr.rawacf.bz2 \
+20101114.0201.00.pgr.rawacf.bz2 \
+20101114.0401.00.pgr.rawacf.bz2 \
+20101114.0601.00.pgr.rawacf.bz2 \
+20101114.0801.00.pgr.rawacf.bz2 \
+20101114.1001.00.pgr.rawacf.bz2 \
+20101114.1201.00.pgr.rawacf.bz2 \
+20101114.1401.00.pgr.rawacf.bz2 \
+20101114.1601.00.pgr.rawacf.bz2 \
+20101114.1801.00.pgr.rawacf.bz2 \
+20101114.2001.00.pgr.rawacf.bz2 \
+20101114.2201.00.pgr.rawacf.bz2 \
+20101115.0001.00.pgr.rawacf.bz2 \
+20101115.0201.00.pgr.rawacf.bz2 \
+20101115.0401.00.pgr.rawacf.bz2 \
+20101115.0601.00.pgr.rawacf.bz2 \
+20101115.0801.00.pgr.rawacf.bz2 \
+20101115.1001.00.pgr.rawacf.bz2 \
+20101115.1201.00.pgr.rawacf.bz2 \
+20101115.1401.00.pgr.rawacf.bz2 \
+20101115.1601.00.pgr.rawacf.bz2 \
+20101115.1801.00.pgr.rawacf.bz2 \
+20101115.2001.00.pgr.rawacf.bz2 \
+20101115.2201.00.pgr.rawacf.bz2 \
+20101116.0001.00.pgr.rawacf.bz2 \
+20101116.0201.00.pgr.rawacf.bz2 \
+20101116.0401.00.pgr.rawacf.bz2 \
+20101116.0601.00.pgr.rawacf.bz2 \
+20101116.0801.00.pgr.rawacf.bz2 \
+20101116.1001.00.pgr.rawacf.bz2 \
+20101116.1201.00.pgr.rawacf.bz2 \
+20101116.1401.00.pgr.rawacf.bz2 \
+20101116.1601.00.pgr.rawacf.bz2 \
+20101116.1801.00.pgr.rawacf.bz2 \
+20101116.2001.00.pgr.rawacf.bz2 \
+20101116.2201.00.pgr.rawacf.bz2 \
+20101117.0001.00.pgr.rawacf.bz2 \
+20101117.0201.00.pgr.rawacf.bz2 \
+20101117.0401.00.pgr.rawacf.bz2 \
+20101117.0601.00.pgr.rawacf.bz2 \
+20101117.0801.00.pgr.rawacf.bz2 \
+20101117.1001.00.pgr.rawacf.bz2 \
+20101117.1201.00.pgr.rawacf.bz2 \
+20101117.1401.00.pgr.rawacf.bz2 \
+20101117.1601.00.pgr.rawacf.bz2 \
+20101117.1801.00.pgr.rawacf.bz2 \
+20101117.2001.00.pgr.rawacf.bz2 \
+20101117.2201.00.pgr.rawacf.bz2 \
+20101118.0001.00.pgr.rawacf.bz2 \
+20101118.0201.00.pgr.rawacf.bz2 \
+20101118.0401.00.pgr.rawacf.bz2 \
+20101118.0601.00.pgr.rawacf.bz2 \
+20101118.0801.00.pgr.rawacf.bz2 \
+20101118.1001.00.pgr.rawacf.bz2 \
+20101118.1200.12.pgr.rawacf.bz2 \
+20101118.1402.00.pgr.rawacf.bz2 \
+20101118.1602.00.pgr.rawacf.bz2 \
+20101118.1802.00.pgr.rawacf.bz2 \
+20101118.2002.00.pgr.rawacf.bz2 \
+20101118.2202.00.pgr.rawacf.bz2 \
+20101119.0002.00.pgr.rawacf.bz2 \
+20101119.0202.00.pgr.rawacf.bz2 \
+20101119.0402.00.pgr.rawacf.bz2 \
+20101119.0602.00.pgr.rawacf.bz2 \
+20101119.0802.00.pgr.rawacf.bz2 \
+20101119.1002.00.pgr.rawacf.bz2 \
+20101119.1202.00.pgr.rawacf.bz2 \
+20101119.1402.00.pgr.rawacf.bz2 \
+20101119.1602.00.pgr.rawacf.bz2 \
+20101119.1802.00.pgr.rawacf.bz2 \
+20101119.2002.00.pgr.rawacf.bz2 \
+20101119.2202.00.pgr.rawacf.bz2 \
+20101120.0002.00.pgr.rawacf.bz2 \
+20101120.0202.00.pgr.rawacf.bz2 \
+20101120.0402.00.pgr.rawacf.bz2 \
+20101120.0602.00.pgr.rawacf.bz2 \
+20101120.0802.00.pgr.rawacf.bz2 \
+20101120.1002.00.pgr.rawacf.bz2 \
+20101120.1202.00.pgr.rawacf.bz2 \
+20101120.1402.00.pgr.rawacf.bz2 \
+20101120.1602.00.pgr.rawacf.bz2 \
+20101120.1802.00.pgr.rawacf.bz2 \
+20101120.2002.00.pgr.rawacf.bz2 \
+20101120.2202.00.pgr.rawacf.bz2 \
+20101121.0002.00.pgr.rawacf.bz2 \
+20101121.0202.00.pgr.rawacf.bz2 \
+20101121.0402.00.pgr.rawacf.bz2 \
+20101121.0602.00.pgr.rawacf.bz2 \
+20101121.0802.00.pgr.rawacf.bz2 \
+20101121.1002.00.pgr.rawacf.bz2 \
+20101121.1202.00.pgr.rawacf.bz2 \
+20101121.1402.00.pgr.rawacf.bz2 \
+20101121.1602.00.pgr.rawacf.bz2 \
+20101121.1802.00.pgr.rawacf.bz2 \
+20101121.2002.00.pgr.rawacf.bz2 \
+20101121.2202.00.pgr.rawacf.bz2 \
+20101122.0002.00.pgr.rawacf.bz2 \
+20101122.0202.00.pgr.rawacf.bz2 \
+20101122.0402.00.pgr.rawacf.bz2 \
+20101122.0602.00.pgr.rawacf.bz2 \
+20101122.0802.00.pgr.rawacf.bz2 \
+20101122.1002.00.pgr.rawacf.bz2 \
+20101122.1202.00.pgr.rawacf.bz2 \
+20101122.1402.00.pgr.rawacf.bz2 \
+20101122.1602.00.pgr.rawacf.bz2 \
+"

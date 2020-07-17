@@ -1,0 +1,109 @@
+JD_FILE=APL_DAT2002062200_2002062214.jd
+CD_YEAR=2002
+CD_LABEL=2002062200-2002062214
+CD_NUMBER=252
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002062200_2002062214
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002062200a.dat.gz \
+2002062200b.dat.gz \
+2002062200c.dat.gz \
+2002062200ca.dat.gz \
+2002062200e.dat.gz \
+2002062200f.dat.gz \
+2002062200g.dat.gz \
+2002062200k.dat.gz \
+2002062200r.dat.gz \
+2002062200t.dat.gz \
+2002062200w.dat.gz \
+2002062201c.dat.gz \
+2002062202a.dat.gz \
+2002062202b.dat.gz \
+2002062202c.dat.gz \
+2002062202e.dat.gz \
+2002062202f.dat.gz \
+2002062202g.dat.gz \
+2002062202k.dat.gz \
+2002062202r.dat.gz \
+2002062202t.dat.gz \
+2002062202w.dat.gz \
+2002062204a.dat.gz \
+2002062204b.dat.gz \
+2002062204c.dat.gz \
+2002062204ca.dat.gz \
+2002062204e.dat.gz \
+2002062204f.dat.gz \
+2002062204g.dat.gz \
+2002062204k.dat.gz \
+2002062204r.dat.gz \
+2002062204t.dat.gz \
+2002062204w.dat.gz \
+2002062206a.dat.gz \
+2002062206b.dat.gz \
+2002062206c.dat.gz \
+2002062206e.dat.gz \
+2002062206f.dat.gz \
+2002062206g.dat.gz \
+2002062206k.dat.gz \
+2002062206r.dat.gz \
+2002062206t.dat.gz \
+2002062206w.dat.gz \
+2002062208a.dat.gz \
+2002062208aa.dat.gz \
+2002062208b.dat.gz \
+2002062208ba.dat.gz \
+2002062208c.dat.gz \
+2002062208ca.dat.gz \
+2002062208e.dat.gz \
+2002062208ea.dat.gz \
+2002062208f.dat.gz \
+2002062208fa.dat.gz \
+2002062208g.dat.gz \
+2002062208ga.dat.gz \
+2002062208k.dat.gz \
+2002062208ka.dat.gz \
+2002062208r.dat.gz \
+2002062208ra.dat.gz \
+2002062208t.dat.gz \
+2002062208ta.dat.gz \
+2002062208w.dat.gz \
+2002062208wa.dat.gz \
+2002062210a.dat.gz \
+2002062210b.dat.gz \
+2002062210c.dat.gz \
+2002062210ca.dat.gz \
+2002062210e.dat.gz \
+2002062210f.dat.gz \
+2002062210g.dat.gz \
+2002062210k.dat.gz \
+2002062210r.dat.gz \
+2002062210t.dat.gz \
+2002062210w.dat.gz \
+2002062211c.dat.gz \
+2002062212a.dat.gz \
+2002062212b.dat.gz \
+2002062212c.dat.gz \
+2002062212ca.dat.gz \
+2002062212e.dat.gz \
+2002062212f.dat.gz \
+2002062212g.dat.gz \
+2002062212k.dat.gz \
+2002062212r.dat.gz \
+2002062212t.dat.gz \
+2002062212w.dat.gz \
+2002062213c.dat.gz \
+2002062214a.dat.gz \
+2002062214b.dat.gz \
+2002062214c.dat.gz \
+2002062214ca.dat.gz \
+2002062214e.dat.gz \
+2002062214f.dat.gz \
+2002062214g.dat.gz \
+2002062214k.dat.gz \
+2002062214r.dat.gz \
+2002062214t.dat.gz \
+2002062214w.dat.gz \
+"

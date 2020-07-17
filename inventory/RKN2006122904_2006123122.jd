@@ -1,0 +1,80 @@
+JD_FILE=RKN2006122904_2006123122.jd
+CD_YEAR=2006
+CD_LABEL=2006122904-2006123122
+CD_NUMBER=25
+CD_TEMPLATE=/usr/ymi/label-maker/labels/rkn.pcl
+CD_VOL_SI="RANKIN INLET SUPERDARN DATA "
+CD_VOL_VI=2006122904_2006123122
+DATA_THRESHOLD=1738
+CDS_TO_WRITE=2
+SOURCE_DIRECTORY=/data/rkn_cd_data
+FILES_TO_WRITE="\
+20061229.0401.00.rkn.fitacf.bz2 \
+20061229.0401.00.rkn.rawacf.bz2 \
+20061229.0601.00.rkn.fitacf.bz2 \
+20061229.0601.00.rkn.rawacf.bz2 \
+20061229.0801.00.rkn.fitacf.bz2 \
+20061229.0801.00.rkn.rawacf.bz2 \
+20061229.1001.00.rkn.fitacf.bz2 \
+20061229.1001.00.rkn.rawacf.bz2 \
+20061229.1200.12.rkn.fitacf.bz2 \
+20061229.1200.12.rkn.rawacf.bz2 \
+20061229.1401.00.rkn.fitacf.bz2 \
+20061229.1401.00.rkn.rawacf.bz2 \
+20061229.1601.00.rkn.fitacf.bz2 \
+20061229.1601.00.rkn.rawacf.bz2 \
+20061229.1801.00.rkn.fitacf.bz2 \
+20061229.1801.00.rkn.rawacf.bz2 \
+20061229.2001.00.rkn.fitacf.bz2 \
+20061229.2001.00.rkn.rawacf.bz2 \
+20061229.2201.00.rkn.fitacf.bz2 \
+20061229.2201.00.rkn.rawacf.bz2 \
+20061230.0000.12.rkn.fitacf.bz2 \
+20061230.0000.12.rkn.rawacf.bz2 \
+20061230.0201.00.rkn.fitacf.bz2 \
+20061230.0201.00.rkn.rawacf.bz2 \
+20061230.0401.00.rkn.fitacf.bz2 \
+20061230.0401.00.rkn.rawacf.bz2 \
+20061230.0601.00.rkn.fitacf.bz2 \
+20061230.0601.00.rkn.rawacf.bz2 \
+20061230.0801.00.rkn.fitacf.bz2 \
+20061230.0801.00.rkn.rawacf.bz2 \
+20061230.1001.00.rkn.fitacf.bz2 \
+20061230.1001.00.rkn.rawacf.bz2 \
+20061230.1200.12.rkn.fitacf.bz2 \
+20061230.1200.12.rkn.rawacf.bz2 \
+20061230.1401.00.rkn.fitacf.bz2 \
+20061230.1401.00.rkn.rawacf.bz2 \
+20061230.1602.00.rkn.fitacf.bz2 \
+20061230.1602.00.rkn.rawacf.bz2 \
+20061230.1801.00.rkn.fitacf.bz2 \
+20061230.1801.00.rkn.rawacf.bz2 \
+20061230.2001.00.rkn.fitacf.bz2 \
+20061230.2001.00.rkn.rawacf.bz2 \
+20061230.2201.00.rkn.fitacf.bz2 \
+20061230.2201.00.rkn.rawacf.bz2 \
+20061231.0001.00.rkn.fitacf.bz2 \
+20061231.0001.00.rkn.rawacf.bz2 \
+20061231.0201.00.rkn.fitacf.bz2 \
+20061231.0201.00.rkn.rawacf.bz2 \
+20061231.0401.00.rkn.fitacf.bz2 \
+20061231.0401.00.rkn.rawacf.bz2 \
+20061231.0601.00.rkn.fitacf.bz2 \
+20061231.0601.00.rkn.rawacf.bz2 \
+20061231.0801.00.rkn.fitacf.bz2 \
+20061231.0801.00.rkn.rawacf.bz2 \
+20061231.1001.00.rkn.fitacf.bz2 \
+20061231.1001.00.rkn.rawacf.bz2 \
+20061231.1201.00.rkn.fitacf.bz2 \
+20061231.1201.00.rkn.rawacf.bz2 \
+20061231.1401.00.rkn.fitacf.bz2 \
+20061231.1401.00.rkn.rawacf.bz2 \
+20061231.1601.00.rkn.fitacf.bz2 \
+20061231.1601.00.rkn.rawacf.bz2 \
+20061231.1802.00.rkn.fitacf.bz2 \
+20061231.1802.00.rkn.rawacf.bz2 \
+20061231.2001.00.rkn.fitacf.bz2 \
+20061231.2001.00.rkn.rawacf.bz2 \
+20061231.2201.00.rkn.fitacf.bz2 \
+20061231.2201.00.rkn.rawacf.bz2 \
+"

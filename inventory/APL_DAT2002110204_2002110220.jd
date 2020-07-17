@@ -1,0 +1,104 @@
+JD_FILE=APL_DAT2002110204_2002110220.jd
+CD_YEAR=2002
+CD_LABEL=2002110204-2002110220
+CD_NUMBER=412
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002110204_2002110220
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002110204a.dat.gz \
+2002110204b.dat.gz \
+2002110204c.dat.gz \
+2002110204e.dat.gz \
+2002110204f.dat.gz \
+2002110204g.dat.gz \
+2002110204r.dat.gz \
+2002110204t.dat.gz \
+2002110204w.dat.gz \
+2002110206a.dat.gz \
+2002110206b.dat.gz \
+2002110206c.dat.gz \
+2002110206ca.dat.gz \
+2002110206e.dat.gz \
+2002110206f.dat.gz \
+2002110206g.dat.gz \
+2002110206r.dat.gz \
+2002110206t.dat.gz \
+2002110206w.dat.gz \
+2002110208a.dat.gz \
+2002110208b.dat.gz \
+2002110208c.dat.gz \
+2002110208ca.dat.gz \
+2002110208e.dat.gz \
+2002110208f.dat.gz \
+2002110208g.dat.gz \
+2002110208r.dat.gz \
+2002110208t.dat.gz \
+2002110208w.dat.gz \
+2002110210a.dat.gz \
+2002110210b.dat.gz \
+2002110210c.dat.gz \
+2002110210ca.dat.gz \
+2002110210e.dat.gz \
+2002110210f.dat.gz \
+2002110210g.dat.gz \
+2002110210r.dat.gz \
+2002110210t.dat.gz \
+2002110210w.dat.gz \
+2002110211c.dat.gz \
+2002110211ca.dat.gz \
+2002110212a.dat.gz \
+2002110212b.dat.gz \
+2002110212c.dat.gz \
+2002110212e.dat.gz \
+2002110212f.dat.gz \
+2002110212g.dat.gz \
+2002110212r.dat.gz \
+2002110212t.dat.gz \
+2002110212w.dat.gz \
+2002110214a.dat.gz \
+2002110214b.dat.gz \
+2002110214ba.dat.gz \
+2002110214c.dat.gz \
+2002110214ca.dat.gz \
+2002110214e.dat.gz \
+2002110214ea.dat.gz \
+2002110214f.dat.gz \
+2002110214fa.dat.gz \
+2002110214g.dat.gz \
+2002110214r.dat.gz \
+2002110214ra.dat.gz \
+2002110214t.dat.gz \
+2002110214ta.dat.gz \
+2002110214w.dat.gz \
+2002110214wa.dat.gz \
+2002110216a.dat.gz \
+2002110216b.dat.gz \
+2002110216c.dat.gz \
+2002110216e.dat.gz \
+2002110216f.dat.gz \
+2002110216g.dat.gz \
+2002110216r.dat.gz \
+2002110216t.dat.gz \
+2002110216w.dat.gz \
+2002110218a.dat.gz \
+2002110218b.dat.gz \
+2002110218c.dat.gz \
+2002110218e.dat.gz \
+2002110218f.dat.gz \
+2002110218g.dat.gz \
+2002110218r.dat.gz \
+2002110218t.dat.gz \
+2002110218w.dat.gz \
+2002110220a.dat.gz \
+2002110220b.dat.gz \
+2002110220c.dat.gz \
+2002110220f.dat.gz \
+2002110220fa.dat.gz \
+2002110220g.dat.gz \
+2002110220r.dat.gz \
+2002110220t.dat.gz \
+2002110220w.dat.gz \
+"

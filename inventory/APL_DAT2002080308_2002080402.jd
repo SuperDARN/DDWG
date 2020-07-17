@@ -1,0 +1,91 @@
+JD_FILE=APL_DAT2002080308_2002080402.jd
+CD_YEAR=2002
+CD_LABEL=2002080308-2002080402
+CD_NUMBER=301
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002080308_2002080402
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002080308a.dat.gz \
+2002080308b.dat.gz \
+2002080308e.dat.gz \
+2002080308f.dat.gz \
+2002080308k.dat.gz \
+2002080308r.dat.gz \
+2002080308t.dat.gz \
+2002080308w.dat.gz \
+2002080310a.dat.gz \
+2002080310b.dat.gz \
+2002080310e.dat.gz \
+2002080310f.dat.gz \
+2002080310k.dat.gz \
+2002080310r.dat.gz \
+2002080310t.dat.gz \
+2002080310w.dat.gz \
+2002080312a.dat.gz \
+2002080312b.dat.gz \
+2002080312e.dat.gz \
+2002080312f.dat.gz \
+2002080312k.dat.gz \
+2002080312r.dat.gz \
+2002080312t.dat.gz \
+2002080312w.dat.gz \
+2002080314a.dat.gz \
+2002080314b.dat.gz \
+2002080314e.dat.gz \
+2002080314f.dat.gz \
+2002080314k.dat.gz \
+2002080314r.dat.gz \
+2002080314t.dat.gz \
+2002080314w.dat.gz \
+2002080316a.dat.gz \
+2002080316b.dat.gz \
+2002080316e.dat.gz \
+2002080316f.dat.gz \
+2002080316k.dat.gz \
+2002080316r.dat.gz \
+2002080316t.dat.gz \
+2002080316w.dat.gz \
+2002080318a.dat.gz \
+2002080318b.dat.gz \
+2002080318e.dat.gz \
+2002080318f.dat.gz \
+2002080318k.dat.gz \
+2002080318r.dat.gz \
+2002080318t.dat.gz \
+2002080318w.dat.gz \
+2002080320a.dat.gz \
+2002080320b.dat.gz \
+2002080320e.dat.gz \
+2002080320f.dat.gz \
+2002080320k.dat.gz \
+2002080320r.dat.gz \
+2002080320t.dat.gz \
+2002080320w.dat.gz \
+2002080322a.dat.gz \
+2002080322b.dat.gz \
+2002080322e.dat.gz \
+2002080322f.dat.gz \
+2002080322k.dat.gz \
+2002080322r.dat.gz \
+2002080322t.dat.gz \
+2002080322w.dat.gz \
+2002080400a.dat.gz \
+2002080400b.dat.gz \
+2002080400e.dat.gz \
+2002080400f.dat.gz \
+2002080400k.dat.gz \
+2002080400r.dat.gz \
+2002080400t.dat.gz \
+2002080400w.dat.gz \
+2002080402a.dat.gz \
+2002080402b.dat.gz \
+2002080402e.dat.gz \
+2002080402f.dat.gz \
+2002080402k.dat.gz \
+2002080402r.dat.gz \
+2002080402t.dat.gz \
+2002080402w.dat.gz \
+"

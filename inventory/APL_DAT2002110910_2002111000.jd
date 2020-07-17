@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002110910_2002111000.jd
+CD_YEAR=2002
+CD_LABEL=2002110910-2002111000
+CD_NUMBER=423
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002110910_2002111000
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002110910a.dat.gz \
+2002110910b.dat.gz \
+2002110910e.dat.gz \
+2002110910f.dat.gz \
+2002110910g.dat.gz \
+2002110910r.dat.gz \
+2002110910t.dat.gz \
+2002110910w.dat.gz \
+2002110912a.dat.gz \
+2002110912aa.dat.gz \
+2002110912b.dat.gz \
+2002110912ba.dat.gz \
+2002110912e.dat.gz \
+2002110912f.dat.gz \
+2002110912g.dat.gz \
+2002110912r.dat.gz \
+2002110912t.dat.gz \
+2002110912ta.dat.gz \
+2002110912w.dat.gz \
+2002110912wa.dat.gz \
+2002110914a.dat.gz \
+2002110914b.dat.gz \
+2002110914c.dat.gz \
+2002110914e.dat.gz \
+2002110914f.dat.gz \
+2002110914g.dat.gz \
+2002110914r.dat.gz \
+2002110914t.dat.gz \
+2002110914w.dat.gz \
+2002110916a.dat.gz \
+2002110916b.dat.gz \
+2002110916c.dat.gz \
+2002110916ca.dat.gz \
+2002110916e.dat.gz \
+2002110916f.dat.gz \
+2002110916g.dat.gz \
+2002110916r.dat.gz \
+2002110916t.dat.gz \
+2002110916w.dat.gz \
+2002110918a.dat.gz \
+2002110918b.dat.gz \
+2002110918e.dat.gz \
+2002110918f.dat.gz \
+2002110918g.dat.gz \
+2002110918r.dat.gz \
+2002110918t.dat.gz \
+2002110918w.dat.gz \
+2002110920a.dat.gz \
+2002110920b.dat.gz \
+2002110920e.dat.gz \
+2002110920f.dat.gz \
+2002110920g.dat.gz \
+2002110920r.dat.gz \
+2002110920t.dat.gz \
+2002110920w.dat.gz \
+2002110922a.dat.gz \
+2002110922b.dat.gz \
+2002110922e.dat.gz \
+2002110922f.dat.gz \
+2002110922g.dat.gz \
+2002110922r.dat.gz \
+2002110922t.dat.gz \
+2002110922w.dat.gz \
+2002110923c.dat.gz \
+2002111000a.dat.gz \
+2002111000aa.dat.gz \
+2002111000b.dat.gz \
+2002111000ba.dat.gz \
+2002111000c.dat.gz \
+2002111000e.dat.gz \
+2002111000f.dat.gz \
+2002111000fa.dat.gz \
+2002111000g.dat.gz \
+2002111000r.dat.gz \
+2002111000ra.dat.gz \
+2002111000t.dat.gz \
+2002111000ta.dat.gz \
+2002111000w.dat.gz \
+2002111000wa.dat.gz \
+"

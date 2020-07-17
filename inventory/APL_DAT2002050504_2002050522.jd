@@ -1,0 +1,110 @@
+JD_FILE=APL_DAT2002050504_2002050522.jd
+CD_YEAR=2002
+CD_LABEL=2002050504-2002050522
+CD_NUMBER=191
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002050504_2002050522
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002050504a.dat.gz \
+2002050504b.dat.gz \
+2002050504e.dat.gz \
+2002050504f.dat.gz \
+2002050504g.dat.gz \
+2002050504k.dat.gz \
+2002050504r.dat.gz \
+2002050504t.dat.gz \
+2002050504w.dat.gz \
+2002050506a.dat.gz \
+2002050506b.dat.gz \
+2002050506e.dat.gz \
+2002050506f.dat.gz \
+2002050506g.dat.gz \
+2002050506k.dat.gz \
+2002050506r.dat.gz \
+2002050506t.dat.gz \
+2002050506w.dat.gz \
+2002050508a.dat.gz \
+2002050508b.dat.gz \
+2002050508e.dat.gz \
+2002050508f.dat.gz \
+2002050508g.dat.gz \
+2002050508k.dat.gz \
+2002050508r.dat.gz \
+2002050508t.dat.gz \
+2002050508w.dat.gz \
+2002050510a.dat.gz \
+2002050510aa.dat.gz \
+2002050510b.dat.gz \
+2002050510ba.dat.gz \
+2002050510e.dat.gz \
+2002050510ea.dat.gz \
+2002050510f.dat.gz \
+2002050510fa.dat.gz \
+2002050510g.dat.gz \
+2002050510ga.dat.gz \
+2002050510k.dat.gz \
+2002050510ka.dat.gz \
+2002050510r.dat.gz \
+2002050510ra.dat.gz \
+2002050510t.dat.gz \
+2002050510ta.dat.gz \
+2002050510w.dat.gz \
+2002050510wa.dat.gz \
+2002050512a.dat.gz \
+2002050512b.dat.gz \
+2002050512e.dat.gz \
+2002050512f.dat.gz \
+2002050512g.dat.gz \
+2002050512k.dat.gz \
+2002050512r.dat.gz \
+2002050512t.dat.gz \
+2002050512w.dat.gz \
+2002050514a.dat.gz \
+2002050514b.dat.gz \
+2002050514e.dat.gz \
+2002050514f.dat.gz \
+2002050514g.dat.gz \
+2002050514k.dat.gz \
+2002050514r.dat.gz \
+2002050514t.dat.gz \
+2002050514w.dat.gz \
+2002050516a.dat.gz \
+2002050516b.dat.gz \
+2002050516e.dat.gz \
+2002050516f.dat.gz \
+2002050516g.dat.gz \
+2002050516k.dat.gz \
+2002050516r.dat.gz \
+2002050516t.dat.gz \
+2002050516w.dat.gz \
+2002050518a.dat.gz \
+2002050518b.dat.gz \
+2002050518e.dat.gz \
+2002050518f.dat.gz \
+2002050518g.dat.gz \
+2002050518k.dat.gz \
+2002050518r.dat.gz \
+2002050518t.dat.gz \
+2002050518w.dat.gz \
+2002050520a.dat.gz \
+2002050520b.dat.gz \
+2002050520e.dat.gz \
+2002050520f.dat.gz \
+2002050520g.dat.gz \
+2002050520k.dat.gz \
+2002050520r.dat.gz \
+2002050520t.dat.gz \
+2002050520w.dat.gz \
+2002050522a.dat.gz \
+2002050522b.dat.gz \
+2002050522e.dat.gz \
+2002050522f.dat.gz \
+2002050522g.dat.gz \
+2002050522k.dat.gz \
+2002050522r.dat.gz \
+2002050522t.dat.gz \
+2002050522w.dat.gz \
+"

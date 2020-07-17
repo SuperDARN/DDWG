@@ -1,0 +1,111 @@
+JD_FILE=APL_DAT2002031106_2002031121.jd
+CD_YEAR=2002
+CD_LABEL=2002031106-2002031121
+CD_NUMBER=112
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002031106_2002031121
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002031106a.dat.gz \
+2002031106b.dat.gz \
+2002031106e.dat.gz \
+2002031106f.dat.gz \
+2002031106g.dat.gz \
+2002031106k.dat.gz \
+2002031106r.dat.gz \
+2002031106t.dat.gz \
+2002031106w.dat.gz \
+2002031108a.dat.gz \
+2002031108b.dat.gz \
+2002031108e.dat.gz \
+2002031108f.dat.gz \
+2002031108g.dat.gz \
+2002031108k.dat.gz \
+2002031108r.dat.gz \
+2002031108t.dat.gz \
+2002031108w.dat.gz \
+2002031110a.dat.gz \
+2002031110b.dat.gz \
+2002031110e.dat.gz \
+2002031110f.dat.gz \
+2002031110g.dat.gz \
+2002031110k.dat.gz \
+2002031110r.dat.gz \
+2002031110t.dat.gz \
+2002031110w.dat.gz \
+2002031112a.dat.gz \
+2002031112aa.dat.gz \
+2002031112b.dat.gz \
+2002031112ba.dat.gz \
+2002031112e.dat.gz \
+2002031112f.dat.gz \
+2002031112g.dat.gz \
+2002031112ga.dat.gz \
+2002031112k.dat.gz \
+2002031112ka.dat.gz \
+2002031112r.dat.gz \
+2002031112ra.dat.gz \
+2002031112t.dat.gz \
+2002031112ta.dat.gz \
+2002031112w.dat.gz \
+2002031112wa.dat.gz \
+2002031114a.dat.gz \
+2002031114b.dat.gz \
+2002031114e.dat.gz \
+2002031114f.dat.gz \
+2002031114g.dat.gz \
+2002031114k.dat.gz \
+2002031114r.dat.gz \
+2002031114t.dat.gz \
+2002031114w.dat.gz \
+2002031116a.dat.gz \
+2002031116b.dat.gz \
+2002031116e.dat.gz \
+2002031116f.dat.gz \
+2002031116g.dat.gz \
+2002031116k.dat.gz \
+2002031116r.dat.gz \
+2002031116t.dat.gz \
+2002031116w.dat.gz \
+2002031118a.dat.gz \
+2002031118b.dat.gz \
+2002031118e.dat.gz \
+2002031118f.dat.gz \
+2002031118fa.dat.gz \
+2002031118g.dat.gz \
+2002031118k.dat.gz \
+2002031118r.dat.gz \
+2002031118t.dat.gz \
+2002031118ta.dat.gz \
+2002031118w.dat.gz \
+2002031118wa.dat.gz \
+2002031119a.dat.gz \
+2002031119aa.dat.gz \
+2002031119ab.dat.gz \
+2002031119ac.dat.gz \
+2002031119ad.dat.gz \
+2002031119ae.dat.gz \
+2002031119af.dat.gz \
+2002031119ag.dat.gz \
+2002031120a.dat.gz \
+2002031120aa.dat.gz \
+2002031120ab.dat.gz \
+2002031120ac.dat.gz \
+2002031120ad.dat.gz \
+2002031120ae.dat.gz \
+2002031120b.dat.gz \
+2002031120e.dat.gz \
+2002031120f.dat.gz \
+2002031120g.dat.gz \
+2002031120k.dat.gz \
+2002031120r.dat.gz \
+2002031120t.dat.gz \
+2002031120w.dat.gz \
+2002031121a.dat.gz \
+2002031121aa.dat.gz \
+2002031121ab.dat.gz \
+2002031121ac.dat.gz \
+2002031121ad.dat.gz \
+"

@@ -1,0 +1,125 @@
+JD_FILE=APL_DAT2003011710_2003011800.jd
+CD_YEAR=2003
+CD_LABEL=2003011710-2003011800
+CD_NUMBER=17
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2003011710_2003011800
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2003011710a.dat.gz \
+2003011710b.dat.gz \
+2003011710c.dat.gz \
+2003011710e.dat.gz \
+2003011710g.dat.gz \
+2003011710k.dat.gz \
+2003011710r.dat.gz \
+2003011710t.dat.gz \
+2003011710w.dat.gz \
+2003011712a.dat.gz \
+2003011712aa.dat.gz \
+2003011712b.dat.gz \
+2003011712ba.dat.gz \
+2003011712c.dat.gz \
+2003011712ca.dat.gz \
+2003011712e.dat.gz \
+2003011712ea.dat.gz \
+2003011712g.dat.gz \
+2003011712ga.dat.gz \
+2003011712k.dat.gz \
+2003011712ka.dat.gz \
+2003011712r.dat.gz \
+2003011712ra.dat.gz \
+2003011712t.dat.gz \
+2003011712ta.dat.gz \
+2003011712w.dat.gz \
+2003011712wa.dat.gz \
+2003011714a.dat.gz \
+2003011714b.dat.gz \
+2003011714c.dat.gz \
+2003011714e.dat.gz \
+2003011714f.dat.gz \
+2003011714fa.dat.gz \
+2003011714fb.dat.gz \
+2003011714fc.dat.gz \
+2003011714fd.dat.gz \
+2003011714fe.dat.gz \
+2003011714ff.dat.gz \
+2003011714fg.dat.gz \
+2003011714g.dat.gz \
+2003011714k.dat.gz \
+2003011714r.dat.gz \
+2003011714t.dat.gz \
+2003011714w.dat.gz \
+2003011715c.dat.gz \
+2003011715f.dat.gz \
+2003011715fa.dat.gz \
+2003011716a.dat.gz \
+2003011716b.dat.gz \
+2003011716c.dat.gz \
+2003011716ca.dat.gz \
+2003011716cb.dat.gz \
+2003011716e.dat.gz \
+2003011716f.dat.gz \
+2003011716g.dat.gz \
+2003011716k.dat.gz \
+2003011716r.dat.gz \
+2003011716t.dat.gz \
+2003011716w.dat.gz \
+2003011718a.dat.gz \
+2003011718b.dat.gz \
+2003011718c.dat.gz \
+2003011718e.dat.gz \
+2003011718f.dat.gz \
+2003011718g.dat.gz \
+2003011718k.dat.gz \
+2003011718r.dat.gz \
+2003011718t.dat.gz \
+2003011718w.dat.gz \
+2003011720a.dat.gz \
+2003011720aa.dat.gz \
+2003011720ab.dat.gz \
+2003011720ac.dat.gz \
+2003011720ad.dat.gz \
+2003011720ae.dat.gz \
+2003011720af.dat.gz \
+2003011720ag.dat.gz \
+2003011720ah.dat.gz \
+2003011720b.dat.gz \
+2003011720c.dat.gz \
+2003011720e.dat.gz \
+2003011720f.dat.gz \
+2003011720g.dat.gz \
+2003011720k.dat.gz \
+2003011720r.dat.gz \
+2003011720t.dat.gz \
+2003011720w.dat.gz \
+2003011721a.dat.gz \
+2003011721aa.dat.gz \
+2003011721ab.dat.gz \
+2003011721ac.dat.gz \
+2003011721ad.dat.gz \
+2003011722a.dat.gz \
+2003011722aa.dat.gz \
+2003011722ab.dat.gz \
+2003011722b.dat.gz \
+2003011722c.dat.gz \
+2003011722e.dat.gz \
+2003011722f.dat.gz \
+2003011722g.dat.gz \
+2003011722k.dat.gz \
+2003011722r.dat.gz \
+2003011722t.dat.gz \
+2003011722w.dat.gz \
+2003011800a.dat.gz \
+2003011800b.dat.gz \
+2003011800c.dat.gz \
+2003011800e.dat.gz \
+2003011800f.dat.gz \
+2003011800g.dat.gz \
+2003011800k.dat.gz \
+2003011800r.dat.gz \
+2003011800t.dat.gz \
+2003011800w.dat.gz \
+"

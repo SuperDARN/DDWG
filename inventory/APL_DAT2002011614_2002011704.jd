@@ -1,0 +1,94 @@
+JD_FILE=APL_DAT2002011614_2002011704.jd
+CD_YEAR=2002
+CD_LABEL=2002011614-2002011704
+CD_NUMBER=21
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002011614_2002011704
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002011614a.dat.gz \
+2002011614b.dat.gz \
+2002011614e.dat.gz \
+2002011614f.dat.gz \
+2002011614g.dat.gz \
+2002011614k.dat.gz \
+2002011614r.dat.gz \
+2002011614t.dat.gz \
+2002011614w.dat.gz \
+2002011615e.dat.gz \
+2002011615f.dat.gz \
+2002011616a.dat.gz \
+2002011616b.dat.gz \
+2002011616e.dat.gz \
+2002011616f.dat.gz \
+2002011616g.dat.gz \
+2002011616k.dat.gz \
+2002011616r.dat.gz \
+2002011616t.dat.gz \
+2002011616w.dat.gz \
+2002011618a.dat.gz \
+2002011618b.dat.gz \
+2002011618e.dat.gz \
+2002011618f.dat.gz \
+2002011618g.dat.gz \
+2002011618k.dat.gz \
+2002011618r.dat.gz \
+2002011618t.dat.gz \
+2002011618w.dat.gz \
+2002011619k.dat.gz \
+2002011619ka.dat.gz \
+2002011620a.dat.gz \
+2002011620b.dat.gz \
+2002011620e.dat.gz \
+2002011620f.dat.gz \
+2002011620g.dat.gz \
+2002011620k.dat.gz \
+2002011620r.dat.gz \
+2002011620t.dat.gz \
+2002011620w.dat.gz \
+2002011622a.dat.gz \
+2002011622b.dat.gz \
+2002011622e.dat.gz \
+2002011622f.dat.gz \
+2002011622g.dat.gz \
+2002011622k.dat.gz \
+2002011622r.dat.gz \
+2002011622t.dat.gz \
+2002011622w.dat.gz \
+2002011700a.dat.gz \
+2002011700aa.dat.gz \
+2002011700b.dat.gz \
+2002011700ba.dat.gz \
+2002011700e.dat.gz \
+2002011700f.dat.gz \
+2002011700g.dat.gz \
+2002011700ga.dat.gz \
+2002011700k.dat.gz \
+2002011700ka.dat.gz \
+2002011700r.dat.gz \
+2002011700ra.dat.gz \
+2002011700t.dat.gz \
+2002011700ta.dat.gz \
+2002011700w.dat.gz \
+2002011700wa.dat.gz \
+2002011702a.dat.gz \
+2002011702b.dat.gz \
+2002011702e.dat.gz \
+2002011702f.dat.gz \
+2002011702g.dat.gz \
+2002011702k.dat.gz \
+2002011702r.dat.gz \
+2002011702t.dat.gz \
+2002011702w.dat.gz \
+2002011704a.dat.gz \
+2002011704b.dat.gz \
+2002011704e.dat.gz \
+2002011704f.dat.gz \
+2002011704g.dat.gz \
+2002011704k.dat.gz \
+2002011704r.dat.gz \
+2002011704t.dat.gz \
+2002011704w.dat.gz \
+"

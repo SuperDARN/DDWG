@@ -1,0 +1,133 @@
+JD_FILE=APL_RAWACF2009051420_2009051510.jd
+CD_YEAR=2009
+CD_LABEL=2009051420-2009051510
+CD_NUMBER=150
+CD_TEMPLATE=/usr/ymi/label-maker/labels/sdmrrawacf_s.pcl
+CD_VOL_SI="SUPERDARN MR RAWACF DATA MAIN"
+CD_VOL_VI=2009051420_2009051510
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/apl/rawacf
+FILES_TO_WRITE="\
+20090514.2000.00.ker.rawacf.bz2 \
+20090514.2000.00.sye.rawacf.bz2 \
+20090514.2000.04.tig.rawacf.bz2 \
+20090514.2000.07.unw.rawacf.bz2 \
+20090514.2000.19.sys.rawacf.bz2 \
+20090514.2001.00.bks.rawacf.bz2 \
+20090514.2001.00.han.rawacf.bz2 \
+20090514.2001.00.hok.rawacf.bz2 \
+20090514.2001.00.inv.rawacf.bz2 \
+20090514.2001.00.pgr.rawacf.bz2 \
+20090514.2001.00.pyk.rawacf.bz2 \
+20090514.2001.00.rkn.rawacf.bz2 \
+20090514.2001.00.sas.rawacf.bz2 \
+20090514.2002.00.gbr.rawacf.bz2 \
+20090514.2002.00.kap.rawacf.bz2 \
+20090514.2159.37.sas.rawacf.bz2 \
+20090514.2200.00.ker.rawacf.bz2 \
+20090514.2200.00.sye.rawacf.bz2 \
+20090514.2200.04.unw.rawacf.bz2 \
+20090514.2200.07.tig.rawacf.bz2 \
+20090514.2200.24.sys.rawacf.bz2 \
+20090514.2201.00.bks.rawacf.bz2 \
+20090514.2201.00.han.rawacf.bz2 \
+20090514.2201.00.hok.rawacf.bz2 \
+20090514.2201.00.inv.rawacf.bz2 \
+20090514.2201.00.pgr.rawacf.bz2 \
+20090514.2201.00.pyk.rawacf.bz2 \
+20090514.2201.00.rkn.rawacf.bz2 \
+20090514.2201.00.sas.rawacf.bz2 \
+20090514.2202.00.gbr.rawacf.bz2 \
+20090514.2202.00.kap.rawacf.bz2 \
+20090515.0000.00.ker.rawacf.bz2 \
+20090515.0000.00.sye.rawacf.bz2 \
+20090515.0000.06.tig.rawacf.bz2 \
+20090515.0000.10.unw.rawacf.bz2 \
+20090515.0000.12.bks.rawacf.bz2 \
+20090515.0000.12.hok.rawacf.bz2 \
+20090515.0000.29.sys.rawacf.bz2 \
+20090515.0001.00.han.rawacf.bz2 \
+20090515.0001.00.inv.rawacf.bz2 \
+20090515.0001.00.pgr.rawacf.bz2 \
+20090515.0001.00.pyk.rawacf.bz2 \
+20090515.0001.00.rkn.rawacf.bz2 \
+20090515.0001.00.sas.rawacf.bz2 \
+20090515.0002.00.gbr.rawacf.bz2 \
+20090515.0002.00.kap.rawacf.bz2 \
+20090515.0200.00.ker.rawacf.bz2 \
+20090515.0200.00.sye.rawacf.bz2 \
+20090515.0200.07.tig.rawacf.bz2 \
+20090515.0200.08.unw.rawacf.bz2 \
+20090515.0200.33.sys.rawacf.bz2 \
+20090515.0201.00.bks.rawacf.bz2 \
+20090515.0201.00.han.rawacf.bz2 \
+20090515.0201.00.hok.rawacf.bz2 \
+20090515.0201.00.inv.rawacf.bz2 \
+20090515.0201.00.pgr.rawacf.bz2 \
+20090515.0201.00.pyk.rawacf.bz2 \
+20090515.0201.00.rkn.rawacf.bz2 \
+20090515.0201.00.sas.rawacf.bz2 \
+20090515.0202.00.gbr.rawacf.bz2 \
+20090515.0202.00.kap.rawacf.bz2 \
+20090515.0400.00.ker.rawacf.bz2 \
+20090515.0400.00.sye.rawacf.bz2 \
+20090515.0400.05.unw.rawacf.bz2 \
+20090515.0400.06.tig.rawacf.bz2 \
+20090515.0400.34.sys.rawacf.bz2 \
+20090515.0401.00.bks.rawacf.bz2 \
+20090515.0401.00.han.rawacf.bz2 \
+20090515.0401.00.hok.rawacf.bz2 \
+20090515.0401.00.inv.rawacf.bz2 \
+20090515.0401.00.pgr.rawacf.bz2 \
+20090515.0401.00.pyk.rawacf.bz2 \
+20090515.0401.00.rkn.rawacf.bz2 \
+20090515.0401.00.sas.rawacf.bz2 \
+20090515.0402.00.gbr.rawacf.bz2 \
+20090515.0402.00.kap.rawacf.bz2 \
+20090515.0600.00.ker.rawacf.bz2 \
+20090515.0600.00.sye.rawacf.bz2 \
+20090515.0600.12.tig.rawacf.bz2 \
+20090515.0600.35.sys.rawacf.bz2 \
+20090515.0601.00.bks.rawacf.bz2 \
+20090515.0601.00.han.rawacf.bz2 \
+20090515.0601.00.hok.rawacf.bz2 \
+20090515.0601.00.inv.rawacf.bz2 \
+20090515.0601.00.pgr.rawacf.bz2 \
+20090515.0601.00.pyk.rawacf.bz2 \
+20090515.0601.00.rkn.rawacf.bz2 \
+20090515.0601.00.sas.rawacf.bz2 \
+20090515.0602.00.gbr.rawacf.bz2 \
+20090515.0602.00.kap.rawacf.bz2 \
+20090515.0800.00.sye.rawacf.bz2 \
+20090515.0800.06.tig.rawacf.bz2 \
+20090515.0800.10.unw.rawacf.bz2 \
+20090515.0800.12.bks.rawacf.bz2 \
+20090515.0800.30.sys.rawacf.bz2 \
+20090515.0801.00.han.rawacf.bz2 \
+20090515.0801.00.hok.rawacf.bz2 \
+20090515.0801.00.inv.rawacf.bz2 \
+20090515.0801.00.ker.rawacf.bz2 \
+20090515.0801.00.pgr.rawacf.bz2 \
+20090515.0801.00.pyk.rawacf.bz2 \
+20090515.0801.00.rkn.rawacf.bz2 \
+20090515.0801.00.sas.rawacf.bz2 \
+20090515.0802.00.gbr.rawacf.bz2 \
+20090515.0802.00.kap.rawacf.bz2 \
+20090515.0946.09.kod.rawacf.bz2 \
+20090515.1000.00.ker.rawacf.bz2 \
+20090515.1000.00.sye.rawacf.bz2 \
+20090515.1000.07.unw.rawacf.bz2 \
+20090515.1000.32.sys.rawacf.bz2 \
+20090515.1001.00.bks.rawacf.bz2 \
+20090515.1001.00.han.rawacf.bz2 \
+20090515.1001.00.hok.rawacf.bz2 \
+20090515.1001.00.inv.rawacf.bz2 \
+20090515.1001.00.kod.rawacf.bz2 \
+20090515.1001.00.pgr.rawacf.bz2 \
+20090515.1001.00.pyk.rawacf.bz2 \
+20090515.1001.00.rkn.rawacf.bz2 \
+20090515.1001.00.sas.rawacf.bz2 \
+20090515.1002.00.gbr.rawacf.bz2 \
+20090515.1002.00.kap.rawacf.bz2 \
+"

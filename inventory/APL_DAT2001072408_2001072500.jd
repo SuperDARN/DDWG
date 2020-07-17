@@ -1,0 +1,100 @@
+JD_FILE=APL_DAT2001072408_2001072500.jd
+CD_YEAR=2001
+CD_LABEL=2001072408-2001072500
+CD_NUMBER=264
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001072408_2001072500
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001072408a.dat.gz \
+2001072408b.dat.gz \
+2001072408e.dat.gz \
+2001072408f.dat.gz \
+2001072408g.dat.gz \
+2001072408k.dat.gz \
+2001072408r.dat.gz \
+2001072408t.dat.gz \
+2001072408w.dat.gz \
+2001072410a.dat.gz \
+2001072410b.dat.gz \
+2001072410e.dat.gz \
+2001072410f.dat.gz \
+2001072410g.dat.gz \
+2001072410k.dat.gz \
+2001072410r.dat.gz \
+2001072410t.dat.gz \
+2001072410w.dat.gz \
+2001072412a.dat.gz \
+2001072412b.dat.gz \
+2001072412e.dat.gz \
+2001072412f.dat.gz \
+2001072412g.dat.gz \
+2001072412k.dat.gz \
+2001072412r.dat.gz \
+2001072412t.dat.gz \
+2001072412w.dat.gz \
+2001072414a.dat.gz \
+2001072414b.dat.gz \
+2001072414e.dat.gz \
+2001072414f.dat.gz \
+2001072414g.dat.gz \
+2001072414k.dat.gz \
+2001072414r.dat.gz \
+2001072414t.dat.gz \
+2001072414w.dat.gz \
+2001072416a.dat.gz \
+2001072416b.dat.gz \
+2001072416e.dat.gz \
+2001072416f.dat.gz \
+2001072416g.dat.gz \
+2001072416k.dat.gz \
+2001072416r.dat.gz \
+2001072416t.dat.gz \
+2001072416w.dat.gz \
+2001072418a.dat.gz \
+2001072418b.dat.gz \
+2001072418e.dat.gz \
+2001072418f.dat.gz \
+2001072418g.dat.gz \
+2001072418k.dat.gz \
+2001072418r.dat.gz \
+2001072418t.dat.gz \
+2001072418w.dat.gz \
+2001072420a.dat.gz \
+2001072420b.dat.gz \
+2001072420e.dat.gz \
+2001072420f.dat.gz \
+2001072420g.dat.gz \
+2001072420k.dat.gz \
+2001072420r.dat.gz \
+2001072420t.dat.gz \
+2001072420w.dat.gz \
+2001072421a.dat.gz \
+2001072422a.dat.gz \
+2001072422b.dat.gz \
+2001072422e.dat.gz \
+2001072422f.dat.gz \
+2001072422g.dat.gz \
+2001072422k.dat.gz \
+2001072422ka.dat.gz \
+2001072422r.dat.gz \
+2001072422t.dat.gz \
+2001072422w.dat.gz \
+2001072500a.dat.gz \
+2001072500aa.dat.gz \
+2001072500b.dat.gz \
+2001072500ba.dat.gz \
+2001072500e.dat.gz \
+2001072500f.dat.gz \
+2001072500g.dat.gz \
+2001072500ga.dat.gz \
+2001072500k.dat.gz \
+2001072500ka.dat.gz \
+2001072500r.dat.gz \
+2001072500t.dat.gz \
+2001072500ta.dat.gz \
+2001072500w.dat.gz \
+2001072500wa.dat.gz \
+"

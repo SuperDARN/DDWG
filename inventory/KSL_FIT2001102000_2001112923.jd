@@ -1,0 +1,109 @@
+JD_FILE=KSL_FIT2001102000_2001112923.jd
+CD_YEAR=2001
+CD_LABEL=2001102000-2001112923
+CD_NUMBER=108A
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrfit_n.pcl
+CD_VOL_SI="KING SALMON SUPERDARN FIT DATA"
+CD_VOL_VI=2001102000_2001112923
+CDS_TO_WRITE=17
+SOURCE_DIRECTORY=/data/apl/fit
+FILES_TO_WRITE="\
+2001102004c.fit.gz \
+2001102004c.inx.gz \
+2001102006c.fit.gz \
+2001102006c.inx.gz \
+2001102008c.fit.gz \
+2001102008c.inx.gz \
+2001102010c.fit.gz \
+2001102010c.inx.gz \
+2001102012c.fit.gz \
+2001102012c.inx.gz \
+2001102014c.fit.gz \
+2001102014c.inx.gz \
+2001102016c.fit.gz \
+2001102016c.inx.gz \
+2001102018c.fit.gz \
+2001102018c.inx.gz \
+2001102020c.fit.gz \
+2001102020c.inx.gz \
+2001102022c.fit.gz \
+2001102022c.inx.gz \
+20011020c.smr.gz \
+2001102100c.fit.gz \
+2001102100c.inx.gz \
+2001102102c.fit.gz \
+2001102102c.inx.gz \
+2001102104c.fit.gz \
+2001102104c.inx.gz \
+2001102106c.fit.gz \
+2001102106c.inx.gz \
+2001102108c.fit.gz \
+2001102108c.inx.gz \
+2001102110c.fit.gz \
+2001102110c.inx.gz \
+2001102112c.fit.gz \
+2001102112c.inx.gz \
+2001102114c.fit.gz \
+2001102114c.inx.gz \
+2001102116c.fit.gz \
+2001102116c.inx.gz \
+2001102118c.fit.gz \
+2001102118c.inx.gz \
+2001102120c.fit.gz \
+2001102120c.inx.gz \
+2001102122c.fit.gz \
+2001102122c.inx.gz \
+20011021c.smr.gz \
+2001102200c.fit.gz \
+2001102200c.inx.gz \
+2001102202c.fit.gz \
+2001102202c.inx.gz \
+2001102204c.fit.gz \
+2001102204c.inx.gz \
+2001102206c.fit.gz \
+2001102206c.inx.gz \
+2001102208c.fit.gz \
+2001102208c.inx.gz \
+2001102210c.fit.gz \
+2001102210c.inx.gz \
+2001102212c.fit.gz \
+2001102212c.inx.gz \
+2001102214c.fit.gz \
+2001102214c.inx.gz \
+2001102216c.fit.gz \
+2001102216c.inx.gz \
+2001102218c.fit.gz \
+2001102218c.inx.gz \
+2001102220c.fit.gz \
+2001102220c.inx.gz \
+20011022c.smr.gz \
+2001112919c.fit.gz \
+2001112919c.inx.gz \
+2001112920c.fit.gz \
+2001112920c.inx.gz \
+2001112920ca.fit.gz \
+2001112920ca.inx.gz \
+2001112921c.fit.gz \
+2001112921c.inx.gz \
+2001112921ca.fit.gz \
+2001112921ca.inx.gz \
+2001112921cb.fit.gz \
+2001112921cb.inx.gz \
+2001112921cc.fit.gz \
+2001112921cc.inx.gz \
+2001112921cd.fit.gz \
+2001112921cd.inx.gz \
+2001112922c.fit.gz \
+2001112922c.inx.gz \
+2001112922ca.fit.gz \
+2001112922ca.inx.gz \
+2001112922cb.fit.gz \
+2001112922cb.inx.gz \
+2001112923c.fit.gz \
+2001112923c.inx.gz \
+2001112923ca.fit.gz \
+2001112923ca.inx.gz \
+2001112923cb.fit.gz \
+2001112923cb.inx.gz \
+20011129c.smr.gz \
+"

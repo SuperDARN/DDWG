@@ -1,0 +1,110 @@
+JD_FILE=APL_DAT2002020210_2002020306.jd
+CD_YEAR=2002
+CD_LABEL=2002020210-2002020306
+CD_NUMBER=52
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002020210_2002020306
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002020210a.dat.gz \
+2002020210b.dat.gz \
+2002020210e.dat.gz \
+2002020210f.dat.gz \
+2002020210g.dat.gz \
+2002020210k.dat.gz \
+2002020210r.dat.gz \
+2002020210t.dat.gz \
+2002020210w.dat.gz \
+2002020212a.dat.gz \
+2002020212b.dat.gz \
+2002020212e.dat.gz \
+2002020212f.dat.gz \
+2002020212g.dat.gz \
+2002020212k.dat.gz \
+2002020212r.dat.gz \
+2002020212t.dat.gz \
+2002020212w.dat.gz \
+2002020214a.dat.gz \
+2002020214b.dat.gz \
+2002020214e.dat.gz \
+2002020214f.dat.gz \
+2002020214g.dat.gz \
+2002020214k.dat.gz \
+2002020214r.dat.gz \
+2002020214t.dat.gz \
+2002020214w.dat.gz \
+2002020216a.dat.gz \
+2002020216b.dat.gz \
+2002020216e.dat.gz \
+2002020216f.dat.gz \
+2002020216g.dat.gz \
+2002020216k.dat.gz \
+2002020216r.dat.gz \
+2002020216t.dat.gz \
+2002020216w.dat.gz \
+2002020218a.dat.gz \
+2002020218b.dat.gz \
+2002020218e.dat.gz \
+2002020218f.dat.gz \
+2002020218g.dat.gz \
+2002020218k.dat.gz \
+2002020218r.dat.gz \
+2002020218t.dat.gz \
+2002020218w.dat.gz \
+2002020220a.dat.gz \
+2002020220b.dat.gz \
+2002020220e.dat.gz \
+2002020220f.dat.gz \
+2002020220g.dat.gz \
+2002020220k.dat.gz \
+2002020220r.dat.gz \
+2002020220t.dat.gz \
+2002020220w.dat.gz \
+2002020222a.dat.gz \
+2002020222b.dat.gz \
+2002020222e.dat.gz \
+2002020222f.dat.gz \
+2002020222g.dat.gz \
+2002020222k.dat.gz \
+2002020222r.dat.gz \
+2002020222t.dat.gz \
+2002020222w.dat.gz \
+2002020300a.dat.gz \
+2002020300b.dat.gz \
+2002020300e.dat.gz \
+2002020300f.dat.gz \
+2002020300g.dat.gz \
+2002020300k.dat.gz \
+2002020300r.dat.gz \
+2002020300t.dat.gz \
+2002020300w.dat.gz \
+2002020302a.dat.gz \
+2002020302b.dat.gz \
+2002020302e.dat.gz \
+2002020302f.dat.gz \
+2002020302g.dat.gz \
+2002020302k.dat.gz \
+2002020302r.dat.gz \
+2002020302t.dat.gz \
+2002020302w.dat.gz \
+2002020304a.dat.gz \
+2002020304b.dat.gz \
+2002020304e.dat.gz \
+2002020304f.dat.gz \
+2002020304g.dat.gz \
+2002020304k.dat.gz \
+2002020304r.dat.gz \
+2002020304t.dat.gz \
+2002020304w.dat.gz \
+2002020306a.dat.gz \
+2002020306b.dat.gz \
+2002020306e.dat.gz \
+2002020306f.dat.gz \
+2002020306g.dat.gz \
+2002020306k.dat.gz \
+2002020306r.dat.gz \
+2002020306t.dat.gz \
+2002020306w.dat.gz \
+"

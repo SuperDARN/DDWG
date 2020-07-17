@@ -1,0 +1,68 @@
+JD_FILE=APL_DAT2002010906_2002010916.jd
+CD_YEAR=2002
+CD_LABEL=2002010906-2002010916
+CD_NUMBER=12
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002010906_2002010916
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002010906a.dat.gz \
+2002010906b.dat.gz \
+2002010906e.dat.gz \
+2002010906f.dat.gz \
+2002010906g.dat.gz \
+2002010906k.dat.gz \
+2002010906r.dat.gz \
+2002010906t.dat.gz \
+2002010906w.dat.gz \
+2002010908a.dat.gz \
+2002010908b.dat.gz \
+2002010908e.dat.gz \
+2002010908f.dat.gz \
+2002010908g.dat.gz \
+2002010908k.dat.gz \
+2002010908r.dat.gz \
+2002010908t.dat.gz \
+2002010908w.dat.gz \
+2002010910a.dat.gz \
+2002010910b.dat.gz \
+2002010910e.dat.gz \
+2002010910f.dat.gz \
+2002010910g.dat.gz \
+2002010910k.dat.gz \
+2002010910r.dat.gz \
+2002010910t.dat.gz \
+2002010910w.dat.gz \
+2002010911e.dat.gz \
+2002010911f.dat.gz \
+2002010912a.dat.gz \
+2002010912b.dat.gz \
+2002010912e.dat.gz \
+2002010912f.dat.gz \
+2002010912g.dat.gz \
+2002010912k.dat.gz \
+2002010912r.dat.gz \
+2002010912t.dat.gz \
+2002010912w.dat.gz \
+2002010914a.dat.gz \
+2002010914b.dat.gz \
+2002010914e.dat.gz \
+2002010914f.dat.gz \
+2002010914g.dat.gz \
+2002010914k.dat.gz \
+2002010914r.dat.gz \
+2002010914t.dat.gz \
+2002010914w.dat.gz \
+2002010915f.dat.gz \
+2002010916a.dat.gz \
+2002010916b.dat.gz \
+2002010916e.dat.gz \
+2002010916f.dat.gz \
+2002010916g.dat.gz \
+2002010916k.dat.gz \
+2002010916r.dat.gz \
+2002010916t.dat.gz \
+2002010916w.dat.gz \
+"

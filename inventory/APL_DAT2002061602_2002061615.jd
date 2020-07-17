@@ -1,0 +1,92 @@
+JD_FILE=APL_DAT2002061602_2002061615.jd
+CD_YEAR=2002
+CD_LABEL=2002061602-2002061615
+CD_NUMBER=244
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002061602_2002061615
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002061602a.dat.gz \
+2002061602b.dat.gz \
+2002061602c.dat.gz \
+2002061602e.dat.gz \
+2002061602f.dat.gz \
+2002061602g.dat.gz \
+2002061602k.dat.gz \
+2002061602r.dat.gz \
+2002061602t.dat.gz \
+2002061602w.dat.gz \
+2002061604a.dat.gz \
+2002061604b.dat.gz \
+2002061604c.dat.gz \
+2002061604e.dat.gz \
+2002061604f.dat.gz \
+2002061604g.dat.gz \
+2002061604k.dat.gz \
+2002061604r.dat.gz \
+2002061604t.dat.gz \
+2002061604w.dat.gz \
+2002061606a.dat.gz \
+2002061606b.dat.gz \
+2002061606c.dat.gz \
+2002061606e.dat.gz \
+2002061606f.dat.gz \
+2002061606g.dat.gz \
+2002061606k.dat.gz \
+2002061606r.dat.gz \
+2002061606t.dat.gz \
+2002061606w.dat.gz \
+2002061608a.dat.gz \
+2002061608b.dat.gz \
+2002061608c.dat.gz \
+2002061608e.dat.gz \
+2002061608f.dat.gz \
+2002061608g.dat.gz \
+2002061608k.dat.gz \
+2002061608r.dat.gz \
+2002061608t.dat.gz \
+2002061608w.dat.gz \
+2002061609c.dat.gz \
+2002061610a.dat.gz \
+2002061610b.dat.gz \
+2002061610c.dat.gz \
+2002061610ca.dat.gz \
+2002061610e.dat.gz \
+2002061610f.dat.gz \
+2002061610g.dat.gz \
+2002061610k.dat.gz \
+2002061610r.dat.gz \
+2002061610t.dat.gz \
+2002061610w.dat.gz \
+2002061611c.dat.gz \
+2002061612a.dat.gz \
+2002061612b.dat.gz \
+2002061612c.dat.gz \
+2002061612e.dat.gz \
+2002061612f.dat.gz \
+2002061612g.dat.gz \
+2002061612k.dat.gz \
+2002061612r.dat.gz \
+2002061612t.dat.gz \
+2002061612w.dat.gz \
+2002061613c.dat.gz \
+2002061613ca.dat.gz \
+2002061613cb.dat.gz \
+2002061614a.dat.gz \
+2002061614b.dat.gz \
+2002061614c.dat.gz \
+2002061614ca.dat.gz \
+2002061614cb.dat.gz \
+2002061614e.dat.gz \
+2002061614f.dat.gz \
+2002061614g.dat.gz \
+2002061614k.dat.gz \
+2002061614r.dat.gz \
+2002061614t.dat.gz \
+2002061614w.dat.gz \
+2002061615c.dat.gz \
+2002061615ca.dat.gz \
+2002061615cb.dat.gz \
+"

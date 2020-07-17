@@ -1,0 +1,124 @@
+JD_FILE=RKN2011022602_2011030708.jd
+CD_YEAR=2011
+CD_LABEL=2011022602-2011030708
+CD_NUMBER=7
+CD_TEMPLATE=/usr/ymi/label-maker/labels/rkn.pcl
+CD_VOL_SI="RANKIN INLET SUPERDARN DATA "
+CD_VOL_VI=2011022602_2011030708
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/rkn_cd_data
+FILES_TO_WRITE="\
+20110226.0202.00.rkn.rawacf.bz2 \
+20110226.0402.00.rkn.rawacf.bz2 \
+20110226.0600.11.rkn.rawacf.bz2 \
+20110226.0801.00.rkn.rawacf.bz2 \
+20110226.1001.00.rkn.rawacf.bz2 \
+20110226.1201.00.rkn.rawacf.bz2 \
+20110226.1401.00.rkn.rawacf.bz2 \
+20110226.1601.00.rkn.rawacf.bz2 \
+20110226.1801.00.rkn.rawacf.bz2 \
+20110226.2001.00.rkn.rawacf.bz2 \
+20110226.2201.00.rkn.rawacf.bz2 \
+20110227.0001.00.rkn.rawacf.bz2 \
+20110227.0201.00.rkn.rawacf.bz2 \
+20110227.0401.00.rkn.rawacf.bz2 \
+20110227.0601.00.rkn.rawacf.bz2 \
+20110227.0801.00.rkn.rawacf.bz2 \
+20110227.1001.00.rkn.rawacf.bz2 \
+20110227.1201.00.rkn.rawacf.bz2 \
+20110227.1401.00.rkn.rawacf.bz2 \
+20110227.1601.00.rkn.rawacf.bz2 \
+20110227.1801.00.rkn.rawacf.bz2 \
+20110227.2001.00.rkn.rawacf.bz2 \
+20110227.2201.00.rkn.rawacf.bz2 \
+20110228.0001.00.rkn.rawacf.bz2 \
+20110228.0201.00.rkn.rawacf.bz2 \
+20110228.0401.00.rkn.rawacf.bz2 \
+20110228.0601.00.rkn.rawacf.bz2 \
+20110228.0801.00.rkn.rawacf.bz2 \
+20110228.1001.00.rkn.rawacf.bz2 \
+20110228.1201.00.rkn.rawacf.bz2 \
+20110228.1401.00.rkn.rawacf.bz2 \
+20110228.1601.00.rkn.rawacf.bz2 \
+20110228.1801.00.rkn.rawacf.bz2 \
+20110228.2001.00.rkn.rawacf.bz2 \
+20110228.2201.00.rkn.rawacf.bz2 \
+20110301.0001.00.rkn.rawacf.bz2 \
+20110301.0201.00.rkn.rawacf.bz2 \
+20110301.0401.00.rkn.rawacf.bz2 \
+20110301.0601.00.rkn.rawacf.bz2 \
+20110301.0801.00.rkn.rawacf.bz2 \
+20110301.1001.00.rkn.rawacf.bz2 \
+20110301.1201.00.rkn.rawacf.bz2 \
+20110301.1401.00.rkn.rawacf.bz2 \
+20110301.1601.00.rkn.rawacf.bz2 \
+20110301.1801.00.rkn.rawacf.bz2 \
+20110301.2001.00.rkn.rawacf.bz2 \
+20110301.2201.00.rkn.rawacf.bz2 \
+20110302.0001.00.rkn.rawacf.bz2 \
+20110302.0201.00.rkn.rawacf.bz2 \
+20110302.0401.00.rkn.rawacf.bz2 \
+20110302.0601.00.rkn.rawacf.bz2 \
+20110302.0801.00.rkn.rawacf.bz2 \
+20110302.1001.00.rkn.rawacf.bz2 \
+20110302.1201.00.rkn.rawacf.bz2 \
+20110302.1401.00.rkn.rawacf.bz2 \
+20110302.1601.00.rkn.rawacf.bz2 \
+20110302.1801.00.rkn.rawacf.bz2 \
+20110302.2001.00.rkn.rawacf.bz2 \
+20110302.2201.00.rkn.rawacf.bz2 \
+20110303.0001.00.rkn.rawacf.bz2 \
+20110303.0201.00.rkn.rawacf.bz2 \
+20110303.0401.00.rkn.rawacf.bz2 \
+20110303.0601.00.rkn.rawacf.bz2 \
+20110303.0801.00.rkn.rawacf.bz2 \
+20110303.1001.00.rkn.rawacf.bz2 \
+20110303.1201.00.rkn.rawacf.bz2 \
+20110303.1401.00.rkn.rawacf.bz2 \
+20110303.1601.00.rkn.rawacf.bz2 \
+20110303.1801.00.rkn.rawacf.bz2 \
+20110303.2001.00.rkn.rawacf.bz2 \
+20110303.2201.00.rkn.rawacf.bz2 \
+20110304.0001.00.rkn.rawacf.bz2 \
+20110304.0201.00.rkn.rawacf.bz2 \
+20110304.0401.00.rkn.rawacf.bz2 \
+20110304.0601.00.rkn.rawacf.bz2 \
+20110304.0801.00.rkn.rawacf.bz2 \
+20110304.1001.00.rkn.rawacf.bz2 \
+20110304.1201.00.rkn.rawacf.bz2 \
+20110304.1401.00.rkn.rawacf.bz2 \
+20110304.1601.00.rkn.rawacf.bz2 \
+20110304.1801.00.rkn.rawacf.bz2 \
+20110304.2001.00.rkn.rawacf.bz2 \
+20110304.2201.00.rkn.rawacf.bz2 \
+20110305.0001.00.rkn.rawacf.bz2 \
+20110305.0201.00.rkn.rawacf.bz2 \
+20110305.0401.00.rkn.rawacf.bz2 \
+20110305.0601.00.rkn.rawacf.bz2 \
+20110305.0801.00.rkn.rawacf.bz2 \
+20110305.1001.00.rkn.rawacf.bz2 \
+20110305.1201.00.rkn.rawacf.bz2 \
+20110305.1401.00.rkn.rawacf.bz2 \
+20110305.1601.00.rkn.rawacf.bz2 \
+20110305.1801.00.rkn.rawacf.bz2 \
+20110305.2001.00.rkn.rawacf.bz2 \
+20110305.2201.00.rkn.rawacf.bz2 \
+20110306.0001.00.rkn.rawacf.bz2 \
+20110306.0201.00.rkn.rawacf.bz2 \
+20110306.0401.00.rkn.rawacf.bz2 \
+20110306.0601.00.rkn.rawacf.bz2 \
+20110306.0801.00.rkn.rawacf.bz2 \
+20110306.1001.00.rkn.rawacf.bz2 \
+20110306.1201.00.rkn.rawacf.bz2 \
+20110306.1401.00.rkn.rawacf.bz2 \
+20110306.1601.00.rkn.rawacf.bz2 \
+20110306.1801.00.rkn.rawacf.bz2 \
+20110306.2001.00.rkn.rawacf.bz2 \
+20110306.2201.00.rkn.rawacf.bz2 \
+20110307.0001.00.rkn.rawacf.bz2 \
+20110307.0201.00.rkn.rawacf.bz2 \
+20110307.0401.00.rkn.rawacf.bz2 \
+20110307.0601.00.rkn.rawacf.bz2 \
+20110307.0801.00.rkn.rawacf.bz2 \
+"

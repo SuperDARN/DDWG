@@ -1,0 +1,124 @@
+JD_FILE=SAS2008122216_2008123122.jd
+CD_YEAR=2008
+CD_LABEL=2008122216-2008123122
+CD_NUMBER=21
+CD_TEMPLATE=/usr/ymi/label-maker/labels/sas.pcl
+CD_VOL_SI="SASKATOON SUPERDARN DATA "
+CD_VOL_VI=2008122216_2008123122
+DATA_THRESHOLD=2448
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/sas_cd_data
+FILES_TO_WRITE="\
+20081222.1602.00.sas.rawacf.bz2 \
+20081222.1800.11.sas.rawacf.bz2 \
+20081222.2001.00.sas.rawacf.bz2 \
+20081222.2201.00.sas.rawacf.bz2 \
+20081223.0001.00.sas.rawacf.bz2 \
+20081223.0201.00.sas.rawacf.bz2 \
+20081223.0401.00.sas.rawacf.bz2 \
+20081223.0601.00.sas.rawacf.bz2 \
+20081223.0801.00.sas.rawacf.bz2 \
+20081223.1001.00.sas.rawacf.bz2 \
+20081223.1201.00.sas.rawacf.bz2 \
+20081223.1401.00.sas.rawacf.bz2 \
+20081223.1601.00.sas.rawacf.bz2 \
+20081223.1801.00.sas.rawacf.bz2 \
+20081223.2001.00.sas.rawacf.bz2 \
+20081223.2201.00.sas.rawacf.bz2 \
+20081224.0001.00.sas.rawacf.bz2 \
+20081224.0201.00.sas.rawacf.bz2 \
+20081224.0401.00.sas.rawacf.bz2 \
+20081224.0600.12.sas.rawacf.bz2 \
+20081224.0801.00.sas.rawacf.bz2 \
+20081224.1001.00.sas.rawacf.bz2 \
+20081224.1201.00.sas.rawacf.bz2 \
+20081224.1401.00.sas.rawacf.bz2 \
+20081224.1601.00.sas.rawacf.bz2 \
+20081224.1801.00.sas.rawacf.bz2 \
+20081224.2001.00.sas.rawacf.bz2 \
+20081224.2201.00.sas.rawacf.bz2 \
+20081225.0001.00.sas.rawacf.bz2 \
+20081225.0201.00.sas.rawacf.bz2 \
+20081225.0401.00.sas.rawacf.bz2 \
+20081225.0601.00.sas.rawacf.bz2 \
+20081225.0801.00.sas.rawacf.bz2 \
+20081225.1001.00.sas.rawacf.bz2 \
+20081225.1201.00.sas.rawacf.bz2 \
+20081225.1401.00.sas.rawacf.bz2 \
+20081225.1601.00.sas.rawacf.bz2 \
+20081225.1801.00.sas.rawacf.bz2 \
+20081225.2001.00.sas.rawacf.bz2 \
+20081225.2201.00.sas.rawacf.bz2 \
+20081226.0001.00.sas.rawacf.bz2 \
+20081226.0201.00.sas.rawacf.bz2 \
+20081226.0401.00.sas.rawacf.bz2 \
+20081226.0600.12.sas.rawacf.bz2 \
+20081226.0802.00.sas.rawacf.bz2 \
+20081226.1002.00.sas.rawacf.bz2 \
+20081226.1202.00.sas.rawacf.bz2 \
+20081226.1402.00.sas.rawacf.bz2 \
+20081226.1602.00.sas.rawacf.bz2 \
+20081226.1800.11.sas.rawacf.bz2 \
+20081226.2001.00.sas.rawacf.bz2 \
+20081226.2201.00.sas.rawacf.bz2 \
+20081227.0001.00.sas.rawacf.bz2 \
+20081227.0201.00.sas.rawacf.bz2 \
+20081227.0401.00.sas.rawacf.bz2 \
+20081227.0601.00.sas.rawacf.bz2 \
+20081227.0801.00.sas.rawacf.bz2 \
+20081227.1001.00.sas.rawacf.bz2 \
+20081227.1201.00.sas.rawacf.bz2 \
+20081227.1401.00.sas.rawacf.bz2 \
+20081227.1601.00.sas.rawacf.bz2 \
+20081227.1801.00.sas.rawacf.bz2 \
+20081227.2001.00.sas.rawacf.bz2 \
+20081227.2201.00.sas.rawacf.bz2 \
+20081228.0001.00.sas.rawacf.bz2 \
+20081228.0201.00.sas.rawacf.bz2 \
+20081228.0401.00.sas.rawacf.bz2 \
+20081228.0601.00.sas.rawacf.bz2 \
+20081228.0801.00.sas.rawacf.bz2 \
+20081228.1001.00.sas.rawacf.bz2 \
+20081228.1201.00.sas.rawacf.bz2 \
+20081228.1401.00.sas.rawacf.bz2 \
+20081228.1601.00.sas.rawacf.bz2 \
+20081228.1801.00.sas.rawacf.bz2 \
+20081228.2001.00.sas.rawacf.bz2 \
+20081228.2201.00.sas.rawacf.bz2 \
+20081229.0001.00.sas.rawacf.bz2 \
+20081229.0201.00.sas.rawacf.bz2 \
+20081229.0401.00.sas.rawacf.bz2 \
+20081229.0601.00.sas.rawacf.bz2 \
+20081229.0801.00.sas.rawacf.bz2 \
+20081229.1001.00.sas.rawacf.bz2 \
+20081229.1201.00.sas.rawacf.bz2 \
+20081229.1401.00.sas.rawacf.bz2 \
+20081229.1601.00.sas.rawacf.bz2 \
+20081229.1801.00.sas.rawacf.bz2 \
+20081229.2001.00.sas.rawacf.bz2 \
+20081229.2201.00.sas.rawacf.bz2 \
+20081230.0001.00.sas.rawacf.bz2 \
+20081230.0201.00.sas.rawacf.bz2 \
+20081230.0401.00.sas.rawacf.bz2 \
+20081230.0601.00.sas.rawacf.bz2 \
+20081230.0801.00.sas.rawacf.bz2 \
+20081230.1001.00.sas.rawacf.bz2 \
+20081230.1201.00.sas.rawacf.bz2 \
+20081230.1401.00.sas.rawacf.bz2 \
+20081230.1601.00.sas.rawacf.bz2 \
+20081230.1801.00.sas.rawacf.bz2 \
+20081230.2001.00.sas.rawacf.bz2 \
+20081230.2201.00.sas.rawacf.bz2 \
+20081231.0001.00.sas.rawacf.bz2 \
+20081231.0201.00.sas.rawacf.bz2 \
+20081231.0401.00.sas.rawacf.bz2 \
+20081231.0601.00.sas.rawacf.bz2 \
+20081231.0801.00.sas.rawacf.bz2 \
+20081231.1001.00.sas.rawacf.bz2 \
+20081231.1201.00.sas.rawacf.bz2 \
+20081231.1401.00.sas.rawacf.bz2 \
+20081231.1601.00.sas.rawacf.bz2 \
+20081231.1801.00.sas.rawacf.bz2 \
+20081231.2001.00.sas.rawacf.bz2 \
+20081231.2201.00.sas.rawacf.bz2 \
+"

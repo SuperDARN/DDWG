@@ -1,0 +1,77 @@
+JD_FILE=APL_DAT2002070504_2002070518.jd
+CD_YEAR=2002
+CD_LABEL=2002070504-2002070518
+CD_NUMBER=270
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002070504_2002070518
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002070504a.dat.gz \
+2002070504b.dat.gz \
+2002070504e.dat.gz \
+2002070504f.dat.gz \
+2002070504k.dat.gz \
+2002070504r.dat.gz \
+2002070504t.dat.gz \
+2002070504w.dat.gz \
+2002070506a.dat.gz \
+2002070506b.dat.gz \
+2002070506e.dat.gz \
+2002070506f.dat.gz \
+2002070506k.dat.gz \
+2002070506r.dat.gz \
+2002070506t.dat.gz \
+2002070506w.dat.gz \
+2002070508a.dat.gz \
+2002070508b.dat.gz \
+2002070508e.dat.gz \
+2002070508f.dat.gz \
+2002070508k.dat.gz \
+2002070508r.dat.gz \
+2002070508t.dat.gz \
+2002070508w.dat.gz \
+2002070510a.dat.gz \
+2002070510b.dat.gz \
+2002070510e.dat.gz \
+2002070510f.dat.gz \
+2002070510k.dat.gz \
+2002070510r.dat.gz \
+2002070510t.dat.gz \
+2002070510w.dat.gz \
+2002070512a.dat.gz \
+2002070512b.dat.gz \
+2002070512e.dat.gz \
+2002070512f.dat.gz \
+2002070512k.dat.gz \
+2002070512r.dat.gz \
+2002070512t.dat.gz \
+2002070512w.dat.gz \
+2002070512wa.dat.gz \
+2002070514a.dat.gz \
+2002070514b.dat.gz \
+2002070514e.dat.gz \
+2002070514f.dat.gz \
+2002070514k.dat.gz \
+2002070514r.dat.gz \
+2002070514t.dat.gz \
+2002070514w.dat.gz \
+2002070514wa.dat.gz \
+2002070516a.dat.gz \
+2002070516b.dat.gz \
+2002070516e.dat.gz \
+2002070516f.dat.gz \
+2002070516k.dat.gz \
+2002070516r.dat.gz \
+2002070516t.dat.gz \
+2002070516w.dat.gz \
+2002070516wa.dat.gz \
+2002070518a.dat.gz \
+2002070518b.dat.gz \
+2002070518e.dat.gz \
+2002070518k.dat.gz \
+2002070518r.dat.gz \
+2002070518t.dat.gz \
+2002070518w.dat.gz \
+"

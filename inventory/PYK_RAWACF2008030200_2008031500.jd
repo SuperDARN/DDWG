@@ -1,0 +1,95 @@
+JD_FILE=PYK_RAWACF2008030200_2008031500.jd
+CD_YEAR=2008
+CD_LABEL=2008030200-2008031500
+CD_NUMBER=1
+CD_TEMPLATE=/usr/ymi/label-maker/labels/hanpykrawacf.pcl
+CD_VOL_SI="SUPERDARN RAWACF DATA HAN & PYK"
+CD_VOL_VI=2008030200_2008031500
+DATA_THRESHOLD=4500
+CDS_TO_WRITE=17
+SOURCE_DIRECTORY=/data/pyk
+FILES_TO_WRITE="\
+20080302.0000.32.pyk.rawacf.bz2 \
+20080302.0200.04.pyk.rawacf.bz2 \
+20080302.0400.30.pyk.rawacf.bz2 \
+20080302.0600.10.pyk.rawacf.bz2 \
+20080302.0800.39.pyk.rawacf.bz2 \
+20080302.1000.19.pyk.rawacf.bz2 \
+20080302.1200.48.pyk.rawacf.bz2 \
+20080302.1400.48.pyk.rawacf.bz2 \
+20080302.1600.29.pyk.rawacf.bz2 \
+20080302.1800.08.pyk.rawacf.bz2 \
+20080302.2000.32.pyk.rawacf.bz2 \
+20080302.2200.05.pyk.rawacf.bz2 \
+20080303.0000.25.pyk.rawacf.bz2 \
+20080303.0200.46.pyk.rawacf.bz2 \
+20080303.0400.16.pyk.rawacf.bz2 \
+20080303.0600.45.pyk.rawacf.bz2 \
+20080303.0800.34.pyk.rawacf.bz2 \
+20080303.0925.22.pyk.rawacf.bz2 \
+20080303.1000.25.pyk.rawacf.bz2 \
+20080303.1205.36.pyk.rawacf.bz2 \
+20080303.1318.58.pyk.rawacf.bz2 \
+20080303.1405.16.pyk.rawacf.bz2 \
+20080303.1601.00.pyk.rawacf.bz2 \
+20080303.1801.00.pyk.rawacf.bz2 \
+20080303.2001.00.pyk.rawacf.bz2 \
+20080303.2201.00.pyk.rawacf.bz2 \
+20080308.0001.00.pyk.rawacf.bz2 \
+20080308.0201.00.pyk.rawacf.bz2 \
+20080308.0401.00.pyk.rawacf.bz2 \
+20080308.0601.00.pyk.rawacf.bz2 \
+20080308.0800.12.pyk.rawacf.bz2 \
+20080308.1000.02.pyk.rawacf.bz2 \
+20080308.1200.02.pyk.rawacf.bz2 \
+20080308.1400.03.pyk.rawacf.bz2 \
+20080308.1400.11.pyk.rawacf.bz2 \
+20080308.1601.00.pyk.rawacf.bz2 \
+20080308.1801.00.pyk.rawacf.bz2 \
+20080308.2001.00.pyk.rawacf.bz2 \
+20080308.2201.00.pyk.rawacf.bz2 \
+20080311.0000.02.han.rawacf.bz2 \
+20080311.0001.00.pyk.rawacf.bz2 \
+20080311.0200.02.han.rawacf.bz2 \
+20080311.0200.10.han.rawacf.bz2 \
+20080311.0201.00.pyk.rawacf.bz2 \
+20080311.0401.00.han.rawacf.bz2 \
+20080311.0401.00.pyk.rawacf.bz2 \
+20080311.0601.00.han.rawacf.bz2 \
+20080311.0601.00.pyk.rawacf.bz2 \
+20080311.0800.12.han.rawacf.bz2 \
+20080311.0800.12.pyk.rawacf.bz2 \
+20080311.1000.01.han.rawacf.bz2 \
+20080311.1000.03.pyk.rawacf.bz2 \
+20080311.1200.01.han.rawacf.bz2 \
+20080311.1200.03.pyk.rawacf.bz2 \
+20080311.1400.01.han.rawacf.bz2 \
+20080311.1400.02.pyk.rawacf.bz2 \
+20080311.1400.10.han.rawacf.bz2 \
+20080311.1400.11.pyk.rawacf.bz2 \
+20080311.1601.00.han.rawacf.bz2 \
+20080311.1601.00.pyk.rawacf.bz2 \
+20080311.1800.12.han.rawacf.bz2 \
+20080311.1801.00.pyk.rawacf.bz2 \
+20080311.1900.10.han.rawacf.bz2 \
+20080311.2000.02.han.rawacf.bz2 \
+20080311.2200.03.han.rawacf.bz2 \
+20080311.2220.12.han.rawacf.bz2 \
+20080312.1720.15.pyk.rawacf.bz2 \
+20080312.1801.00.pyk.rawacf.bz2 \
+20080312.2001.00.pyk.rawacf.bz2 \
+20080312.2201.00.pyk.rawacf.bz2 \
+20080314.0001.00.pyk.rawacf.bz2 \
+20080314.0201.00.pyk.rawacf.bz2 \
+20080314.0401.00.pyk.rawacf.bz2 \
+20080314.0601.00.pyk.rawacf.bz2 \
+20080314.0801.00.pyk.rawacf.bz2 \
+20080314.1001.00.pyk.rawacf.bz2 \
+20080314.1201.00.pyk.rawacf.bz2 \
+20080314.1401.00.pyk.rawacf.bz2 \
+20080314.1601.00.pyk.rawacf.bz2 \
+20080314.1801.00.pyk.rawacf.bz2 \
+20080314.2001.00.pyk.rawacf.bz2 \
+20080314.2201.00.pyk.rawacf.bz2 \
+20080315.0001.00.pyk.rawacf.bz2 \
+"

@@ -1,0 +1,79 @@
+JD_FILE=KSL_DAT2001102000_2001120110.jd
+CD_YEAR=2001
+CD_LABEL=2001102000-2001120110
+CD_NUMBER=405A
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="KING SALMON SUPERDARN DAT DATA"
+CD_VOL_VI=2001102000_2001120110
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001102004c.dat.gz \
+2001102006c.dat.gz \
+2001102008c.dat.gz \
+2001102010c.dat.gz \
+2001102012c.dat.gz \
+2001102014c.dat.gz \
+2001102016c.dat.gz \
+2001102018c.dat.gz \
+2001102020c.dat.gz \
+2001102022c.dat.gz \
+2001102100c.dat.gz \
+2001102102c.dat.gz \
+2001102104c.dat.gz \
+2001102106c.dat.gz \
+2001102108c.dat.gz \
+2001102110c.dat.gz \
+2001102112c.dat.gz \
+2001102114c.dat.gz \
+2001102116c.dat.gz \
+2001102118c.dat.gz \
+2001102120c.dat.gz \
+2001102122c.dat.gz \
+2001102200c.dat.gz \
+2001102202c.dat.gz \
+2001102204c.dat.gz \
+2001102206c.dat.gz \
+2001102208c.dat.gz \
+2001102210c.dat.gz \
+2001102212c.dat.gz \
+2001102214c.dat.gz \
+2001102216c.dat.gz \
+2001102218c.dat.gz \
+2001102220c.dat.gz \
+2001112919c.dat.gz \
+2001112920c.dat.gz \
+2001112920ca.dat.gz \
+2001112921c.dat.gz \
+2001112921ca.dat.gz \
+2001112921cb.dat.gz \
+2001112921cc.dat.gz \
+2001112921cd.dat.gz \
+2001112922c.dat.gz \
+2001112922ca.dat.gz \
+2001112922cb.dat.gz \
+2001112923c.dat.gz \
+2001112923ca.dat.gz \
+2001112923cb.dat.gz \
+2001113000c.dat.gz \
+2001113002c.dat.gz \
+2001113004c.dat.gz \
+2001113006c.dat.gz \
+2001113008c.dat.gz \
+2001113010c.dat.gz \
+2001113012c.dat.gz \
+2001113014c.dat.gz \
+2001113016c.dat.gz \
+2001113018c.dat.gz \
+2001113020c.dat.gz \
+2001113021c.dat.gz \
+2001113021ca.dat.gz \
+2001113021cb.dat.gz \
+2001113022c.dat.gz \
+2001120100c.dat.gz \
+2001120102c.dat.gz \
+2001120104c.dat.gz \
+2001120106c.dat.gz \
+2001120108c.dat.gz \
+2001120110c.dat.gz \
+"
