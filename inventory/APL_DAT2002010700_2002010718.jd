@@ -1,0 +1,109 @@
+JD_FILE=APL_DAT2002010700_2002010718.jd
+CD_YEAR=2002
+CD_LABEL=2002010700-2002010718
+CD_NUMBER=8
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002010700_2002010718
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002010700a.dat.gz \
+2002010700b.dat.gz \
+2002010700e.dat.gz \
+2002010700f.dat.gz \
+2002010700g.dat.gz \
+2002010700k.dat.gz \
+2002010700r.dat.gz \
+2002010700t.dat.gz \
+2002010700w.dat.gz \
+2002010702a.dat.gz \
+2002010702b.dat.gz \
+2002010702e.dat.gz \
+2002010702f.dat.gz \
+2002010702g.dat.gz \
+2002010702k.dat.gz \
+2002010702r.dat.gz \
+2002010702t.dat.gz \
+2002010702w.dat.gz \
+2002010704a.dat.gz \
+2002010704b.dat.gz \
+2002010704e.dat.gz \
+2002010704f.dat.gz \
+2002010704g.dat.gz \
+2002010704k.dat.gz \
+2002010704r.dat.gz \
+2002010704t.dat.gz \
+2002010704w.dat.gz \
+2002010706a.dat.gz \
+2002010706b.dat.gz \
+2002010706e.dat.gz \
+2002010706f.dat.gz \
+2002010706g.dat.gz \
+2002010706k.dat.gz \
+2002010706r.dat.gz \
+2002010706t.dat.gz \
+2002010706w.dat.gz \
+2002010708a.dat.gz \
+2002010708b.dat.gz \
+2002010708e.dat.gz \
+2002010708f.dat.gz \
+2002010708g.dat.gz \
+2002010708k.dat.gz \
+2002010708r.dat.gz \
+2002010708t.dat.gz \
+2002010708w.dat.gz \
+2002010709f.dat.gz \
+2002010709fa.dat.gz \
+2002010710a.dat.gz \
+2002010710b.dat.gz \
+2002010710e.dat.gz \
+2002010710ea.dat.gz \
+2002010710eb.dat.gz \
+2002010710f.dat.gz \
+2002010710fa.dat.gz \
+2002010710fb.dat.gz \
+2002010710g.dat.gz \
+2002010710k.dat.gz \
+2002010710r.dat.gz \
+2002010710t.dat.gz \
+2002010710w.dat.gz \
+2002010712a.dat.gz \
+2002010712b.dat.gz \
+2002010712e.dat.gz \
+2002010712f.dat.gz \
+2002010712g.dat.gz \
+2002010712k.dat.gz \
+2002010712r.dat.gz \
+2002010712t.dat.gz \
+2002010712w.dat.gz \
+2002010713f.dat.gz \
+2002010714a.dat.gz \
+2002010714b.dat.gz \
+2002010714e.dat.gz \
+2002010714ea.dat.gz \
+2002010714f.dat.gz \
+2002010714g.dat.gz \
+2002010714k.dat.gz \
+2002010714r.dat.gz \
+2002010714t.dat.gz \
+2002010714w.dat.gz \
+2002010716a.dat.gz \
+2002010716b.dat.gz \
+2002010716e.dat.gz \
+2002010716f.dat.gz \
+2002010716g.dat.gz \
+2002010716k.dat.gz \
+2002010716r.dat.gz \
+2002010716t.dat.gz \
+2002010716w.dat.gz \
+2002010718a.dat.gz \
+2002010718b.dat.gz \
+2002010718e.dat.gz \
+2002010718f.dat.gz \
+2002010718g.dat.gz \
+2002010718k.dat.gz \
+2002010718r.dat.gz \
+2002010718t.dat.gz \
+2002010718w.dat.gz \
+"

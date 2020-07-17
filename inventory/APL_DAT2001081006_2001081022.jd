@@ -1,0 +1,98 @@
+JD_FILE=APL_DAT2001081006_2001081022.jd
+CD_YEAR=2001
+CD_LABEL=2001081006-2001081022
+CD_NUMBER=279
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001081006_2001081022
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001081006a.dat.gz \
+2001081006b.dat.gz \
+2001081006e.dat.gz \
+2001081006f.dat.gz \
+2001081006g.dat.gz \
+2001081006k.dat.gz \
+2001081006r.dat.gz \
+2001081006t.dat.gz \
+2001081006w.dat.gz \
+2001081008a.dat.gz \
+2001081008b.dat.gz \
+2001081008e.dat.gz \
+2001081008f.dat.gz \
+2001081008g.dat.gz \
+2001081008k.dat.gz \
+2001081008r.dat.gz \
+2001081008t.dat.gz \
+2001081008w.dat.gz \
+2001081010a.dat.gz \
+2001081010b.dat.gz \
+2001081010e.dat.gz \
+2001081010f.dat.gz \
+2001081010g.dat.gz \
+2001081010k.dat.gz \
+2001081010r.dat.gz \
+2001081010t.dat.gz \
+2001081010w.dat.gz \
+2001081012a.dat.gz \
+2001081012b.dat.gz \
+2001081012e.dat.gz \
+2001081012f.dat.gz \
+2001081012g.dat.gz \
+2001081012k.dat.gz \
+2001081012r.dat.gz \
+2001081012t.dat.gz \
+2001081012w.dat.gz \
+2001081014a.dat.gz \
+2001081014b.dat.gz \
+2001081014e.dat.gz \
+2001081014f.dat.gz \
+2001081014g.dat.gz \
+2001081014k.dat.gz \
+2001081014r.dat.gz \
+2001081014t.dat.gz \
+2001081014w.dat.gz \
+2001081016a.dat.gz \
+2001081016b.dat.gz \
+2001081016e.dat.gz \
+2001081016f.dat.gz \
+2001081016g.dat.gz \
+2001081016k.dat.gz \
+2001081016r.dat.gz \
+2001081016t.dat.gz \
+2001081016w.dat.gz \
+2001081018a.dat.gz \
+2001081018b.dat.gz \
+2001081018e.dat.gz \
+2001081018f.dat.gz \
+2001081018g.dat.gz \
+2001081018k.dat.gz \
+2001081018r.dat.gz \
+2001081018t.dat.gz \
+2001081018w.dat.gz \
+2001081020a.dat.gz \
+2001081020aa.dat.gz \
+2001081020b.dat.gz \
+2001081020ba.dat.gz \
+2001081020e.dat.gz \
+2001081020f.dat.gz \
+2001081020g.dat.gz \
+2001081020k.dat.gz \
+2001081020ka.dat.gz \
+2001081020r.dat.gz \
+2001081020ra.dat.gz \
+2001081020t.dat.gz \
+2001081020ta.dat.gz \
+2001081020w.dat.gz \
+2001081020wa.dat.gz \
+2001081022a.dat.gz \
+2001081022b.dat.gz \
+2001081022e.dat.gz \
+2001081022f.dat.gz \
+2001081022g.dat.gz \
+2001081022k.dat.gz \
+2001081022r.dat.gz \
+2001081022t.dat.gz \
+2001081022w.dat.gz \
+"

@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002041302_2002041314.jd
+CD_YEAR=2002
+CD_LABEL=2002041302-2002041314
+CD_NUMBER=164
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002041302_2002041314
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002041302a.dat.gz \
+2002041302b.dat.gz \
+2002041302c.dat.gz \
+2002041302e.dat.gz \
+2002041302f.dat.gz \
+2002041302g.dat.gz \
+2002041302k.dat.gz \
+2002041302r.dat.gz \
+2002041302t.dat.gz \
+2002041304a.dat.gz \
+2002041304aa.dat.gz \
+2002041304b.dat.gz \
+2002041304ba.dat.gz \
+2002041304c.dat.gz \
+2002041304ca.dat.gz \
+2002041304e.dat.gz \
+2002041304f.dat.gz \
+2002041304g.dat.gz \
+2002041304ga.dat.gz \
+2002041304k.dat.gz \
+2002041304ka.dat.gz \
+2002041304r.dat.gz \
+2002041304t.dat.gz \
+2002041304ta.dat.gz \
+2002041305c.dat.gz \
+2002041306a.dat.gz \
+2002041306b.dat.gz \
+2002041306c.dat.gz \
+2002041306ca.dat.gz \
+2002041306e.dat.gz \
+2002041306f.dat.gz \
+2002041306g.dat.gz \
+2002041306k.dat.gz \
+2002041306r.dat.gz \
+2002041306t.dat.gz \
+2002041308a.dat.gz \
+2002041308b.dat.gz \
+2002041308c.dat.gz \
+2002041308e.dat.gz \
+2002041308f.dat.gz \
+2002041308g.dat.gz \
+2002041308k.dat.gz \
+2002041308r.dat.gz \
+2002041308t.dat.gz \
+2002041309c.dat.gz \
+2002041310a.dat.gz \
+2002041310b.dat.gz \
+2002041310c.dat.gz \
+2002041310ca.dat.gz \
+2002041310cb.dat.gz \
+2002041310e.dat.gz \
+2002041310f.dat.gz \
+2002041310g.dat.gz \
+2002041310k.dat.gz \
+2002041310r.dat.gz \
+2002041310t.dat.gz \
+2002041311c.dat.gz \
+2002041312a.dat.gz \
+2002041312b.dat.gz \
+2002041312c.dat.gz \
+2002041312ca.dat.gz \
+2002041312cb.dat.gz \
+2002041312cc.dat.gz \
+2002041312e.dat.gz \
+2002041312f.dat.gz \
+2002041312g.dat.gz \
+2002041312k.dat.gz \
+2002041312r.dat.gz \
+2002041312t.dat.gz \
+2002041313c.dat.gz \
+2002041314a.dat.gz \
+2002041314b.dat.gz \
+2002041314c.dat.gz \
+2002041314e.dat.gz \
+2002041314f.dat.gz \
+2002041314g.dat.gz \
+2002041314k.dat.gz \
+2002041314r.dat.gz \
+2002041314t.dat.gz \
+"

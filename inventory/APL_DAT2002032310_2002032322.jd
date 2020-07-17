@@ -1,0 +1,91 @@
+JD_FILE=APL_DAT2002032310_2002032322.jd
+CD_YEAR=2002
+CD_LABEL=2002032310-2002032322
+CD_NUMBER=133
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002032310_2002032322
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002032310a.dat.gz \
+2002032310b.dat.gz \
+2002032310c.dat.gz \
+2002032310e.dat.gz \
+2002032310f.dat.gz \
+2002032310g.dat.gz \
+2002032310k.dat.gz \
+2002032310r.dat.gz \
+2002032310t.dat.gz \
+2002032310w.dat.gz \
+2002032312a.dat.gz \
+2002032312b.dat.gz \
+2002032312c.dat.gz \
+2002032312ca.dat.gz \
+2002032312f.dat.gz \
+2002032312g.dat.gz \
+2002032312k.dat.gz \
+2002032312r.dat.gz \
+2002032312t.dat.gz \
+2002032312w.dat.gz \
+2002032313c.dat.gz \
+2002032314a.dat.gz \
+2002032314b.dat.gz \
+2002032314c.dat.gz \
+2002032314ca.dat.gz \
+2002032314cb.dat.gz \
+2002032314f.dat.gz \
+2002032314g.dat.gz \
+2002032314k.dat.gz \
+2002032314r.dat.gz \
+2002032314t.dat.gz \
+2002032314w.dat.gz \
+2002032315c.dat.gz \
+2002032316a.dat.gz \
+2002032316aa.dat.gz \
+2002032316b.dat.gz \
+2002032316ba.dat.gz \
+2002032316c.dat.gz \
+2002032316ca.dat.gz \
+2002032316f.dat.gz \
+2002032316fa.dat.gz \
+2002032316g.dat.gz \
+2002032316ga.dat.gz \
+2002032316k.dat.gz \
+2002032316ka.dat.gz \
+2002032316r.dat.gz \
+2002032316ra.dat.gz \
+2002032316t.dat.gz \
+2002032316ta.dat.gz \
+2002032316w.dat.gz \
+2002032316wa.dat.gz \
+2002032318a.dat.gz \
+2002032318b.dat.gz \
+2002032318c.dat.gz \
+2002032318f.dat.gz \
+2002032318g.dat.gz \
+2002032318k.dat.gz \
+2002032318r.dat.gz \
+2002032318t.dat.gz \
+2002032318w.dat.gz \
+2002032320a.dat.gz \
+2002032320b.dat.gz \
+2002032320c.dat.gz \
+2002032320e.dat.gz \
+2002032320f.dat.gz \
+2002032320g.dat.gz \
+2002032320k.dat.gz \
+2002032320r.dat.gz \
+2002032320t.dat.gz \
+2002032320w.dat.gz \
+2002032322a.dat.gz \
+2002032322b.dat.gz \
+2002032322c.dat.gz \
+2002032322e.dat.gz \
+2002032322f.dat.gz \
+2002032322g.dat.gz \
+2002032322k.dat.gz \
+2002032322r.dat.gz \
+2002032322t.dat.gz \
+2002032322w.dat.gz \
+"

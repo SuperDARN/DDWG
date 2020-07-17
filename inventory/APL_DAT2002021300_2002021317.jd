@@ -1,0 +1,101 @@
+JD_FILE=APL_DAT2002021300_2002021317.jd
+CD_YEAR=2002
+CD_LABEL=2002021300-2002021317
+CD_NUMBER=67
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002021300_2002021317
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002021300a.dat.gz \
+2002021300b.dat.gz \
+2002021300e.dat.gz \
+2002021300f.dat.gz \
+2002021300g.dat.gz \
+2002021300k.dat.gz \
+2002021300r.dat.gz \
+2002021300t.dat.gz \
+2002021300w.dat.gz \
+2002021302a.dat.gz \
+2002021302e.dat.gz \
+2002021302f.dat.gz \
+2002021302g.dat.gz \
+2002021302k.dat.gz \
+2002021302r.dat.gz \
+2002021302t.dat.gz \
+2002021302w.dat.gz \
+2002021304a.dat.gz \
+2002021304e.dat.gz \
+2002021304f.dat.gz \
+2002021304g.dat.gz \
+2002021304k.dat.gz \
+2002021304r.dat.gz \
+2002021304t.dat.gz \
+2002021304w.dat.gz \
+2002021304wa.dat.gz \
+2002021306a.dat.gz \
+2002021306e.dat.gz \
+2002021306f.dat.gz \
+2002021306g.dat.gz \
+2002021306k.dat.gz \
+2002021306r.dat.gz \
+2002021306t.dat.gz \
+2002021306w.dat.gz \
+2002021308a.dat.gz \
+2002021308e.dat.gz \
+2002021308f.dat.gz \
+2002021308g.dat.gz \
+2002021308k.dat.gz \
+2002021308r.dat.gz \
+2002021308t.dat.gz \
+2002021308w.dat.gz \
+2002021310a.dat.gz \
+2002021310e.dat.gz \
+2002021310f.dat.gz \
+2002021310g.dat.gz \
+2002021310k.dat.gz \
+2002021310r.dat.gz \
+2002021310t.dat.gz \
+2002021310w.dat.gz \
+2002021312a.dat.gz \
+2002021312e.dat.gz \
+2002021312f.dat.gz \
+2002021312g.dat.gz \
+2002021312k.dat.gz \
+2002021312r.dat.gz \
+2002021312t.dat.gz \
+2002021312w.dat.gz \
+2002021314a.dat.gz \
+2002021314e.dat.gz \
+2002021314f.dat.gz \
+2002021314g.dat.gz \
+2002021314k.dat.gz \
+2002021314r.dat.gz \
+2002021314t.dat.gz \
+2002021314w.dat.gz \
+2002021314wa.dat.gz \
+2002021315t.dat.gz \
+2002021316a.dat.gz \
+2002021316e.dat.gz \
+2002021316ea.dat.gz \
+2002021316f.dat.gz \
+2002021316fa.dat.gz \
+2002021316g.dat.gz \
+2002021316k.dat.gz \
+2002021316r.dat.gz \
+2002021316t.dat.gz \
+2002021316ta.dat.gz \
+2002021316tb.dat.gz \
+2002021316tc.dat.gz \
+2002021316w.dat.gz \
+2002021317t.dat.gz \
+2002021317ta.dat.gz \
+2002021317tb.dat.gz \
+2002021317tc.dat.gz \
+2002021317td.dat.gz \
+2002021317te.dat.gz \
+2002021317tf.dat.gz \
+2002021317tg.dat.gz \
+2002021317th.dat.gz \
+"

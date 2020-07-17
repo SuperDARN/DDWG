@@ -1,0 +1,78 @@
+JD_FILE=RKN2008122912_2008123122.jd
+CD_YEAR=2008
+CD_LABEL=2008122912-2008123122
+CD_NUMBER=27
+CD_TEMPLATE=/usr/ymi/label-maker/labels/rkn.pcl
+CD_VOL_SI="RANKIN INLET SUPERDARN DATA "
+CD_VOL_VI=2008122912_2008123122
+DATA_THRESHOLD=833
+CDS_TO_WRITE=1
+SOURCE_DIRECTORY=/data/rkn_cd_data
+FILES_TO_WRITE="\
+20081229.1201.00.rkn.rawacf.bz2 \
+20081229.1401.00.rkn.rawacf.bz2 \
+20081229.1601.00.rkn.rawacf.bz2 \
+20081229.1801.00.rkn.rawacf.bz2 \
+20081229.2001.00.rkn.rawacf.bz2 \
+20081229.2201.00.rkn.rawacf.bz2 \
+20081230.0000.12.rkn.rawacf.bz2 \
+20081230.0030.12.rkn.rawacf.bz2 \
+20081230.0100.10.rkn.rawacf.bz2 \
+20081230.0130.12.rkn.rawacf.bz2 \
+20081230.0200.10.rkn.rawacf.bz2 \
+20081230.0230.12.rkn.rawacf.bz2 \
+20081230.0300.10.rkn.rawacf.bz2 \
+20081230.0330.12.rkn.rawacf.bz2 \
+20081230.0400.10.rkn.rawacf.bz2 \
+20081230.0430.12.rkn.rawacf.bz2 \
+20081230.0500.10.rkn.rawacf.bz2 \
+20081230.0530.12.rkn.rawacf.bz2 \
+20081230.0600.10.rkn.rawacf.bz2 \
+20081230.0630.12.rkn.rawacf.bz2 \
+20081230.0700.10.rkn.rawacf.bz2 \
+20081230.0730.12.rkn.rawacf.bz2 \
+20081230.0800.10.rkn.rawacf.bz2 \
+20081230.0830.12.rkn.rawacf.bz2 \
+20081230.0900.10.rkn.rawacf.bz2 \
+20081230.0930.12.rkn.rawacf.bz2 \
+20081230.1000.10.rkn.rawacf.bz2 \
+20081230.1030.12.rkn.rawacf.bz2 \
+20081230.1100.10.rkn.rawacf.bz2 \
+20081230.1130.12.rkn.rawacf.bz2 \
+20081230.1200.10.rkn.rawacf.bz2 \
+20081230.1230.12.rkn.rawacf.bz2 \
+20081230.1300.10.rkn.rawacf.bz2 \
+20081230.1330.12.rkn.rawacf.bz2 \
+20081230.1400.10.rkn.rawacf.bz2 \
+20081230.1430.12.rkn.rawacf.bz2 \
+20081230.1500.10.rkn.rawacf.bz2 \
+20081230.1530.12.rkn.rawacf.bz2 \
+20081230.1600.10.rkn.rawacf.bz2 \
+20081230.1630.12.rkn.rawacf.bz2 \
+20081230.1700.10.rkn.rawacf.bz2 \
+20081230.1730.12.rkn.rawacf.bz2 \
+20081230.1800.10.rkn.rawacf.bz2 \
+20081230.1830.12.rkn.rawacf.bz2 \
+20081230.1900.10.rkn.rawacf.bz2 \
+20081230.1930.12.rkn.rawacf.bz2 \
+20081230.2000.10.rkn.rawacf.bz2 \
+20081230.2030.12.rkn.rawacf.bz2 \
+20081230.2100.10.rkn.rawacf.bz2 \
+20081230.2130.12.rkn.rawacf.bz2 \
+20081230.2200.10.rkn.rawacf.bz2 \
+20081230.2230.12.rkn.rawacf.bz2 \
+20081230.2300.10.rkn.rawacf.bz2 \
+20081230.2330.12.rkn.rawacf.bz2 \
+20081231.0000.10.rkn.rawacf.bz2 \
+20081231.0201.00.rkn.rawacf.bz2 \
+20081231.0401.00.rkn.rawacf.bz2 \
+20081231.0601.00.rkn.rawacf.bz2 \
+20081231.0801.00.rkn.rawacf.bz2 \
+20081231.1001.00.rkn.rawacf.bz2 \
+20081231.1201.00.rkn.rawacf.bz2 \
+20081231.1401.00.rkn.rawacf.bz2 \
+20081231.1601.00.rkn.rawacf.bz2 \
+20081231.1801.00.rkn.rawacf.bz2 \
+20081231.2001.00.rkn.rawacf.bz2 \
+20081231.2201.00.rkn.rawacf.bz2 \
+"

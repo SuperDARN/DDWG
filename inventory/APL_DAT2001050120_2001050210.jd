@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2001050120_2001050210.jd
+CD_YEAR=2001
+CD_LABEL=2001050120-2001050210
+CD_NUMBER=174
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001050120_2001050210
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001050120a.dat.gz \
+2001050120b.dat.gz \
+2001050120e.dat.gz \
+2001050120f.dat.gz \
+2001050120g.dat.gz \
+2001050120k.dat.gz \
+2001050120r.dat.gz \
+2001050120t.dat.gz \
+2001050120w.dat.gz \
+2001050122a.dat.gz \
+2001050122b.dat.gz \
+2001050122e.dat.gz \
+2001050122f.dat.gz \
+2001050122g.dat.gz \
+2001050122k.dat.gz \
+2001050122r.dat.gz \
+2001050122t.dat.gz \
+2001050122w.dat.gz \
+2001050200a.dat.gz \
+2001050200aa.dat.gz \
+2001050200b.dat.gz \
+2001050200ba.dat.gz \
+2001050200e.dat.gz \
+2001050200f.dat.gz \
+2001050200g.dat.gz \
+2001050200k.dat.gz \
+2001050200ka.dat.gz \
+2001050200r.dat.gz \
+2001050200ra.dat.gz \
+2001050200t.dat.gz \
+2001050200ta.dat.gz \
+2001050200w.dat.gz \
+2001050200wa.dat.gz \
+2001050202a.dat.gz \
+2001050202b.dat.gz \
+2001050202e.dat.gz \
+2001050202f.dat.gz \
+2001050202k.dat.gz \
+2001050202r.dat.gz \
+2001050202t.dat.gz \
+2001050202w.dat.gz \
+2001050204a.dat.gz \
+2001050204b.dat.gz \
+2001050204e.dat.gz \
+2001050204f.dat.gz \
+2001050204k.dat.gz \
+2001050204r.dat.gz \
+2001050204t.dat.gz \
+2001050204w.dat.gz \
+2001050206a.dat.gz \
+2001050206b.dat.gz \
+2001050206e.dat.gz \
+2001050206ea.dat.gz \
+2001050206f.dat.gz \
+2001050206fa.dat.gz \
+2001050206k.dat.gz \
+2001050206r.dat.gz \
+2001050206t.dat.gz \
+2001050206w.dat.gz \
+2001050207w.dat.gz \
+2001050207wa.dat.gz \
+2001050208a.dat.gz \
+2001050208b.dat.gz \
+2001050208e.dat.gz \
+2001050208f.dat.gz \
+2001050208k.dat.gz \
+2001050208r.dat.gz \
+2001050208t.dat.gz \
+2001050208w.dat.gz \
+2001050210a.dat.gz \
+2001050210b.dat.gz \
+2001050210e.dat.gz \
+2001050210ea.dat.gz \
+2001050210f.dat.gz \
+2001050210fa.dat.gz \
+2001050210k.dat.gz \
+2001050210r.dat.gz \
+2001050210t.dat.gz \
+2001050210w.dat.gz \
+"

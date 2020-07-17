@@ -1,0 +1,93 @@
+JD_FILE=APL_DAT2001052004_2001052020.jd
+CD_YEAR=2001
+CD_LABEL=2001052004-2001052020
+CD_NUMBER=193
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001052004_2001052020
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001052004a.dat.gz \
+2001052004b.dat.gz \
+2001052004e.dat.gz \
+2001052004f.dat.gz \
+2001052004g.dat.gz \
+2001052004k.dat.gz \
+2001052004r.dat.gz \
+2001052004t.dat.gz \
+2001052004w.dat.gz \
+2001052006a.dat.gz \
+2001052006b.dat.gz \
+2001052006e.dat.gz \
+2001052006f.dat.gz \
+2001052006g.dat.gz \
+2001052006k.dat.gz \
+2001052006r.dat.gz \
+2001052006t.dat.gz \
+2001052006w.dat.gz \
+2001052008a.dat.gz \
+2001052008b.dat.gz \
+2001052008e.dat.gz \
+2001052008f.dat.gz \
+2001052008g.dat.gz \
+2001052008k.dat.gz \
+2001052008r.dat.gz \
+2001052008t.dat.gz \
+2001052008w.dat.gz \
+2001052009e.dat.gz \
+2001052010a.dat.gz \
+2001052010b.dat.gz \
+2001052010e.dat.gz \
+2001052010f.dat.gz \
+2001052010g.dat.gz \
+2001052010k.dat.gz \
+2001052010r.dat.gz \
+2001052010t.dat.gz \
+2001052010w.dat.gz \
+2001052012a.dat.gz \
+2001052012b.dat.gz \
+2001052012e.dat.gz \
+2001052012f.dat.gz \
+2001052012g.dat.gz \
+2001052012k.dat.gz \
+2001052012r.dat.gz \
+2001052012t.dat.gz \
+2001052012w.dat.gz \
+2001052014a.dat.gz \
+2001052014b.dat.gz \
+2001052014e.dat.gz \
+2001052014f.dat.gz \
+2001052014g.dat.gz \
+2001052014k.dat.gz \
+2001052014r.dat.gz \
+2001052014t.dat.gz \
+2001052014w.dat.gz \
+2001052016a.dat.gz \
+2001052016b.dat.gz \
+2001052016e.dat.gz \
+2001052016f.dat.gz \
+2001052016g.dat.gz \
+2001052016k.dat.gz \
+2001052016r.dat.gz \
+2001052016t.dat.gz \
+2001052016w.dat.gz \
+2001052018a.dat.gz \
+2001052018b.dat.gz \
+2001052018e.dat.gz \
+2001052018f.dat.gz \
+2001052018g.dat.gz \
+2001052018k.dat.gz \
+2001052018r.dat.gz \
+2001052018t.dat.gz \
+2001052018w.dat.gz \
+2001052020a.dat.gz \
+2001052020b.dat.gz \
+2001052020e.dat.gz \
+2001052020f.dat.gz \
+2001052020g.dat.gz \
+2001052020k.dat.gz \
+2001052020r.dat.gz \
+2001052020t.dat.gz \
+2001052020w.dat.gz \
+"

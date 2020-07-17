@@ -1,0 +1,122 @@
+JD_FILE=APL_DAT2002052004_2002052022.jd
+CD_YEAR=2002
+CD_LABEL=2002052004-2002052022
+CD_NUMBER=211
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002052004_2002052022
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002052004a.dat.gz \
+2002052004b.dat.gz \
+2002052004c.dat.gz \
+2002052004e.dat.gz \
+2002052004f.dat.gz \
+2002052004g.dat.gz \
+2002052004k.dat.gz \
+2002052004r.dat.gz \
+2002052004t.dat.gz \
+2002052004w.dat.gz \
+2002052006a.dat.gz \
+2002052006b.dat.gz \
+2002052006c.dat.gz \
+2002052006ca.dat.gz \
+2002052006e.dat.gz \
+2002052006f.dat.gz \
+2002052006g.dat.gz \
+2002052006k.dat.gz \
+2002052006r.dat.gz \
+2002052006t.dat.gz \
+2002052006w.dat.gz \
+2002052008a.dat.gz \
+2002052008b.dat.gz \
+2002052008c.dat.gz \
+2002052008ca.dat.gz \
+2002052008e.dat.gz \
+2002052008f.dat.gz \
+2002052008g.dat.gz \
+2002052008k.dat.gz \
+2002052008r.dat.gz \
+2002052008t.dat.gz \
+2002052008w.dat.gz \
+2002052009e.dat.gz \
+2002052010a.dat.gz \
+2002052010b.dat.gz \
+2002052010c.dat.gz \
+2002052010e.dat.gz \
+2002052010f.dat.gz \
+2002052010g.dat.gz \
+2002052010k.dat.gz \
+2002052010r.dat.gz \
+2002052010t.dat.gz \
+2002052010w.dat.gz \
+2002052012a.dat.gz \
+2002052012b.dat.gz \
+2002052012c.dat.gz \
+2002052012e.dat.gz \
+2002052012f.dat.gz \
+2002052012g.dat.gz \
+2002052012k.dat.gz \
+2002052012r.dat.gz \
+2002052012t.dat.gz \
+2002052012w.dat.gz \
+2002052013c.dat.gz \
+2002052014a.dat.gz \
+2002052014b.dat.gz \
+2002052014c.dat.gz \
+2002052014e.dat.gz \
+2002052014f.dat.gz \
+2002052014g.dat.gz \
+2002052014k.dat.gz \
+2002052014r.dat.gz \
+2002052014t.dat.gz \
+2002052014w.dat.gz \
+2002052016a.dat.gz \
+2002052016b.dat.gz \
+2002052016c.dat.gz \
+2002052016ca.dat.gz \
+2002052016e.dat.gz \
+2002052016f.dat.gz \
+2002052016g.dat.gz \
+2002052016k.dat.gz \
+2002052016r.dat.gz \
+2002052016t.dat.gz \
+2002052016w.dat.gz \
+2002052018a.dat.gz \
+2002052018b.dat.gz \
+2002052018c.dat.gz \
+2002052018e.dat.gz \
+2002052018f.dat.gz \
+2002052018g.dat.gz \
+2002052018k.dat.gz \
+2002052018r.dat.gz \
+2002052018t.dat.gz \
+2002052018w.dat.gz \
+2002052019c.dat.gz \
+2002052019ca.dat.gz \
+2002052019cb.dat.gz \
+2002052020a.dat.gz \
+2002052020b.dat.gz \
+2002052020c.dat.gz \
+2002052020ca.dat.gz \
+2002052020cb.dat.gz \
+2002052020e.dat.gz \
+2002052020f.dat.gz \
+2002052020g.dat.gz \
+2002052020k.dat.gz \
+2002052020r.dat.gz \
+2002052020t.dat.gz \
+2002052020w.dat.gz \
+2002052022a.dat.gz \
+2002052022b.dat.gz \
+2002052022c.dat.gz \
+2002052022ca.dat.gz \
+2002052022e.dat.gz \
+2002052022f.dat.gz \
+2002052022g.dat.gz \
+2002052022k.dat.gz \
+2002052022r.dat.gz \
+2002052022t.dat.gz \
+2002052022w.dat.gz \
+"

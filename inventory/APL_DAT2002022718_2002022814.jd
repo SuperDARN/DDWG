@@ -1,0 +1,117 @@
+JD_FILE=APL_DAT2002022718_2002022814.jd
+CD_YEAR=2002
+CD_LABEL=2002022718-2002022814
+CD_NUMBER=91
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002022718_2002022814
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002022718a.dat.gz \
+2002022718b.dat.gz \
+2002022718e.dat.gz \
+2002022718f.dat.gz \
+2002022718g.dat.gz \
+2002022718k.dat.gz \
+2002022718t.dat.gz \
+2002022718w.dat.gz \
+2002022720a.dat.gz \
+2002022720aa.dat.gz \
+2002022720b.dat.gz \
+2002022720ba.dat.gz \
+2002022720e.dat.gz \
+2002022720ea.dat.gz \
+2002022720f.dat.gz \
+2002022720fa.dat.gz \
+2002022720g.dat.gz \
+2002022720ga.dat.gz \
+2002022720k.dat.gz \
+2002022720ka.dat.gz \
+2002022720t.dat.gz \
+2002022720ta.dat.gz \
+2002022720w.dat.gz \
+2002022720wa.dat.gz \
+2002022722a.dat.gz \
+2002022722b.dat.gz \
+2002022722e.dat.gz \
+2002022722f.dat.gz \
+2002022722g.dat.gz \
+2002022722k.dat.gz \
+2002022722t.dat.gz \
+2002022722w.dat.gz \
+2002022800a.dat.gz \
+2002022800b.dat.gz \
+2002022800e.dat.gz \
+2002022800f.dat.gz \
+2002022800g.dat.gz \
+2002022800k.dat.gz \
+2002022800t.dat.gz \
+2002022800w.dat.gz \
+2002022801r.dat.gz \
+2002022802a.dat.gz \
+2002022802b.dat.gz \
+2002022802e.dat.gz \
+2002022802f.dat.gz \
+2002022802g.dat.gz \
+2002022802k.dat.gz \
+2002022802r.dat.gz \
+2002022802t.dat.gz \
+2002022802w.dat.gz \
+2002022804a.dat.gz \
+2002022804b.dat.gz \
+2002022804e.dat.gz \
+2002022804f.dat.gz \
+2002022804g.dat.gz \
+2002022804k.dat.gz \
+2002022804ka.dat.gz \
+2002022804r.dat.gz \
+2002022804t.dat.gz \
+2002022804w.dat.gz \
+2002022806a.dat.gz \
+2002022806b.dat.gz \
+2002022806e.dat.gz \
+2002022806f.dat.gz \
+2002022806g.dat.gz \
+2002022806k.dat.gz \
+2002022806r.dat.gz \
+2002022806t.dat.gz \
+2002022806w.dat.gz \
+2002022808a.dat.gz \
+2002022808b.dat.gz \
+2002022808e.dat.gz \
+2002022808f.dat.gz \
+2002022808g.dat.gz \
+2002022808k.dat.gz \
+2002022808r.dat.gz \
+2002022808t.dat.gz \
+2002022808w.dat.gz \
+2002022810a.dat.gz \
+2002022810b.dat.gz \
+2002022810e.dat.gz \
+2002022810f.dat.gz \
+2002022810k.dat.gz \
+2002022810r.dat.gz \
+2002022810t.dat.gz \
+2002022810w.dat.gz \
+2002022812a.dat.gz \
+2002022812b.dat.gz \
+2002022812e.dat.gz \
+2002022812f.dat.gz \
+2002022812g.dat.gz \
+2002022812k.dat.gz \
+2002022812r.dat.gz \
+2002022812t.dat.gz \
+2002022812w.dat.gz \
+2002022814a.dat.gz \
+2002022814b.dat.gz \
+2002022814e.dat.gz \
+2002022814f.dat.gz \
+2002022814g.dat.gz \
+2002022814ga.dat.gz \
+2002022814k.dat.gz \
+2002022814ka.dat.gz \
+2002022814r.dat.gz \
+2002022814t.dat.gz \
+2002022814w.dat.gz \
+"

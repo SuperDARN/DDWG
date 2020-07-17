@@ -1,0 +1,69 @@
+JD_FILE=APL_RAWACF2008123116_2008123122.jd
+CD_YEAR=2008
+CD_LABEL=2008123116-2008123122
+CD_NUMBER=337
+CD_TEMPLATE=/usr/ymi/label-maker/labels/sdmrrawacf_s.pcl
+CD_VOL_SI="SUPERDARN MR RAWACF DATA MAIN"
+CD_VOL_VI=2008123116_2008123122
+DATA_THRESHOLD=1598
+CDS_TO_WRITE=16
+SOURCE_DIRECTORY=/data/apl/rawacf
+FILES_TO_WRITE="\
+20081231.1600.00.sto.rawacf.bz2 \
+20081231.1600.00.tig.rawacf.bz2 \
+20081231.1600.37.unw.rawacf.bz2 \
+20081231.1601.00.bks.rawacf.bz2 \
+20081231.1601.00.han.rawacf.bz2 \
+20081231.1601.00.hok.rawacf.bz2 \
+20081231.1601.00.inv.rawacf.bz2 \
+20081231.1601.00.kod.rawacf.bz2 \
+20081231.1601.00.pyk.rawacf.bz2 \
+20081231.1601.00.rkn.rawacf.bz2 \
+20081231.1601.00.sas.rawacf.bz2 \
+20081231.1601.00.sys.rawacf.bz2 \
+20081231.1602.00.ker.rawacf.bz2 \
+20081231.1602.00.wal.rawacf.bz2 \
+20081231.1800.00.sto.rawacf.bz2 \
+20081231.1800.00.tig.rawacf.bz2 \
+20081231.1800.07.unw.rawacf.bz2 \
+20081231.1800.12.pyk.rawacf.bz2 \
+20081231.1801.00.bks.rawacf.bz2 \
+20081231.1801.00.han.rawacf.bz2 \
+20081231.1801.00.hok.rawacf.bz2 \
+20081231.1801.00.inv.rawacf.bz2 \
+20081231.1801.00.kod.rawacf.bz2 \
+20081231.1801.00.rkn.rawacf.bz2 \
+20081231.1801.00.sas.rawacf.bz2 \
+20081231.1801.00.sys.rawacf.bz2 \
+20081231.1802.00.ker.rawacf.bz2 \
+20081231.1802.00.wal.rawacf.bz2 \
+20081231.1829.31.inv.rawacf.bz2 \
+20081231.2000.00.sto.rawacf.bz2 \
+20081231.2000.00.tig.rawacf.bz2 \
+20081231.2000.17.pyk.rawacf.bz2 \
+20081231.2000.28.unw.rawacf.bz2 \
+20081231.2001.00.bks.rawacf.bz2 \
+20081231.2001.00.han.rawacf.bz2 \
+20081231.2001.00.hok.rawacf.bz2 \
+20081231.2001.00.inv.rawacf.bz2 \
+20081231.2001.00.kod.rawacf.bz2 \
+20081231.2001.00.rkn.rawacf.bz2 \
+20081231.2001.00.sas.rawacf.bz2 \
+20081231.2001.00.sys.rawacf.bz2 \
+20081231.2002.00.ker.rawacf.bz2 \
+20081231.2002.00.wal.rawacf.bz2 \
+20081231.2200.00.sto.rawacf.bz2 \
+20081231.2200.00.tig.rawacf.bz2 \
+20081231.2200.25.pyk.rawacf.bz2 \
+20081231.2200.47.unw.rawacf.bz2 \
+20081231.2201.00.bks.rawacf.bz2 \
+20081231.2201.00.han.rawacf.bz2 \
+20081231.2201.00.hok.rawacf.bz2 \
+20081231.2201.00.inv.rawacf.bz2 \
+20081231.2201.00.kod.rawacf.bz2 \
+20081231.2201.00.rkn.rawacf.bz2 \
+20081231.2201.00.sas.rawacf.bz2 \
+20081231.2201.00.sys.rawacf.bz2 \
+20081231.2202.00.ker.rawacf.bz2 \
+20081231.2202.00.wal.rawacf.bz2 \
+"

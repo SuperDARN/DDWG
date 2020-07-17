@@ -1,0 +1,99 @@
+JD_FILE=APL_DAT2002120920_2002121009.jd
+CD_YEAR=2002
+CD_LABEL=2002120920-2002121009
+CD_NUMBER=458
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002120920_2002121009
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002120920a.dat.gz \
+2002120920b.dat.gz \
+2002120920c.dat.gz \
+2002120920e.dat.gz \
+2002120920f.dat.gz \
+2002120920k.dat.gz \
+2002120920r.dat.gz \
+2002120920t.dat.gz \
+2002120920w.dat.gz \
+2002120921k.dat.gz \
+2002120922a.dat.gz \
+2002120922b.dat.gz \
+2002120922c.dat.gz \
+2002120922e.dat.gz \
+2002120922f.dat.gz \
+2002120922k.dat.gz \
+2002120922r.dat.gz \
+2002120922t.dat.gz \
+2002120922w.dat.gz \
+2002121000a.dat.gz \
+2002121000aa.dat.gz \
+2002121000b.dat.gz \
+2002121000ba.dat.gz \
+2002121000c.dat.gz \
+2002121000e.dat.gz \
+2002121000f.dat.gz \
+2002121000k.dat.gz \
+2002121000ka.dat.gz \
+2002121000r.dat.gz \
+2002121000ra.dat.gz \
+2002121000t.dat.gz \
+2002121000ta.dat.gz \
+2002121000w.dat.gz \
+2002121000wa.dat.gz \
+2002121001c.dat.gz \
+2002121002a.dat.gz \
+2002121002b.dat.gz \
+2002121002c.dat.gz \
+2002121002e.dat.gz \
+2002121002f.dat.gz \
+2002121002k.dat.gz \
+2002121002r.dat.gz \
+2002121002t.dat.gz \
+2002121002w.dat.gz \
+2002121004a.dat.gz \
+2002121004b.dat.gz \
+2002121004c.dat.gz \
+2002121004ca.dat.gz \
+2002121004e.dat.gz \
+2002121004f.dat.gz \
+2002121004k.dat.gz \
+2002121004r.dat.gz \
+2002121004t.dat.gz \
+2002121004w.dat.gz \
+2002121005c.dat.gz \
+2002121006a.dat.gz \
+2002121006b.dat.gz \
+2002121006c.dat.gz \
+2002121006ca.dat.gz \
+2002121006cb.dat.gz \
+2002121006e.dat.gz \
+2002121006ea.dat.gz \
+2002121006f.dat.gz \
+2002121006fa.dat.gz \
+2002121006k.dat.gz \
+2002121006r.dat.gz \
+2002121006t.dat.gz \
+2002121006w.dat.gz \
+2002121007c.dat.gz \
+2002121008a.dat.gz \
+2002121008aa.dat.gz \
+2002121008b.dat.gz \
+2002121008ba.dat.gz \
+2002121008c.dat.gz \
+2002121008ca.dat.gz \
+2002121008e.dat.gz \
+2002121008f.dat.gz \
+2002121008k.dat.gz \
+2002121008ka.dat.gz \
+2002121008r.dat.gz \
+2002121008t.dat.gz \
+2002121008ta.dat.gz \
+2002121008w.dat.gz \
+2002121008wa.dat.gz \
+2002121009c.dat.gz \
+2002121009ca.dat.gz \
+2002121009cb.dat.gz \
+2002121009cc.dat.gz \
+"

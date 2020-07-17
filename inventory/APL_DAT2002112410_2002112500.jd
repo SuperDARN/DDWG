@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002112410_2002112500.jd
+CD_YEAR=2002
+CD_LABEL=2002112410-2002112500
+CD_NUMBER=439
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002112410_2002112500
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002112410a.dat.gz \
+2002112410b.dat.gz \
+2002112410c.dat.gz \
+2002112410ca.dat.gz \
+2002112410e.dat.gz \
+2002112410f.dat.gz \
+2002112410k.dat.gz \
+2002112410r.dat.gz \
+2002112410t.dat.gz \
+2002112410w.dat.gz \
+2002112412a.dat.gz \
+2002112412b.dat.gz \
+2002112412c.dat.gz \
+2002112412ca.dat.gz \
+2002112412e.dat.gz \
+2002112412f.dat.gz \
+2002112412k.dat.gz \
+2002112412r.dat.gz \
+2002112412t.dat.gz \
+2002112412w.dat.gz \
+2002112413c.dat.gz \
+2002112414a.dat.gz \
+2002112414b.dat.gz \
+2002112414c.dat.gz \
+2002112414e.dat.gz \
+2002112414f.dat.gz \
+2002112414k.dat.gz \
+2002112414r.dat.gz \
+2002112414t.dat.gz \
+2002112414w.dat.gz \
+2002112416a.dat.gz \
+2002112416b.dat.gz \
+2002112416c.dat.gz \
+2002112416e.dat.gz \
+2002112416f.dat.gz \
+2002112416k.dat.gz \
+2002112416r.dat.gz \
+2002112416t.dat.gz \
+2002112416w.dat.gz \
+2002112418a.dat.gz \
+2002112418b.dat.gz \
+2002112418c.dat.gz \
+2002112418ca.dat.gz \
+2002112418cb.dat.gz \
+2002112418e.dat.gz \
+2002112418f.dat.gz \
+2002112418k.dat.gz \
+2002112418r.dat.gz \
+2002112418t.dat.gz \
+2002112418w.dat.gz \
+2002112419c.dat.gz \
+2002112420a.dat.gz \
+2002112420b.dat.gz \
+2002112420c.dat.gz \
+2002112420e.dat.gz \
+2002112420f.dat.gz \
+2002112420k.dat.gz \
+2002112420r.dat.gz \
+2002112420t.dat.gz \
+2002112420w.dat.gz \
+2002112422a.dat.gz \
+2002112422b.dat.gz \
+2002112422c.dat.gz \
+2002112422ca.dat.gz \
+2002112422e.dat.gz \
+2002112422f.dat.gz \
+2002112422k.dat.gz \
+2002112422r.dat.gz \
+2002112422t.dat.gz \
+2002112422w.dat.gz \
+2002112500a.dat.gz \
+2002112500b.dat.gz \
+2002112500c.dat.gz \
+2002112500e.dat.gz \
+2002112500f.dat.gz \
+2002112500k.dat.gz \
+2002112500r.dat.gz \
+2002112500t.dat.gz \
+2002112500w.dat.gz \
+"

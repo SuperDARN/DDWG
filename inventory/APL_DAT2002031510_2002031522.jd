@@ -1,0 +1,104 @@
+JD_FILE=APL_DAT2002031510_2002031522.jd
+CD_YEAR=2002
+CD_LABEL=2002031510-2002031522
+CD_NUMBER=120
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002031510_2002031522
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002031510a.dat.gz \
+2002031510b.dat.gz \
+2002031510c.dat.gz \
+2002031510ca.dat.gz \
+2002031510e.dat.gz \
+2002031510f.dat.gz \
+2002031510g.dat.gz \
+2002031510k.dat.gz \
+2002031510r.dat.gz \
+2002031510t.dat.gz \
+2002031510w.dat.gz \
+2002031511c.dat.gz \
+2002031512a.dat.gz \
+2002031512b.dat.gz \
+2002031512c.dat.gz \
+2002031512ca.dat.gz \
+2002031512e.dat.gz \
+2002031512f.dat.gz \
+2002031512g.dat.gz \
+2002031512k.dat.gz \
+2002031512r.dat.gz \
+2002031512t.dat.gz \
+2002031512w.dat.gz \
+2002031513c.dat.gz \
+2002031514a.dat.gz \
+2002031514aa.dat.gz \
+2002031514b.dat.gz \
+2002031514ba.dat.gz \
+2002031514c.dat.gz \
+2002031514ca.dat.gz \
+2002031514e.dat.gz \
+2002031514f.dat.gz \
+2002031514g.dat.gz \
+2002031514ga.dat.gz \
+2002031514k.dat.gz \
+2002031514ka.dat.gz \
+2002031514r.dat.gz \
+2002031514ra.dat.gz \
+2002031514t.dat.gz \
+2002031514ta.dat.gz \
+2002031514w.dat.gz \
+2002031514wa.dat.gz \
+2002031516a.dat.gz \
+2002031516b.dat.gz \
+2002031516c.dat.gz \
+2002031516ca.dat.gz \
+2002031516e.dat.gz \
+2002031516f.dat.gz \
+2002031516g.dat.gz \
+2002031516k.dat.gz \
+2002031516r.dat.gz \
+2002031516t.dat.gz \
+2002031516w.dat.gz \
+2002031518a.dat.gz \
+2002031518b.dat.gz \
+2002031518c.dat.gz \
+2002031518ca.dat.gz \
+2002031518e.dat.gz \
+2002031518f.dat.gz \
+2002031518g.dat.gz \
+2002031518k.dat.gz \
+2002031518r.dat.gz \
+2002031518t.dat.gz \
+2002031518w.dat.gz \
+2002031520a.dat.gz \
+2002031520b.dat.gz \
+2002031520c.dat.gz \
+2002031520e.dat.gz \
+2002031520f.dat.gz \
+2002031520g.dat.gz \
+2002031520k.dat.gz \
+2002031520r.dat.gz \
+2002031520t.dat.gz \
+2002031520w.dat.gz \
+2002031522a.dat.gz \
+2002031522aa.dat.gz \
+2002031522b.dat.gz \
+2002031522ba.dat.gz \
+2002031522c.dat.gz \
+2002031522e.dat.gz \
+2002031522ea.dat.gz \
+2002031522f.dat.gz \
+2002031522fa.dat.gz \
+2002031522g.dat.gz \
+2002031522ga.dat.gz \
+2002031522k.dat.gz \
+2002031522ka.dat.gz \
+2002031522r.dat.gz \
+2002031522ra.dat.gz \
+2002031522t.dat.gz \
+2002031522ta.dat.gz \
+2002031522w.dat.gz \
+2002031522wa.dat.gz \
+"

@@ -34,25 +34,25 @@ MISSING_LIST=/location/of/missing_dat.txt
 REQUIRED_LIST=/location/of/disks_to_get.txt
 
 beep() {
-	# Play a beep at frequency $1 Hz that lasts $2 tenths of a second long.
-	# See https://unix.stackexchange.com/questions/1974/how-do-i-make-my-pc-speaker-beep
-	( \speaker-test --frequency "$1" --test sine )&
-	pid=$!
-	\sleep 0."${2}"
-	\kill -9 $pid 
+    # Play a beep at frequency $1 Hz that lasts $2 tenths of a second long.
+    # See https://unix.stackexchange.com/questions/1974/how-do-i-make-my-pc-speaker-beep
+    ( \speaker-test --frequency "$1" --test sine )&
+    pid=$!
+    \sleep 0."${2}"
+    \kill -9 $pid
 } > /dev/null 2>&1
 
 alarm() {
-	beep 800 200
-	beep 800 200
-	beep 800 200
-	beep 800 200
-	beep 800 200
-	beep 800 200
+    beep 800 200
+    beep 800 200
+    beep 800 200
+    beep 800 200
+    beep 800 200
+    beep 800 200
 } > /dev/null 2>&1
 
 disk_done_beep() {
-	beep 1000 300
+    beep 1000 300
 } > /dev/null 2>&1
 
 # Loop forever checking to see if we have a disk

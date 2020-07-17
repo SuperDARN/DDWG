@@ -9,3 +9,4 @@ Files within this repository:
 1. appendices/ -  A directory containing any appendices referenced in DDWG documents
 1. img/ - A directory containing any media referenced in DDWG documents
 1. meetings/ - A directory containing meeting agendas, minutes, reports and presentations
+1. inventory/ - A directory containing an inventory of data archived on optical media

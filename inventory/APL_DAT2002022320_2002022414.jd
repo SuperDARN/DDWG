@@ -1,0 +1,101 @@
+JD_FILE=APL_DAT2002022320_2002022414.jd
+CD_YEAR=2002
+CD_LABEL=2002022320-2002022414
+CD_NUMBER=86
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002022320_2002022414
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002022320a.dat.gz \
+2002022320b.dat.gz \
+2002022320e.dat.gz \
+2002022320f.dat.gz \
+2002022320g.dat.gz \
+2002022320k.dat.gz \
+2002022320r.dat.gz \
+2002022320t.dat.gz \
+2002022320w.dat.gz \
+2002022322a.dat.gz \
+2002022322b.dat.gz \
+2002022322e.dat.gz \
+2002022322f.dat.gz \
+2002022322g.dat.gz \
+2002022322k.dat.gz \
+2002022322r.dat.gz \
+2002022322t.dat.gz \
+2002022322w.dat.gz \
+2002022400a.dat.gz \
+2002022400b.dat.gz \
+2002022400e.dat.gz \
+2002022400f.dat.gz \
+2002022400g.dat.gz \
+2002022400k.dat.gz \
+2002022400r.dat.gz \
+2002022400t.dat.gz \
+2002022400w.dat.gz \
+2002022402a.dat.gz \
+2002022402b.dat.gz \
+2002022402e.dat.gz \
+2002022402f.dat.gz \
+2002022402g.dat.gz \
+2002022402k.dat.gz \
+2002022402r.dat.gz \
+2002022402t.dat.gz \
+2002022402w.dat.gz \
+2002022404a.dat.gz \
+2002022404b.dat.gz \
+2002022404e.dat.gz \
+2002022404f.dat.gz \
+2002022404g.dat.gz \
+2002022404k.dat.gz \
+2002022404r.dat.gz \
+2002022404t.dat.gz \
+2002022404w.dat.gz \
+2002022406a.dat.gz \
+2002022406b.dat.gz \
+2002022406e.dat.gz \
+2002022406f.dat.gz \
+2002022406g.dat.gz \
+2002022406k.dat.gz \
+2002022406r.dat.gz \
+2002022406t.dat.gz \
+2002022406w.dat.gz \
+2002022408a.dat.gz \
+2002022408b.dat.gz \
+2002022408e.dat.gz \
+2002022408f.dat.gz \
+2002022408g.dat.gz \
+2002022408k.dat.gz \
+2002022408r.dat.gz \
+2002022408t.dat.gz \
+2002022408w.dat.gz \
+2002022410a.dat.gz \
+2002022410b.dat.gz \
+2002022410e.dat.gz \
+2002022410f.dat.gz \
+2002022410g.dat.gz \
+2002022410k.dat.gz \
+2002022410r.dat.gz \
+2002022410t.dat.gz \
+2002022410w.dat.gz \
+2002022412a.dat.gz \
+2002022412b.dat.gz \
+2002022412e.dat.gz \
+2002022412f.dat.gz \
+2002022412g.dat.gz \
+2002022412k.dat.gz \
+2002022412r.dat.gz \
+2002022412t.dat.gz \
+2002022412w.dat.gz \
+2002022414a.dat.gz \
+2002022414b.dat.gz \
+2002022414e.dat.gz \
+2002022414f.dat.gz \
+2002022414g.dat.gz \
+2002022414k.dat.gz \
+2002022414r.dat.gz \
+2002022414t.dat.gz \
+2002022414w.dat.gz \
+"

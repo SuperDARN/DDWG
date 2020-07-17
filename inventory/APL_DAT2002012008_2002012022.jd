@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002012008_2002012022.jd
+CD_YEAR=2002
+CD_LABEL=2002012008-2002012022
+CD_NUMBER=27
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002012008_2002012022
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002012008a.dat.gz \
+2002012008b.dat.gz \
+2002012008e.dat.gz \
+2002012008f.dat.gz \
+2002012008g.dat.gz \
+2002012008k.dat.gz \
+2002012008r.dat.gz \
+2002012008t.dat.gz \
+2002012008w.dat.gz \
+2002012010a.dat.gz \
+2002012010b.dat.gz \
+2002012010e.dat.gz \
+2002012010f.dat.gz \
+2002012010g.dat.gz \
+2002012010k.dat.gz \
+2002012010r.dat.gz \
+2002012010t.dat.gz \
+2002012010w.dat.gz \
+2002012012a.dat.gz \
+2002012012b.dat.gz \
+2002012012e.dat.gz \
+2002012012f.dat.gz \
+2002012012g.dat.gz \
+2002012012k.dat.gz \
+2002012012r.dat.gz \
+2002012012t.dat.gz \
+2002012012w.dat.gz \
+2002012014a.dat.gz \
+2002012014b.dat.gz \
+2002012014e.dat.gz \
+2002012014f.dat.gz \
+2002012014g.dat.gz \
+2002012014k.dat.gz \
+2002012014r.dat.gz \
+2002012014t.dat.gz \
+2002012014w.dat.gz \
+2002012016b.dat.gz \
+2002012016e.dat.gz \
+2002012016f.dat.gz \
+2002012016g.dat.gz \
+2002012016k.dat.gz \
+2002012016r.dat.gz \
+2002012016t.dat.gz \
+2002012016w.dat.gz \
+2002012018a.dat.gz \
+2002012018b.dat.gz \
+2002012018ba.dat.gz \
+2002012018e.dat.gz \
+2002012018ea.dat.gz \
+2002012018f.dat.gz \
+2002012018fa.dat.gz \
+2002012018g.dat.gz \
+2002012018ga.dat.gz \
+2002012018k.dat.gz \
+2002012018ka.dat.gz \
+2002012018r.dat.gz \
+2002012018ra.dat.gz \
+2002012018t.dat.gz \
+2002012018ta.dat.gz \
+2002012018w.dat.gz \
+2002012018wa.dat.gz \
+2002012020a.dat.gz \
+2002012020b.dat.gz \
+2002012020e.dat.gz \
+2002012020f.dat.gz \
+2002012020g.dat.gz \
+2002012020k.dat.gz \
+2002012020r.dat.gz \
+2002012020t.dat.gz \
+2002012020w.dat.gz \
+2002012022a.dat.gz \
+2002012022b.dat.gz \
+2002012022e.dat.gz \
+2002012022f.dat.gz \
+2002012022g.dat.gz \
+2002012022k.dat.gz \
+2002012022r.dat.gz \
+2002012022t.dat.gz \
+2002012022w.dat.gz \
+"

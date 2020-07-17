@@ -1,0 +1,104 @@
+JD_FILE=APL_DAT2001112020_2001112112.jd
+CD_YEAR=2001
+CD_LABEL=2001112020-2001112112
+CD_NUMBER=394
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001112020_2001112112
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001112020a.dat.gz \
+2001112020b.dat.gz \
+2001112020e.dat.gz \
+2001112020f.dat.gz \
+2001112020g.dat.gz \
+2001112020k.dat.gz \
+2001112020r.dat.gz \
+2001112020t.dat.gz \
+2001112020w.dat.gz \
+2001112022a.dat.gz \
+2001112022b.dat.gz \
+2001112022e.dat.gz \
+2001112022f.dat.gz \
+2001112022g.dat.gz \
+2001112022k.dat.gz \
+2001112022r.dat.gz \
+2001112022t.dat.gz \
+2001112022w.dat.gz \
+2001112023g.dat.gz \
+2001112023ga.dat.gz \
+2001112023gb.dat.gz \
+2001112100a.dat.gz \
+2001112100aa.dat.gz \
+2001112100b.dat.gz \
+2001112100ba.dat.gz \
+2001112100e.dat.gz \
+2001112100ea.dat.gz \
+2001112100f.dat.gz \
+2001112100fa.dat.gz \
+2001112100g.dat.gz \
+2001112100ga.dat.gz \
+2001112100k.dat.gz \
+2001112100ka.dat.gz \
+2001112100r.dat.gz \
+2001112100ra.dat.gz \
+2001112100t.dat.gz \
+2001112100ta.dat.gz \
+2001112100w.dat.gz \
+2001112100wa.dat.gz \
+2001112102a.dat.gz \
+2001112102b.dat.gz \
+2001112102e.dat.gz \
+2001112102f.dat.gz \
+2001112102g.dat.gz \
+2001112102k.dat.gz \
+2001112102r.dat.gz \
+2001112102t.dat.gz \
+2001112102w.dat.gz \
+2001112104a.dat.gz \
+2001112104b.dat.gz \
+2001112104e.dat.gz \
+2001112104f.dat.gz \
+2001112104g.dat.gz \
+2001112104k.dat.gz \
+2001112104r.dat.gz \
+2001112104t.dat.gz \
+2001112104w.dat.gz \
+2001112106a.dat.gz \
+2001112106b.dat.gz \
+2001112106e.dat.gz \
+2001112106f.dat.gz \
+2001112106g.dat.gz \
+2001112106k.dat.gz \
+2001112106r.dat.gz \
+2001112106t.dat.gz \
+2001112106w.dat.gz \
+2001112108a.dat.gz \
+2001112108b.dat.gz \
+2001112108e.dat.gz \
+2001112108f.dat.gz \
+2001112108g.dat.gz \
+2001112108k.dat.gz \
+2001112108r.dat.gz \
+2001112108t.dat.gz \
+2001112108w.dat.gz \
+2001112110a.dat.gz \
+2001112110b.dat.gz \
+2001112110e.dat.gz \
+2001112110f.dat.gz \
+2001112110g.dat.gz \
+2001112110k.dat.gz \
+2001112110r.dat.gz \
+2001112110t.dat.gz \
+2001112110w.dat.gz \
+2001112112a.dat.gz \
+2001112112b.dat.gz \
+2001112112e.dat.gz \
+2001112112f.dat.gz \
+2001112112g.dat.gz \
+2001112112k.dat.gz \
+2001112112r.dat.gz \
+2001112112t.dat.gz \
+2001112112w.dat.gz \
+"

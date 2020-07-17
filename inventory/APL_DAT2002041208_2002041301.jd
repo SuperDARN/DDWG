@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002041208_2002041301.jd
+CD_YEAR=2002
+CD_LABEL=2002041208-2002041301
+CD_NUMBER=163
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002041208_2002041301
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002041208a.dat.gz \
+2002041208b.dat.gz \
+2002041208e.dat.gz \
+2002041208f.dat.gz \
+2002041208g.dat.gz \
+2002041208k.dat.gz \
+2002041208r.dat.gz \
+2002041208t.dat.gz \
+2002041210a.dat.gz \
+2002041210b.dat.gz \
+2002041210e.dat.gz \
+2002041210f.dat.gz \
+2002041210g.dat.gz \
+2002041210k.dat.gz \
+2002041210r.dat.gz \
+2002041210t.dat.gz \
+2002041212a.dat.gz \
+2002041212b.dat.gz \
+2002041212e.dat.gz \
+2002041212f.dat.gz \
+2002041212g.dat.gz \
+2002041212k.dat.gz \
+2002041212r.dat.gz \
+2002041212t.dat.gz \
+2002041214a.dat.gz \
+2002041214b.dat.gz \
+2002041214e.dat.gz \
+2002041214f.dat.gz \
+2002041214g.dat.gz \
+2002041214k.dat.gz \
+2002041214r.dat.gz \
+2002041214t.dat.gz \
+2002041214ta.dat.gz \
+2002041216a.dat.gz \
+2002041216b.dat.gz \
+2002041216e.dat.gz \
+2002041216f.dat.gz \
+2002041216g.dat.gz \
+2002041216k.dat.gz \
+2002041216r.dat.gz \
+2002041216t.dat.gz \
+2002041218a.dat.gz \
+2002041218b.dat.gz \
+2002041218c.dat.gz \
+2002041218e.dat.gz \
+2002041218f.dat.gz \
+2002041218g.dat.gz \
+2002041218k.dat.gz \
+2002041218r.dat.gz \
+2002041218t.dat.gz \
+2002041220a.dat.gz \
+2002041220b.dat.gz \
+2002041220c.dat.gz \
+2002041220ca.dat.gz \
+2002041220e.dat.gz \
+2002041220f.dat.gz \
+2002041220g.dat.gz \
+2002041220k.dat.gz \
+2002041220r.dat.gz \
+2002041220t.dat.gz \
+2002041222a.dat.gz \
+2002041222b.dat.gz \
+2002041222c.dat.gz \
+2002041222e.dat.gz \
+2002041222f.dat.gz \
+2002041222g.dat.gz \
+2002041222k.dat.gz \
+2002041222r.dat.gz \
+2002041222t.dat.gz \
+2002041300a.dat.gz \
+2002041300b.dat.gz \
+2002041300c.dat.gz \
+2002041300e.dat.gz \
+2002041300f.dat.gz \
+2002041300g.dat.gz \
+2002041300k.dat.gz \
+2002041300r.dat.gz \
+2002041300t.dat.gz \
+2002041301c.dat.gz \
+"

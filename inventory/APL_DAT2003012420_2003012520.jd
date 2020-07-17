@@ -1,0 +1,127 @@
+JD_FILE=APL_DAT2003012420_2003012520.jd
+CD_YEAR=2003
+CD_LABEL=2003012420-2003012520
+CD_NUMBER=25
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2003012420_2003012520
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2003012420a.dat.gz \
+2003012420e.dat.gz \
+2003012420f.dat.gz \
+2003012420g.dat.gz \
+2003012420k.dat.gz \
+2003012420t.dat.gz \
+2003012420w.dat.gz \
+2003012421t.dat.gz \
+2003012422a.dat.gz \
+2003012422e.dat.gz \
+2003012422f.dat.gz \
+2003012422g.dat.gz \
+2003012422k.dat.gz \
+2003012422t.dat.gz \
+2003012422w.dat.gz \
+2003012500a.dat.gz \
+2003012500b.dat.gz \
+2003012500e.dat.gz \
+2003012500f.dat.gz \
+2003012500g.dat.gz \
+2003012500k.dat.gz \
+2003012500r.dat.gz \
+2003012500t.dat.gz \
+2003012500w.dat.gz \
+2003012502a.dat.gz \
+2003012502b.dat.gz \
+2003012502e.dat.gz \
+2003012502f.dat.gz \
+2003012502g.dat.gz \
+2003012502k.dat.gz \
+2003012502r.dat.gz \
+2003012502t.dat.gz \
+2003012502w.dat.gz \
+2003012503a.dat.gz \
+2003012504a.dat.gz \
+2003012504b.dat.gz \
+2003012504e.dat.gz \
+2003012504f.dat.gz \
+2003012504g.dat.gz \
+2003012504k.dat.gz \
+2003012504r.dat.gz \
+2003012504t.dat.gz \
+2003012504w.dat.gz \
+2003012506a.dat.gz \
+2003012506b.dat.gz \
+2003012506e.dat.gz \
+2003012506f.dat.gz \
+2003012506g.dat.gz \
+2003012506k.dat.gz \
+2003012506r.dat.gz \
+2003012506t.dat.gz \
+2003012506w.dat.gz \
+2003012508a.dat.gz \
+2003012508aa.dat.gz \
+2003012508b.dat.gz \
+2003012508e.dat.gz \
+2003012508f.dat.gz \
+2003012508g.dat.gz \
+2003012508k.dat.gz \
+2003012508r.dat.gz \
+2003012508t.dat.gz \
+2003012508w.dat.gz \
+2003012510a.dat.gz \
+2003012510b.dat.gz \
+2003012510e.dat.gz \
+2003012510f.dat.gz \
+2003012510g.dat.gz \
+2003012510k.dat.gz \
+2003012510r.dat.gz \
+2003012510t.dat.gz \
+2003012510w.dat.gz \
+2003012512a.dat.gz \
+2003012512b.dat.gz \
+2003012512e.dat.gz \
+2003012512f.dat.gz \
+2003012512g.dat.gz \
+2003012512k.dat.gz \
+2003012512r.dat.gz \
+2003012512t.dat.gz \
+2003012512w.dat.gz \
+2003012514a.dat.gz \
+2003012514b.dat.gz \
+2003012514e.dat.gz \
+2003012514f.dat.gz \
+2003012514g.dat.gz \
+2003012514k.dat.gz \
+2003012514r.dat.gz \
+2003012514t.dat.gz \
+2003012514w.dat.gz \
+2003012516a.dat.gz \
+2003012516b.dat.gz \
+2003012516e.dat.gz \
+2003012516f.dat.gz \
+2003012516g.dat.gz \
+2003012516k.dat.gz \
+2003012516r.dat.gz \
+2003012516t.dat.gz \
+2003012516w.dat.gz \
+2003012518a.dat.gz \
+2003012518b.dat.gz \
+2003012518e.dat.gz \
+2003012518f.dat.gz \
+2003012518g.dat.gz \
+2003012518k.dat.gz \
+2003012518r.dat.gz \
+2003012518t.dat.gz \
+2003012518w.dat.gz \
+2003012520a.dat.gz \
+2003012520b.dat.gz \
+2003012520e.dat.gz \
+2003012520f.dat.gz \
+2003012520g.dat.gz \
+2003012520k.dat.gz \
+2003012520r.dat.gz \
+2003012520t.dat.gz \
+2003012520w.dat.gz \
+"

@@ -1,0 +1,113 @@
+JD_FILE=APL_DAT2001101520_2001101612.jd
+CD_YEAR=2001
+CD_LABEL=2001101520-2001101612
+CD_NUMBER=352
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2001101520_2001101612
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2001101520a.dat.gz \
+2001101520b.dat.gz \
+2001101520c.dat.gz \
+2001101520e.dat.gz \
+2001101520f.dat.gz \
+2001101520g.dat.gz \
+2001101520k.dat.gz \
+2001101520r.dat.gz \
+2001101520t.dat.gz \
+2001101520w.dat.gz \
+2001101522a.dat.gz \
+2001101522aa.dat.gz \
+2001101522ab.dat.gz \
+2001101522b.dat.gz \
+2001101522c.dat.gz \
+2001101522e.dat.gz \
+2001101522f.dat.gz \
+2001101522g.dat.gz \
+2001101522k.dat.gz \
+2001101522r.dat.gz \
+2001101522t.dat.gz \
+2001101522w.dat.gz \
+2001101523a.dat.gz \
+2001101600a.dat.gz \
+2001101600aa.dat.gz \
+2001101600b.dat.gz \
+2001101600ba.dat.gz \
+2001101600c.dat.gz \
+2001101600e.dat.gz \
+2001101600ea.dat.gz \
+2001101600f.dat.gz \
+2001101600fa.dat.gz \
+2001101600g.dat.gz \
+2001101600ga.dat.gz \
+2001101600k.dat.gz \
+2001101600ka.dat.gz \
+2001101600r.dat.gz \
+2001101600ra.dat.gz \
+2001101600t.dat.gz \
+2001101600ta.dat.gz \
+2001101600w.dat.gz \
+2001101600wa.dat.gz \
+2001101602a.dat.gz \
+2001101602b.dat.gz \
+2001101602c.dat.gz \
+2001101602e.dat.gz \
+2001101602f.dat.gz \
+2001101602g.dat.gz \
+2001101602k.dat.gz \
+2001101602r.dat.gz \
+2001101602t.dat.gz \
+2001101602w.dat.gz \
+2001101604a.dat.gz \
+2001101604b.dat.gz \
+2001101604c.dat.gz \
+2001101604e.dat.gz \
+2001101604f.dat.gz \
+2001101604g.dat.gz \
+2001101604k.dat.gz \
+2001101604r.dat.gz \
+2001101604t.dat.gz \
+2001101604w.dat.gz \
+2001101606a.dat.gz \
+2001101606b.dat.gz \
+2001101606c.dat.gz \
+2001101606e.dat.gz \
+2001101606f.dat.gz \
+2001101606g.dat.gz \
+2001101606k.dat.gz \
+2001101606r.dat.gz \
+2001101606t.dat.gz \
+2001101606w.dat.gz \
+2001101608a.dat.gz \
+2001101608b.dat.gz \
+2001101608c.dat.gz \
+2001101608e.dat.gz \
+2001101608f.dat.gz \
+2001101608g.dat.gz \
+2001101608k.dat.gz \
+2001101608r.dat.gz \
+2001101608t.dat.gz \
+2001101608w.dat.gz \
+2001101610a.dat.gz \
+2001101610b.dat.gz \
+2001101610c.dat.gz \
+2001101610e.dat.gz \
+2001101610f.dat.gz \
+2001101610g.dat.gz \
+2001101610k.dat.gz \
+2001101610r.dat.gz \
+2001101610t.dat.gz \
+2001101610w.dat.gz \
+2001101612a.dat.gz \
+2001101612b.dat.gz \
+2001101612c.dat.gz \
+2001101612e.dat.gz \
+2001101612f.dat.gz \
+2001101612g.dat.gz \
+2001101612k.dat.gz \
+2001101612r.dat.gz \
+2001101612t.dat.gz \
+2001101612w.dat.gz \
+"

@@ -1,0 +1,90 @@
+JD_FILE=APL_DAT2002013120_2002020110.jd
+CD_YEAR=2002
+CD_LABEL=2002013120-2002020110
+CD_NUMBER=50
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002013120_2002020110
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002013120a.dat.gz \
+2002013120b.dat.gz \
+2002013120e.dat.gz \
+2002013120f.dat.gz \
+2002013120g.dat.gz \
+2002013120k.dat.gz \
+2002013120ka.dat.gz \
+2002013120r.dat.gz \
+2002013120t.dat.gz \
+2002013120w.dat.gz \
+2002013122a.dat.gz \
+2002013122b.dat.gz \
+2002013122e.dat.gz \
+2002013122f.dat.gz \
+2002013122g.dat.gz \
+2002013122k.dat.gz \
+2002013122r.dat.gz \
+2002013122t.dat.gz \
+2002013122w.dat.gz \
+2002020100a.dat.gz \
+2002020100aa.dat.gz \
+2002020100b.dat.gz \
+2002020100ba.dat.gz \
+2002020100e.dat.gz \
+2002020100f.dat.gz \
+2002020100g.dat.gz \
+2002020100ga.dat.gz \
+2002020100k.dat.gz \
+2002020100ka.dat.gz \
+2002020100r.dat.gz \
+2002020100t.dat.gz \
+2002020100ta.dat.gz \
+2002020100w.dat.gz \
+2002020100wa.dat.gz \
+2002020102a.dat.gz \
+2002020102b.dat.gz \
+2002020102e.dat.gz \
+2002020102f.dat.gz \
+2002020102g.dat.gz \
+2002020102k.dat.gz \
+2002020102r.dat.gz \
+2002020102t.dat.gz \
+2002020102w.dat.gz \
+2002020104a.dat.gz \
+2002020104b.dat.gz \
+2002020104e.dat.gz \
+2002020104f.dat.gz \
+2002020104g.dat.gz \
+2002020104k.dat.gz \
+2002020104r.dat.gz \
+2002020104t.dat.gz \
+2002020104w.dat.gz \
+2002020106a.dat.gz \
+2002020106b.dat.gz \
+2002020106e.dat.gz \
+2002020106f.dat.gz \
+2002020106g.dat.gz \
+2002020106k.dat.gz \
+2002020106r.dat.gz \
+2002020106t.dat.gz \
+2002020106w.dat.gz \
+2002020108a.dat.gz \
+2002020108b.dat.gz \
+2002020108e.dat.gz \
+2002020108f.dat.gz \
+2002020108g.dat.gz \
+2002020108k.dat.gz \
+2002020108r.dat.gz \
+2002020108t.dat.gz \
+2002020108w.dat.gz \
+2002020110a.dat.gz \
+2002020110b.dat.gz \
+2002020110e.dat.gz \
+2002020110f.dat.gz \
+2002020110g.dat.gz \
+2002020110k.dat.gz \
+2002020110r.dat.gz \
+2002020110t.dat.gz \
+2002020110w.dat.gz \
+"

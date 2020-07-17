@@ -1,0 +1,105 @@
+JD_FILE=APL_DAT2002040622_2002040718.jd
+CD_YEAR=2002
+CD_LABEL=2002040622-2002040718
+CD_NUMBER=155
+CD_TEMPLATE=/usr/ymi/label-maker/sdmrdat_n.pcl
+CD_VOL_SI="NORTHERN SUPERDARN MR DAT DATA"
+CD_VOL_VI=2002040622_2002040718
+CDS_TO_WRITE=14
+SOURCE_DIRECTORY=/data/apl/dat
+FILES_TO_WRITE="\
+2002040622a.dat.gz \
+2002040622b.dat.gz \
+2002040622e.dat.gz \
+2002040622f.dat.gz \
+2002040622g.dat.gz \
+2002040622k.dat.gz \
+2002040622r.dat.gz \
+2002040622t.dat.gz \
+2002040700a.dat.gz \
+2002040700aa.dat.gz \
+2002040700b.dat.gz \
+2002040700ba.dat.gz \
+2002040700e.dat.gz \
+2002040700f.dat.gz \
+2002040700fa.dat.gz \
+2002040700g.dat.gz \
+2002040700k.dat.gz \
+2002040700ka.dat.gz \
+2002040700r.dat.gz \
+2002040700ra.dat.gz \
+2002040700t.dat.gz \
+2002040700ta.dat.gz \
+2002040702a.dat.gz \
+2002040702b.dat.gz \
+2002040702e.dat.gz \
+2002040702f.dat.gz \
+2002040702g.dat.gz \
+2002040702k.dat.gz \
+2002040702r.dat.gz \
+2002040702t.dat.gz \
+2002040704a.dat.gz \
+2002040704b.dat.gz \
+2002040704e.dat.gz \
+2002040704f.dat.gz \
+2002040704g.dat.gz \
+2002040704k.dat.gz \
+2002040704r.dat.gz \
+2002040704t.dat.gz \
+2002040706a.dat.gz \
+2002040706b.dat.gz \
+2002040706e.dat.gz \
+2002040706f.dat.gz \
+2002040706g.dat.gz \
+2002040706k.dat.gz \
+2002040706r.dat.gz \
+2002040706t.dat.gz \
+2002040708a.dat.gz \
+2002040708b.dat.gz \
+2002040708e.dat.gz \
+2002040708f.dat.gz \
+2002040708g.dat.gz \
+2002040708k.dat.gz \
+2002040708r.dat.gz \
+2002040708t.dat.gz \
+2002040710a.dat.gz \
+2002040710b.dat.gz \
+2002040710e.dat.gz \
+2002040710f.dat.gz \
+2002040710g.dat.gz \
+2002040710k.dat.gz \
+2002040710r.dat.gz \
+2002040710t.dat.gz \
+2002040712a.dat.gz \
+2002040712b.dat.gz \
+2002040712e.dat.gz \
+2002040712f.dat.gz \
+2002040712g.dat.gz \
+2002040712k.dat.gz \
+2002040712r.dat.gz \
+2002040712t.dat.gz \
+2002040714a.dat.gz \
+2002040714b.dat.gz \
+2002040714e.dat.gz \
+2002040714f.dat.gz \
+2002040714g.dat.gz \
+2002040714k.dat.gz \
+2002040714r.dat.gz \
+2002040714t.dat.gz \
+2002040716a.dat.gz \
+2002040716b.dat.gz \
+2002040716e.dat.gz \
+2002040716f.dat.gz \
+2002040716g.dat.gz \
+2002040716k.dat.gz \
+2002040716r.dat.gz \
+2002040716t.dat.gz \
+2002040718a.dat.gz \
+2002040718b.dat.gz \
+2002040718e.dat.gz \
+2002040718f.dat.gz \
+2002040718g.dat.gz \
+2002040718k.dat.gz \
+2002040718r.dat.gz \
+2002040718t.dat.gz \
+"
