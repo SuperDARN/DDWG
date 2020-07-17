@@ -238,6 +238,11 @@ for files from BAS.
 01 18 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/BAS/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
 ```
 
+### Synchronization with BAS
+
+In July 2020, rsync access was made available to BAS on ```cedar.computecanada.ca```. The repository
+located on ```cedar``` was set up with ACLs to allow BAS to have read-only access.
+
 ### Manually executed tasks
 
 There are occasional tasks that require human intervention.
