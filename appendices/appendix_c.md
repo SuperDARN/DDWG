@@ -82,7 +82,8 @@ management. At a very high level, it allows fast, parallel transfers of large da
 `endpoints`. An endpoint can be a server in the cloud or your personal laptop or desktop. 
 
 At SuperDARN Canada, we have access to the Globus endpoint on `cedar.computecanada.ca`, which has 
-the Globus server software installed and acts as an endpoint. We are able to share subdirectories of
+the Globus server software installed and acts as an endpoint. The Globus server software has
+hardware acceleration on `cedar`. We are able to share subdirectories of
 this storage with groups of users. In this way, we can customize the user's access to various data.
 Currently, we use this sharing ability with a group of users to allow read-only access to the main
 RAWACF and DAT file distribution. Alongside the main distribution, we expose the directory 
@@ -229,6 +230,8 @@ It performs several main tasks:
     1. Does the file pass all DMAP tests in [backscatter](https://github.com/SuperDARNCanada/backscatter)?
 1. Upload those files that passed all the tests onto the Globus mirror in the appropriate place
 and update the hash file(s) (as atomically as possible).
+1. Upload any files that failed any check to a `failed` directory on `cedar.computecanada.ca` as well
+as update the `all_failed.txt` file located in the `sddata/config/` directory.
 1. Email Kevin with files that failed any test.
 
 It is scheduled via cron at the following times, for both files from VT and *sdcopy*, another time
@@ -242,6 +245,19 @@ for files from BAS.
 
 In July 2020, rsync access was made available to BAS on ```cedar.computecanada.ca```. The repository
 located on ```cedar``` was set up with ACLs to allow BAS to have read-only access.
+
+The ACLs were set up as follows:
+
+1. `setfacl -Rdm u::rwx *`
+1. `setfacl -Rm u::rwx *`
+1. `setfacl -Rdm g::rwx *`
+1. `setfacl -Rm g::rwx *`
+1. `setfacl -Rdm u:bas:rx *`
+1. `setfacl -Rm u:bas:rx *`
+
+These 6 commands, when executed on the top level directory for SuperDARN data, will allow the `bas`
+user to have read-only access to files, while allowing the file owner and file group owner to have
+read-write access. The results can be checked with `getfacl`.
 
 ### Manually executed tasks
 
