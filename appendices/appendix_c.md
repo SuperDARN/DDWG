@@ -294,7 +294,8 @@ removed using the 'Removing files' section above
 
 #### Updating files
 
-Updating files is done by manually executing the *update_files_globus.py* script.
+Updating files is done by manually executing the *update_files_globus.py* script. A list of all
+files ever updated is located at : `/chroot/sddata/config/all_updated.txt`.
 This python script takes 4 arguments:
 
 1. Data type (-t DATA_TYPE)
