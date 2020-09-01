@@ -42,7 +42,7 @@ standard. They are currently in a separate directory (along with Saskatoon and P
 ## Data summary
 
 #### Absolute disk usage by year and data type
-![disk_usage](../../img/du_20200605.png)
+![disk_usage](../img/du_20200605.png)
 
 The above plot shows how many GB of storage are in the main distribution directories for RAWACF, 
 FIT and DAT files. It is calculated using the command-line program `du -s`. The title of the plot
