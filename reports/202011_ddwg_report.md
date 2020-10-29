@@ -6,10 +6,15 @@ With information from the period September 1 to October 31 2020
 | Name | Institution | 
 | --- | --- |
 | Kevin Krieger | USASK
-| Paul Breen | BAS 
+| Paul Breen | BAS
+| Kevin Sterne | VT 
 
 ## General Announcements
 
+1. The first move (of two) of the VT servers was completed in late August with a downtime of ~6 days. 
+After the move, connection to zho files was lost, Kevin Sterne is still working with Jianjun to update 
+network settings to start the data transfers again. 
+The second move of VT servers is possible before the end of the year.
 1. Finished moving all recently generated `dattorawacf` files to a separate directory than the main distribution.
 1. Inode quota requested and increased on `cedar.computecanada.ca`
 1. Uploaded 2017 and 2018 `RAWACF` files to two different FRDR (Federated Research Data Repository) submissions
