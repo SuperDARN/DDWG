@@ -11,14 +11,15 @@ With information from the period September 1 to October 31 2020
 
 ## General Announcements
 
+1. Evan produced a list of file differences between the BAS and USASK mirrors. See DDWG email dated 20201006.
 1. The first move (of two) of the VT servers was completed in late August with a downtime of ~6 days. 
 After the move, connection to zho files was lost, Kevin Sterne is still working with Jianjun to update 
 network settings to start the data transfers again. 
 The second move of VT servers is possible before the end of the year.
-1. Finished moving all recently generated `dattorawacf` files to a separate directory than the main distribution.
-1. Inode quota requested and increased on `cedar.computecanada.ca`
-1. Uploaded 2017 and 2018 `RAWACF` files to two different FRDR (Federated Research Data Repository) submissions
-1. Set up a holding directory on a RAID array to replace the failed hard drive on `superdarn-cssdp.usask.ca`
+1. Finished moving all recently generated `dattorawacf` files to a separate directory than the main distribution. This was done in response to a request from Evan so that users would not accidentally download two separate versions of a file.
+1. Inode quota requested and increased on `cedar.computecanada.ca`. This was done so that the # of files limit available on the SuperDARN Canada storage allocation would not be reached, as it was in summer 2020. Reaching this limit prevents any more files from being uploaded to the mirror.
+1. Uploaded 2017 and 2018 `RAWACF` files to two different [FRDR](<https://www.frdr-dfdr.ca/repo/>) (Federated Research Data Repository) submissions. This was done so that scientists can have a DOI to refer to in their publications, and as an archive of the SuperDARN data. 
+1. Set up a holding directory on a RAID5 array to replace the failed hard drive on `superdarn-cssdp.usask.ca`. This was done so that the server that acts as a staging area for files doesn't have to store the data locally. Instead, the data is stored on a NAS (Network Attached Storage) that can suffer one drive failure before losing data.
 1. Sent emails to all data managers to perform gaps resolution as well as to inform them of any 
 failed files. Status is:
 
@@ -36,7 +37,7 @@ failed files. Status is:
 | &#10004; | san                      | Judy Stephenson    | Responded and verified |
 | &#10004; | fir                      | Paul Breen, Tim Barnes | Responded and verified |
 | &#10004; | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
-|          | dce, dcn                 | Enrico Simeoli     | Email sent |
+| &#10004; | dce, dcn                 | Enrico Simeoli     | Responded and verified |
 |          | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Email sent |
 |          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
 |          | jme                      | Zhi Wei Wang       | Email sent |
