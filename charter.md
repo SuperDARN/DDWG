@@ -130,7 +130,7 @@ DDWG and the PIs.
 
 Members who operate the SuperDARN holding and distribution institution systems: 
 1. Maintain technical aspects of the data distribution system, including codebase and hardware. 
-1. Regularly Track down gaps in data and resolve them, either by providing an explanation for why
+1. Regularly track down gaps in data and resolve them, either by providing an explanation for why
 the data is missing, or retrieving it from the PI institution responsible if it is not a real gap.
  
 Members responsible for providing data to the holding institution: 

@@ -85,6 +85,8 @@ the records?)
 
 ### Gap resolution
 
+Gap resolution is an important part of the data management process, it closes the loop to verify that
+all data produced at the radar sites reaches a data mirror where it is accessible by the community.
 Gap resolution refers to the periodic human-involved act of categorizing any gaps in level 1 data 
 across all SuperDARN radars. Normally this should be done on an annual basis. The procedure is:
 1. A member of the DDWG will generate a list of nominal level 1 data files that are not available 
@@ -112,6 +114,23 @@ blocked files, updated files, and a comparison with previous years’ statistics
 * A summary of any official SuperDARN mirror downtimes over the past year
 * Any future work that will be performed
 
+
+### Quarterly reports
+Throughout the year 'quarterly' reports will be drafted with feedback from
+the DDWG. The reports will then be sent to the PIs for review.
+
+The relevant date ranges are:
+1. February 1 to April 30 with an update due by May 15
+1. May 1 to August 31 with an update due September 15
+1. September 1 to October 31 with an update due November 15
+1. November 1 to January 31 with an update due February 15
+
+The basic information that should be included is:
+
+* Any feedback from the DDWG
+* Any major or noteworthy events
+* Any help requested, any roadblocks or issues encountered, any outstanding tasks  
+
 ### Annual Meeting
 
 At each annual SuperDARN workshop, there should be a meeting for the DDWG members to discuss current
@@ -121,4 +140,4 @@ to the SuperDARN community at the end of the annual SuperDARN workshop.
 
 ### Quarterly Meetings
 
-TODO: (3 more virtual meetings a year?)
+TODO: (3 more virtual meetings a year? is discussion enough?)

@@ -5,13 +5,15 @@ This is done for several reasons:
 1. This will act as a 'check' for files that are going through VT. If VT changes the files in any
 way (either inadvertently or on purpose), then the automated data processes will catch this. 
 2. Data transfers for Canadian data are done on a 2 hour cadence. This allows Canadian radar
-files to appear on the Globus mirror within ~45 minutes of being written.
+files to appear on the Globus mirror within ~45 minutes of being produced at the radar site.
 
 Please see [this summary](summary_data_transfers.md).
 
 ## Why are the BAS and Globus mirrors not synchronized?
-Good question: TODO (temporary mirror requires manual intervention, having issues with hard drive,
-had issues with network, files rotated out before BAS could access?)
+The BAS server has been given rsync access to the Globus mirror. The BAS mirror does not make
+certain checks for file inconsistencies that the Globus mirror does, which may be a reason
+for some files being located on the BAS server that are not in the main distribution on the Globus
+server.
 
 ## What checks are done on the files before they get to the mirror(s)?
 There are a few basic checks done on the files for quality control. Please see the 
@@ -41,6 +43,9 @@ the directory `/config/raw_hashes/`. This directory contains symlinks to the
 located in one place. The `YYYYmm.hashes` files are not guaranteed to be sorted in any meaningful way.
 
 If you want to see the equivalent file listing for DAT files, just navigate to `/config/dat_hashes/`.
+But NOTE that these files are named in the same way, so for a brief few months where there were both
+RAWACF and DAT files being produced, there will be hash files with the same name `YYYYmm.hashes`. Due
+to this, it is suggested to download these files into different directories. 
 
 If you have access to the BAS mirror, you can download a listing of all files using the 
 [API](https://api.bas.ac.uk/superdarn/mirror/v3/).
@@ -50,15 +55,18 @@ There are a multitude of reasons why you might not find data for a specific date
 1. The radar was not operating at that time
 1. The radar data was blocked for that date
 1. The radar data failed one of the basic checks
-1. The radar data exists somewhere, but hasn't been uploaded yet
+1. The radar data exists somewhere, but hasn't been uploaded yet - 
+this may be due to slow internet transfers, files being transferred by boat from Antarctica,
+recent files that are working their way through the data management pipeline, or some other circumstance.
 
 In order to narrow down which one of these reasons is true, you can search the 'blocklist' and the
 'failed' list for the files. If the files are not blocked, or didn't fail a check, then please 
 raise this as an issue on the DDWG github [issue](https://github.com/SuperDARN/DDWG/issues) page,
-or send mail to the DDWG mailing list <darn-ddwg@isee.nagoya-u.ac.jp>.
+and/or send mail to the DDWG mailing list <darn-ddwg@isee.nagoya-u.ac.jp>.
 
 ## How much data does SuperDARN have?
-Currently (202005) there is about 42 TB of RAWACF data and 2.2 TB of DAT data.
+Currently (202011) there is about 42 TB of RAWACF data and 2.2 TB of DAT data in the main distribution.
+This information is gathered from the output of the linux command `du` on `cedar.computecanada.ca`.
 
 SuperDARN began producing data on September 14 1993 from three radars. Today, the network has 
 ~36 radars. Data is nominally produced continuously, 24/7/365. 

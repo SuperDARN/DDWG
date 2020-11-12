@@ -4,13 +4,15 @@ Kevin Sterne, May 1, 2020
 ![summary](img/data_transfers_summary.png)
 
 This figure shows the general state of data transfers within the SuperDARN institutions
-of Virginia Tech, University of Saskatchewan and the British Antarctic Survey (BAS).
+of Virginia Tech, University of Saskatchewan and the British Antarctic Survey (BAS), as it
+was on May 1 2020.
 The purpose is not to detail how the transfers occur (scp, sftp, etc.), but to provide a high 
 level overview of how things are working. This figure does not reflect or account for
 current radar operating status, so some transfers are empty/ghost transfers due to
 operation issues at the radar.
 
 ## Virginia Tech Data Collection
+As of May 1 2020.
 
 The Virginia Tech (VT) system took over the single point of data collection from the PI
 institutions from John Hopkins University/Applied Physics Lab (JHU/APL) in Sept 2013. This has 
@@ -27,25 +29,23 @@ from years past where data is transferred to the University of Saskatchewan to b
 distributed out from their institution.
 
 ## University of Saskatchewan Data Collection
+As of November 1 2020.
 
-The University of Saskatchewan downloads files from both the VT sd-data1 server as
-well as the BAS data mirror. These downloads are first staged onto the superdarn-cssdp
-server and then transferred over to the Globus system. In addition, the University of
-Saskatchewan downloads its own radars (cly, inv, pgr, rkn, sas) to the superdarn-cssdp
+The University of Saskatchewan downloads files from both the VT `sd-data1` server as
+well as the BAS data mirror. These downloads are first staged onto the `superdarn-cssdp`
+server and then transferred over to the Globus system (`cedar.computecanada.ca`). In addition, the University of
+Saskatchewan downloads its own radars (cly, inv, pgr, rkn, sas) to the `superdarn-cssdp`
 server in duplication with the path through the VT system. This is a system loop check to
 make sure files are maintaining integrity while being processed through the VT system.
-While the Globus system contains a complete data archive of files, the superdarn-cssdp
-server contains only the last couple of months of data. This server allows sftp or other
-open source transfer protocol logins and allows users or SuperDARN institutions to pull
-the latest data for their own archives.
 
-Files collected from the VT server are then staged up for the BAS data mirror to
-download. The superdarn-cssdp server is checking the hashes file for all files for both the
+The `superdarn-cssdp` server checks the hashes files for all files for both the
 BAS mirror and the Globus mirror to compare the two. Files that are not found on the
-Globus mirror are downloaded from the BAS mirror to the superdarn-cssdp server to be
-placed on the Globus server.
+Globus mirror are downloaded from the BAS mirror to the `superdarn-cssdp` server to be
+placed on the Globus server. The BAS server has rsync access to the `cedar.computecanada.ca` server
+in order to synchronize to it.
 
 ## British Antarctic Survey Data Mirror Data Collection
+As of May 1 2020.
 
 The BAS data mirror became operational in 2016 and began collecting radar data for a
 subset of radars that had connections to the United Kingdom, Europe or Asia PI
