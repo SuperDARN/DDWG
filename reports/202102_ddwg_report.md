@@ -24,10 +24,10 @@ failed files. Status is:
 | Complete | Radars                   | Contact            | Status            |
 | -------- | -----------------------  | ----------------   | ----------------- |
 | &#10004; | sas, pgr, rkn, inv, cly  | Marci Detwiller    | Responded and missing files uploaded to mirror |
-|          | hok, hkw                 | Nozomu Nishitani   | Email sent |
+| &#10004; | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded to mirror |
 |          | fhe, hfw, gbr, bks, kap  | Kevin Sterne       | Email sent |
 |          | sps, mcm, ade, adw, kod  | Bill Bristow       | Email sent |
-|          | cve, cvw                 | Simon Shepherd     | Email sent |
+|          | cve, cvw                 | Simon Shepherd     | Responded, waiting for data server rebuild |
 | &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | &#10004; | ker                      | Aurélie Marchaudon | Responded and verified |
 |          | ksr                      | Tsutomu Nagatsuma  | Email sent |
@@ -36,7 +36,7 @@ failed files. Status is:
 | &#10004; | fir                      | Paul Breen, Tim Barnes | Responded and verified |
 | &#10004; | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
 | &#10004; | dce, dcn                 | Enrico Simeoli     | Responded and verified |
-|          | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Email sent |
+|          | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
 |          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
 |          | jme                      | Zhi Wei Wang       | Email sent |
 
