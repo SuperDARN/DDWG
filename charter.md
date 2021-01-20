@@ -8,6 +8,7 @@ This charter outlines the necessary information that the DDWG requires to operat
 | November 2013 | Initial Charter creation |
 | October 2018 | Hard drives no longer distributed regularly, BAS now distribution institution | 
 | May 2020 | Members list updated, mailing list change, definitions, appendices & policies added |
+| January 2021 | Members list updated, appendix C updated |
 
 ## Definitions
  - IQDAT/BFIQ: Beamformed IQ data
@@ -68,7 +69,6 @@ The current membership includes:
 Responsibilty | Name | Institution | Radars
 --- | --- | --- | ---
 Chair | Kevin Krieger | USASK | sas, pgr, rkn, inv, cly
-Member | Marci Detwiller | USASK | sas, pgr, rkn, inv, cly
 Member | Marina Schmidt | USASK | sas, pgr, rkn, inv, cly
 Member | Keith Kotyk | USASK | sas, pgr, rkn, inv, cly
 Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
@@ -132,7 +132,7 @@ Members who operate the SuperDARN holding and distribution institution systems:
 1. Maintain technical aspects of the data distribution system, including codebase and hardware. 
 1. Regularly track down gaps in data and resolve them, either by providing an explanation for why
 the data is missing, or retrieving it from the PI institution responsible if it is not a real gap.
- 
+
 Members responsible for providing data to the holding institution: 
 1. Provide data in a timely and preferably automated manner to the holding institution(s), either 
 by 'pushing' the data or by placing it in a holding area for the holding institution to 'pull'. 

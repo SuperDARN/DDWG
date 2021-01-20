@@ -83,8 +83,9 @@ management. At a very high level, it allows fast, parallel transfers of large da
 
 At SuperDARN Canada, we have access to the Globus endpoint on `cedar.computecanada.ca`, which has 
 the Globus server software installed and acts as an endpoint. The Globus server software has
-hardware acceleration on `cedar`. We are able to share subdirectories of
-this storage with groups of users. In this way, we can customize the user's access to various data.
+hardware acceleration on `cedar` which effectively speeds up data transfers and accesses. 
+We are able to share subdirectories of this storage with groups of users. In this way, we can 
+customize the user's access to various data.
 Currently, we use this sharing ability with a group of users to allow read-only access to the main
 RAWACF and DAT file distribution. Alongside the main distribution, we expose the directory 
 containing files removed from the distribution for any reason (blocked, failed in some way, etc).
@@ -93,7 +94,9 @@ A user wishing to have access to this data should contact the DDWG.
 
 ### Data flow into USASK holding directories
 
-In general, RAWACF data flows into the USASK server *superdarn-cssdp.usask.ca* (*cssdp*) holding 
+At USASK, there is a server called *superdarn-cssdp.usask.ca* (*cssdp*) that utilizes a Network
+Attached Storage (NAS) to hold data.
+In general, RAWACF data flows into the USASK server *cssdp* holding 
 directories from three sources:
 
 1. *sd-data.ece.vt.edu* (VT)
@@ -105,9 +108,10 @@ Crontab entries on *cssdp* control downloading RAWACF data from VT and BAS with 
 1. *download_vt_data* (VT)
 1. *sync_bas_data* (BAS)
 
-Crontab entries on *sdcopy* control pushing Canadian RAWACF data to *cssdp* with the script:
+Crontab entries on *sdcopy* control pushing Canadian RAWACF data to *cssdp* with two scripts:
 
-1. *auto_check_radar*
+1. *auto_check_radar* - This is for the two remaining ROS-style radars, *inv* and *rkn*.
+1. *auto_borealis_share* - This is for the three Borealis-style radars, *sas*, *pgr* and *cly*.
 
 #### download_vt_data
 This bash script takes two arguments:
@@ -171,9 +175,10 @@ This bash script takes one or two arguments, the location to store BAS data in, 
 
 1. Compare hashes files for the specified dates (default is the current year and month) with the 
 hashes files on Globus and produce the following lists:
-    1. Files that USASK has, but BAS doesn't (emailed to Kevin if there are any)
+    1. Files that USASK has, but BAS doesn't that are older than 3 days (emailed to Kevin if there are any)
     1. Files that BAS has that are blocked (emailed to Kevin if there are any)
     1. Files that BAS has that have failed (emailed to Kevin if there are any)
+    1. Files that BAS and USASK both have, but the hashes differ (emailed to Kevin if there are any)
     1. Files that BAS has, but USASK doesn't (that aren't blocked, or failed, these are downloaded)
 2. Download any files that BAS has, that USASK doesn't (from the list above), and place in a 
 holding directory.
@@ -194,20 +199,40 @@ comparing files from previous months and years back to the start of SuperDARN da
 
 #### auto_check_radar
 
-This bash script takes one argument, the 3 letter radar code to check data for. This script performs
-three main tasks:
+This bash script takes one argument, the 3-letter radar code to check data for. This script performs
+four main tasks:
 
 1. Check the files for bunzip2 compression failures
 1. Stage the files for VT
+1. Stage the files for BAS
 1. Copy the files to the *cssdp* server holding directory for Canadian data. 
 
-It is scheduled via cron at the following times **NOTE** Borealis data is not currently being
-distributed, so crontab entries for sas, pgr and cly do not appear here:
+It is scheduled via cron at the following times:
 
 ```
 27 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/bin/auto_check_radar rkn >> /home/mrcopy/datacheck/rkn.log 2>&1
 25 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/bin/auto_check_radar inv >> /home/mrcopy/datacheck/inv.log 2>&1
 ```
+
+#### auto_borealis_share
+
+This bash script takes one argument, the 3-letter radar code to check data for. This script performs
+five main tasks:
+
+1. Check the files for bunzip2 compression failures
+1. Stage the files for VT
+1. Stage the files for BAS
+1. Copy the files to the *cssdp* server holding directory for Canadian data. 
+1. Copy the HDF5 versions of the files to *cedar* for those who wish to use a common data format.
+
+It is scheduled via cron at the following times:
+
+```
+25 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/sdcopy/bin/auto_borealis_share sas >> /home/mrcopy/datacheck_borealis/sas.log 2>&1
+27 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/sdcopy/bin/auto_borealis_share pgr >> /home/mrcopy/datacheck_borealis/pgr.log 2>&1
+31 0,2,4,6,8,10,12,14,16,18,20,22 * * * /home/mrcopy/sdcopy/bin/auto_borealis_share cly >> /home/mrcopy/datacheck_borealis/cly.log 2>&1
+```
+
 
 ### Data flow from USASK holding directories onto Globus
 
@@ -234,7 +259,7 @@ and update the hash file(s) (as atomically as possible).
 as update the `all_failed.txt` file located in the `sddata/config/` directory.
 1. Email Kevin with files that failed any test.
 
-It is scheduled via cron at the following times, for both files from VT and *sdcopy*, another time
+It is scheduled via cron at the following times, once for both files from VT and *sdcopy*, and another time
 for files from BAS.
 ```
 39 */2 * * * python -u /home/dataman/globus_mirror_scripts/gatekeeper_globus.py  /local_data/local_data/holding/globus/ "~/chroot/sddata" >> /home/dataman/logs/globus/`date +\%Y\%m\%d.\%H\%M`_globus_gatekeeper.log 2>&1
@@ -244,7 +269,7 @@ for files from BAS.
 ### Synchronization with BAS
 
 In July 2020, rsync access was made available to BAS on ```cedar.computecanada.ca```. The repository
-located on ```cedar``` was set up with ACLs to allow BAS to have read-only access.
+located on ```cedar``` was set up with Access Control Lists (ACLs) to allow BAS to have read-only access.
 
 The ACLs were set up as follows:
 

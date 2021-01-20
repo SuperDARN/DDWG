@@ -73,7 +73,8 @@ SuperDARN began producing data on September 14 1993 from three radars. Today, th
 
 ## What would the ideal mirror setup look like for SuperDARN?
 I believe that the ideal situation would involve every radar sending 2 hour files 12 times per day
-directly to Globus. This can be done easily with a specific shared directory for each institution. 
+directly to Globus for the USASK mirror, and directly to every other SuperDARN data mirror in the network. 
+This can be done easily with a specific shared directory for each institution. 
 Then, every two hours, a script will run on the server to add those files to the repository.
 
 For those radars that do not have good enough network access, the upload cadence may need to be 
