@@ -18,6 +18,7 @@ Other report periods are:
 
 ## General Announcements
 
+1. 110 old hok, hkw and sye files were added to the mirror after a gaps-check found some missing files.
 1. PRIC in the beginning stages of setting up data mirror
 1. Meeting held between VT and USASK to provide information about how the mirror system works.
 1. DSWG decided upon a naming convention for data files with multiple data sets. 
