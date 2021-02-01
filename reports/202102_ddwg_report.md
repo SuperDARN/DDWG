@@ -35,7 +35,7 @@ failed files. Status is:
 |          | cve, cvw                 | Simon Shepherd     | Reminder email sent |
 | &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | &#10004; | ker                      | Aurélie Marchaudon | Responded and verified |
-|          | ksr                      | Tsutomu Nagatsuma  | Redminder email sent |
+|          | ksr                      | Tsutomu Nagatsuma  | Reminder email sent |
 | &#10004; | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded and verified |
 | &#10004; | san                      | Judy Stephenson    | Responded and verified |
 | &#10004; | fir                      | Paul Breen, Tim Barnes | Responded and verified |
