@@ -19,7 +19,7 @@ The report periods are:
 
 ## General Announcements
 
-1. 
+1. Backlog of Borealis data in the process of being uploaded to mirrors/BAS/VT.
 1. Sent emails to all data managers in September 2020 to perform gaps resolution as well as to inform them of any 
 failed files. Status is:
 
@@ -59,7 +59,7 @@ failed files. Status is:
 | &#10004; | INV   | Kevin Krieger  | Transferring data |
 |          | KAP   | Kevin Sterne   | Contacted - awaiting account details |
 | &#10004; | KOD   | Bill Bristow   | Transferring data |
-|          | KSR   | Bill Bristow   | Script written but not called via cron as data currently acquired from NICT |
+| &#10004; | KSR   | Bill Bristow   | Transferring data |
 | &#10004; | MCM   | Bill Bristow   | Transferring data |
 | &#10004; | PGR   | Kevin Krieger  | Transferring data |
 | &#10004; | RKN   | Kevin Krieger  | Transferring data |
@@ -74,8 +74,9 @@ failed files. Status is:
 ## Help requested
 * Data managers please verify data gaps.
 * Data managers please connect with Paul Breen to transfer data to both BAS and VT.
+* PIs, please update and announce data distribution changes.
 
 ## Outstanding Tasks & Future projects
-* Rename, check, verify backlog of Borealis data for sas, cly, pgr and upload to BAS/VT holding directories
+* Upload past Borealis data to BAS/VT holding directories
 as well as the Globus mirror.
-* PRIC Data mirror
+* New Data mirrors

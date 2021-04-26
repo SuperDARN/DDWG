@@ -9,6 +9,7 @@ This charter outlines the necessary information that the DDWG requires to operat
 | October 2018 | Hard drives no longer distributed regularly, BAS now distribution institution | 
 | May 2020 | Members list updated, mailing list change, definitions, appendices & policies added |
 | January 2021 | Members list updated, appendix C updated |
+| April 2021 | Members list updated |
 
 ## Definitions
  - IQDAT/BFIQ: Beamformed IQ data
@@ -70,7 +71,6 @@ Responsibilty | Name | Institution | Radars
 --- | --- | --- | ---
 Chair | Kevin Krieger | USASK | sas, pgr, rkn, inv, cly
 Member | Marina Schmidt | USASK | sas, pgr, rkn, inv, cly
-Member | Keith Kotyk | USASK | sas, pgr, rkn, inv, cly
 Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
 Member | Simon Shepherd | Dartmouth | cve, cvw
 Member | Evan Thomas | Dartmouth | cve, cvw
