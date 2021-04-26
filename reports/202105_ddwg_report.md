@@ -27,7 +27,7 @@ failed files. Status is:
 | -------- | -----------------------  | ----------------   | ----------------- |
 | &#10004; | sas, pgr, rkn, inv, cly  | Marci Detwiller    | Responded and missing files uploaded to mirror |
 | &#10004; | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded to mirror |
-| &#10004; | fhe, hfw, gbr, bks, kap  | Kevin Sterne       | Responded and missing files uploaded to mirror |
+| &#10004; | fhe, fhw, gbr, bks, kap  | Kevin Sterne       | Responded and missing files uploaded to mirror |
 |          | sps, mcm, ade, adw, kod  | Bill Bristow       | Reminder email sent |
 |          | cve, cvw                 | Simon Shepherd     | Reminder email sent |
 | &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
