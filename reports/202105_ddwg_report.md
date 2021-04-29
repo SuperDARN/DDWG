@@ -72,9 +72,10 @@ failed files. Status is:
 
 
 ## Help requested
-* Data managers please verify data gaps.
-* Data managers please connect with Paul Breen to transfer data to both BAS and VT.
-* PIs, please update and announce data distribution changes.
+PIs/Data managers please help with the following:
+1. verify data gaps
+1. connect with Paul Breen to transfer data to both BAS and VT
+1. update the group and announce data distribution changes
 
 ## Outstanding Tasks & Future projects
 * Upload past Borealis data to BAS/VT holding directories
