@@ -19,6 +19,12 @@ The report periods are:
 
 ## General Announcements
 
+1. 198 old RAWACF files added to mirrors due to gaps checking in early February
+1. WAL data from December 10th onward added to mirrors in early February
+1. Standard acknowledgement for data use updated to include Italy
+1. HKW files from 20200430 were added to blocklist in July 2020, but were mistakenly not moved from the main 
+repository on Globus mirror at that time. This was done in March 2021. 
+1. BAS had scheduled maintenance on the storage that hosts files on the weekend of March 27 2021.
 1. Backlog of Borealis data in the process of being uploaded to mirrors/BAS/VT.
 1. Sent emails to all data managers in September 2020 to perform gaps resolution as well as to inform them of any 
 failed files. Status is:
@@ -69,15 +75,16 @@ failed files. Status is:
 
 
 ## Issues Encountered
-
+* Power outage at USASK caused server failure, resulting in brief transfer delay for CDN files to 
+BAS/VT/Globus in April 
 
 ## Help requested
 PIs/Data managers please help with the following:
 1. verify data gaps
 1. connect with Paul Breen to transfer data to both BAS and VT
-1. update the group and announce data distribution changes
+1. update the group and announce data distribution changes when they occur
 
 ## Outstanding Tasks & Future projects
 * Upload past Borealis data to BAS/VT holding directories
 as well as the Globus mirror.
-* New Data mirrors
+* New Data mirrors?
