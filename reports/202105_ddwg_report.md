@@ -1,7 +1,5 @@
 # DDWG Quarterly Report - 202105
 
-** DRAFT **
-
 With information from the period February 1 to April 30 
 
 The report periods are:
@@ -39,7 +37,7 @@ failed files. Status is:
 |          | cve, cvw                 | Simon Shepherd     | Reminder email sent |
 | yes | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | yes | ker                      | Aurélie Marchaudon | Responded and verified |
-| <mark>yes</mark> | ksr                      | Tsutomu Nagatsuma  | Responded and verified |
+| **yes** | ksr                      | Tsutomu Nagatsuma  | Responded and verified |
 | yes | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded and verified |
 | yes | san                      | Judy Stephenson    | Responded and verified |
 | yes | fir                      | Paul Breen, Tim Barnes | Responded and verified |
@@ -47,7 +45,7 @@ failed files. Status is:
 | yes | dce, dcn                 | Enrico Simeoli     | Responded and verified |
 | yes | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
 |          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
-| <mark>yes</mark> | jme                      | Zhi Wei Wang       | Responded and verified |
+| **yes** | jme                      | Zhi Wei Wang       | Responded and verified |
 
 
 1. Paul Breen working to sync data from all radars' data managers. Status provided by Paul is:
@@ -58,15 +56,15 @@ failed files. Status is:
 |          | ADW   | Bill Bristow   | Script written but not called via cron as radar status is uncertain |
 |          | BKS   | Kevin Sterne   | Contacted - awaiting account details |
 | yes | CLY   | Kevin Krieger  | Transferring data |
-|  | CVE   | Simon Shepherd | <mark>temporarily suspended</mark> |
-| | CVW   | Simon Shepherd | <mark>temporarily suspended</mark> |
+|  | CVE   | Simon Shepherd | **temporarily suspended** |
+| | CVW   | Simon Shepherd | **temporarily suspended** |
 |          | FHE   | Kevin Sterne   | Contacted - awaiting account details |
 |          | FHW   | Kevin Sterne   | Contacted - awaiting account details |
 |          | GBR   | Kevin Sterne   | Contacted - awaiting account details |
 | yes | INV   | Kevin Krieger  | Transferring data |
 |          | KAP   | Kevin Sterne   | Contacted - awaiting account details |
 | yes | KOD   | Bill Bristow   | Transferring data |
-| <mark>yes</mark> | KSR   | Bill Bristow   | Transferring data |
+| **yes** | KSR   | Bill Bristow   | Transferring data |
 | yes | MCM   | Bill Bristow   | Transferring data |
 | yes | PGR   | Kevin Krieger  | Transferring data |
 | yes | RKN   | Kevin Krieger  | Transferring data |
