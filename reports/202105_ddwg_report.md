@@ -26,27 +26,28 @@ The report periods are:
 repository on Globus mirror at that time. This was done in March 2021. 
 1. BAS had scheduled maintenance on the storage that hosts files on the weekend of March 27 2021.
 1. Backlog of Borealis data in the process of being uploaded to mirrors/BAS/VT.
+1. The PRIC mirror has finished preliminaries and will be checked by the institute soon, and open to the community ideally in late May
 1. Sent emails to all data managers in September 2020 to perform gaps resolution as well as to inform them of any 
 failed files. Status is:
 
 | Complete | Radars                   | Contact            | Status            |
 | -------- | -----------------------  | ----------------   | ----------------- |
-| &#10004; | sas, pgr, rkn, inv, cly  | Marci Detwiller    | Responded and missing files uploaded to mirror |
-| &#10004; | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded to mirror |
-| &#10004; | fhe, fhw, gbr, bks, kap  | Kevin Sterne       | Responded and missing files uploaded to mirror |
+| yes | sas, pgr, rkn, inv, cly  | Marci Detwiller    | Responded and missing files uploaded to mirror |
+| yes | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded to mirror |
+| yes | fhe, fhw, gbr, bks, kap  | Kevin Sterne       | Responded and missing files uploaded to mirror |
 |          | sps, mcm, ade, adw, kod  | Bill Bristow       | Reminder email sent |
 |          | cve, cvw                 | Simon Shepherd     | Reminder email sent |
-| &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
-| &#10004; | ker                      | Aurélie Marchaudon | Responded and verified |
-| &#10004; | ksr                      | Tsutomu Nagatsuma  | Responded and verified |
-| &#10004; | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded and verified |
-| &#10004; | san                      | Judy Stephenson    | Responded and verified |
-| &#10004; | fir                      | Paul Breen, Tim Barnes | Responded and verified |
-| &#10004; | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
-| &#10004; | dce, dcn                 | Enrico Simeoli     | Responded and verified |
-| &#10004; | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
+| yes | han, pyk, sto            | Tim Yeoman         | Responded and verified |
+| yes | ker                      | Aurélie Marchaudon | Responded and verified |
+| <mark>yes</mark> | ksr                      | Tsutomu Nagatsuma  | Responded and verified |
+| yes | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded and verified |
+| yes | san                      | Judy Stephenson    | Responded and verified |
+| yes | fir                      | Paul Breen, Tim Barnes | Responded and verified |
+| yes | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
+| yes | dce, dcn                 | Enrico Simeoli     | Responded and verified |
+| yes | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
 |          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
-| &#10004; | jme                      | Zhi Wei Wang       | Responded and verified |
+| <mark>yes</mark> | jme                      | Zhi Wei Wang       | Responded and verified |
 
 
 1. Paul Breen working to sync data from all radars' data managers. Status provided by Paul is:
@@ -56,21 +57,21 @@ failed files. Status is:
 |          | ADE   | Bill Bristow   | Script written but not called via cron as radar status is uncertain |
 |          | ADW   | Bill Bristow   | Script written but not called via cron as radar status is uncertain |
 |          | BKS   | Kevin Sterne   | Contacted - awaiting account details |
-| &#10004; | CLY   | Kevin Krieger  | Transferring data |
-| &#10004; | CVE   | Simon Shepherd | Transferring data |
-| &#10004; | CVW   | Simon Shepherd | Transferring data |
+| yes | CLY   | Kevin Krieger  | Transferring data |
+|  | CVE   | Simon Shepherd | <mark>temporarily suspended</mark> |
+| | CVW   | Simon Shepherd | <mark>temporarily suspended</mark> |
 |          | FHE   | Kevin Sterne   | Contacted - awaiting account details |
 |          | FHW   | Kevin Sterne   | Contacted - awaiting account details |
 |          | GBR   | Kevin Sterne   | Contacted - awaiting account details |
-| &#10004; | INV   | Kevin Krieger  | Transferring data |
+| yes | INV   | Kevin Krieger  | Transferring data |
 |          | KAP   | Kevin Sterne   | Contacted - awaiting account details |
-| &#10004; | KOD   | Bill Bristow   | Transferring data |
-| &#10004; | KSR   | Bill Bristow   | Transferring data |
-| &#10004; | MCM   | Bill Bristow   | Transferring data |
-| &#10004; | PGR   | Kevin Krieger  | Transferring data |
-| &#10004; | RKN   | Kevin Krieger  | Transferring data |
-| &#10004; | SAS   | Kevin Krieger  | Transferring data |
-| &#10004; | SPS   | Bill Bristow   | Transferring data |
+| yes | KOD   | Bill Bristow   | Transferring data |
+| <mark>yes</mark> | KSR   | Bill Bristow   | Transferring data |
+| yes | MCM   | Bill Bristow   | Transferring data |
+| yes | PGR   | Kevin Krieger  | Transferring data |
+| yes | RKN   | Kevin Krieger  | Transferring data |
+| yes | SAS   | Kevin Krieger  | Transferring data |
+| yes | SPS   | Bill Bristow   | Transferring data |
 |          | WAL   | Alex Chartier  | Data will be pushed to us.  Likely to be setup November 2020 |
 
 
@@ -80,6 +81,7 @@ BAS/VT/Globus in April
 
 ## Help requested
 PIs/Data managers please help with the following:
+
 1. verify data gaps
 1. connect with Paul Breen to transfer data to both BAS and VT
 1. update the group and announce data distribution changes when they occur
