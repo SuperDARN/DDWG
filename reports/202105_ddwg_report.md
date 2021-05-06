@@ -37,7 +37,7 @@ failed files. Status is:
 |          | cve, cvw                 | Simon Shepherd     | Reminder email sent |
 | yes | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | yes | ker                      | Aurélie Marchaudon | Responded and verified |
-| **yes** | ksr                      | Tsutomu Nagatsuma  | Responded and verified |
+| **yes** | ksr                      | Tsutomu Nagatsuma  | **Responded and verified** |
 | yes | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded and verified |
 | yes | san                      | Judy Stephenson    | Responded and verified |
 | yes | fir                      | Paul Breen, Tim Barnes | Responded and verified |
@@ -45,7 +45,7 @@ failed files. Status is:
 | yes | dce, dcn                 | Enrico Simeoli     | Responded and verified |
 | yes | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
 |          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
-| **yes** | jme                      | Zhi Wei Wang       | Responded and verified |
+| **yes** | jme                      | Zhi Wei Wang       | **Responded and verified** |
 
 
 1. Paul Breen working to sync data from all radars' data managers. Status provided by Paul is:
