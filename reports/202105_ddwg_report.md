@@ -44,7 +44,7 @@ failed files. Status is:
 | yes | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
 | yes | dce, dcn                 | Enrico Simeoli     | Responded and verified |
 | yes | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded and missing files uploaded to mirror |
-|          | zho                      | Jianjun Lui        | Responded: waiting for files to come in the spring |
+|          | zho                      | Jianjun Lui        | Responded: Files up to March have been placed on VT/BAS. April files are being checked. |
 | **yes** | jme                      | Zhi Wei Wang       | **Responded and verified** |
 
 
