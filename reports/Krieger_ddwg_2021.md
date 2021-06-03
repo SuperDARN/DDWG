@@ -1,4 +1,5 @@
 # DDWG Comprehensive Report for June 2020 - May 2021: SuperDARN Workshop 2021
+Compiled by: Kevin Krieger
 
 ## Activity over the past year
 
