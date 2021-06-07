@@ -15,7 +15,7 @@ servers are expected to move to a more permanent home in the future, but the dat
 1. File issues are being tracked down as part of regular maintenance.
 1. Some time is being spent in trying to understand changes in data distribution that have not been communicated to the WG. 
 Explicit, direct and clear communication will be appreciated regarding changes.
-1. A future TODO is to prioritize setting Paul Breen up with an account so that BAS can receive vks, fhe, fhw, gbr and kap data.
+1. A future TODO is to prioritize setting Paul Breen up with an account so that BAS can receive bks, fhe, fhw, gbr and kap data. Initial setup of BAS account was done during SD Workshop.
 1. FITACF 3.0 files no longer shared via Globus
 
 ###  Major updates at USASK:
