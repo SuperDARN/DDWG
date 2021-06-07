@@ -16,7 +16,6 @@ servers are expected to move to a more permanent home in the future, but the dat
 1. Some time is being spent in trying to understand changes in data distribution that have not been communicated to the WG. 
 Explicit, direct and clear communication will be appreciated regarding changes.
 1. A future TODO is to prioritize setting Paul Breen up with an account so that BAS can receive bks, fhe, fhw, gbr and kap data. Initial setup of BAS account was done during SD Workshop.
-1. FITACF 3.0 files no longer shared via Globus
 
 ###  Major updates at USASK:
 1. The temporary mirror at `superdarn-cssdp.usask.ca` was decommissioned in July/August 2020.
@@ -26,6 +25,7 @@ Explicit, direct and clear communication will be appreciated regarding changes.
 1. Failed files (files that have failed some type of consistency check, are corrupt, etc) were made available on the Globus mirror in a separate directory to the main distribution of files, as well as a master list of failed files. This was done in August 2020.
 1. A master list of updated files was made available on the Globus mirror in August 2020.
 1. RAWACF files that were generated from `dattorawacf` for dat files that exist in the main distribution were moved to a separate directory on the Globus mirror. These were generated to aid in producing map files at usask. 
+1. FITACF 3.0 files no longer shared via Globus
 
 ### Downtime summary:
 1. VT had a very short downtime in the last week of August 2020
