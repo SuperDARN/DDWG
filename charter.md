@@ -10,6 +10,7 @@ This charter outlines the necessary information that the DDWG requires to operat
 | May 2020 | Members list updated, mailing list change, definitions, appendices & policies added |
 | January 2021 | Members list updated, appendix C updated |
 | April 2021 | Members list updated |
+| July 2021 | Members list updated, list of distribution institutions updated (NSSC) |
 
 ## Definitions
  - IQDAT/BFIQ: Beamformed IQ data
@@ -59,9 +60,10 @@ announcement was made on January 24 2017. Note that BAS is also a distribution i
 
 ## Distribution Institution(s)
 
-The distribution institutions are currently USASK and BAS. See Appendix C for a description
+The distribution institutions are currently USASK, BAS and NSSC. See Appendix C for a description
 of the current system in place at USASK, and a brief description of the 
 previous systems. See Appendix D for a description of the current system in place at BAS.
+See Appendix E for a description of the current system in place at NSSC.
 
 ## Membership
 
@@ -97,6 +99,7 @@ Member | Chris Thomas | Leicester | han, pyk
 Member | Tim Yeoman | Leicester | han, pyk
 Member | Adrian Grocott | Lancaster | sto
 Member | Wei Wang | NSSC | jme
+Member | Fuli Ma | NSSC | jme
 Member | Mikko Syrjäsuo| UNIS | lyr
 Member | Zanyang Xing | SDU
 Observer | Qinghe Zhang | SDU
