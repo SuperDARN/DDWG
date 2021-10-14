@@ -5,6 +5,7 @@ with input from DDWG members
 With information from the period May 1 to August 31 2021
 
 The report periods are:
+
 1. February 1 to April 30 with an update due by May 15
 1. May 1 to August 31 with an update due September 15
 1. September 1 to October 31 with an update due November 15
