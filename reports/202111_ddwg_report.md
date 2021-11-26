@@ -16,7 +16,6 @@ The three mirrors (BAS, NSSC, USASK) are operating normally aside from some sync
 BAS with the new Penn State data server, and a power outage resulting in some short downtime.
 To gain access to the NSSC data mirror, contact Ma Fuli.
 
-
 ## General Announcements
 
 The following are updates from Paul Breen at BAS:
@@ -54,13 +53,6 @@ data files have a similar naming convention to sas, pgr and cly (example: 202110
 This move resulted in downtime of a few hours for the data distribution servers as well as the website.
 1. A new server status page was created at USASK by Dr. Carley Martin: https://superdarn.ca/server-status
 There is also an API available to query some of the information available on the page, please email for details.
-
-
-## Issues Encountered
-None
-
-## Help requested
-None
 
 ## Outstanding Tasks & Future projects
 1. SAS backlog of data from 2019/2020
