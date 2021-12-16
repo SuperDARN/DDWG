@@ -1,4 +1,4 @@
-# Appendix D - NSSC Data Distribution
+# Appendix E - NSSC Data Distribution
 
 For the NSSC mirror syncing, the hashes are compared first to see if there's any updated files to sync.
 If a different hash value is detected between two mirrors' hash files, the data file is verified, 
