@@ -9,10 +9,10 @@ files to appear on the Globus mirror within ~45 minutes of being produced at the
 
 Please see [this summary](summary_data_transfers.md).
 
-## Why are the BAS and Globus mirrors not synchronized?
-The BAS server has been given rsync access to the Globus mirror. The BAS mirror does not make
+## Why are the BAS, NSSC, and Globus mirrors not synchronized?
+The BAS and NSSC servers have been given rsync access to the Globus mirror. The BAS and NSSC mirrors do not make
 certain checks for file inconsistencies that the Globus mirror does, which may be a reason
-for some files being located on the BAS server that are not in the main distribution on the Globus
+for some files being located on the BAS and NSSC servers that are not in the main distribution on the Globus
 server.
 
 ## What checks are done on the files before they get to the mirror(s)?

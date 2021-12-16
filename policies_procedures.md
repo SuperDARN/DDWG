@@ -127,6 +127,7 @@ The relevant date ranges are:
 
 The basic information that should be included is:
 
+* An executive summary written by the Chair of the DDWG
 * Any feedback from the DDWG
 * Any major or noteworthy events
 * Any help requested, any roadblocks or issues encountered, any outstanding tasks  
