@@ -90,7 +90,7 @@ for most if not all radars
 ## NSSC Details
 As of Dec 10 2021. Fuli Ma to verify/update**
 
-The NSSC data mirror became operational in 2021. Users can contact Fuli Ma to get access to the NSSC mirror.
+The NSSC data mirror became operational in 2021. Users can contact Fuli Ma to get access to the NSSC mirror via rsync or FTP
 
 
 
