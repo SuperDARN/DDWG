@@ -11,6 +11,7 @@ This charter outlines the necessary information that the DDWG requires to operat
 | January 2021 | Members list updated, appendix C updated |
 | April 2021 | Members list updated |
 | July 2021 | Members list updated, list of distribution institutions updated (NSSC) |
+| January 2022 | Members list updated, change of PI for ksr radar |
 
 ## Definitions
  - IQDAT/BFIQ: Beamformed IQ data
@@ -86,14 +87,13 @@ Member | Mark Gentile | LaTrobe | tig, unw, bpk
 Member | Andrew McDonald | LaTrobe | tig, unw, bpk
 Member | Paul Breen | BAS | fir
 Member | Tim Barnes | BAS | fir
-Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod
+Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod, ksr
 Member | Jianjun Liu | PRIC | zho
 Member | Hongqiao Hu | PRIC | zho
 Member | Judy Stephenson | UKZN | san
 Member | Tomoaki Hori | ISEE | hok, hkw
 Member | Nozomu Nishitani | ISEE | hok, hkw
 Member | Aurélie Marchaudon | IRAP | ker
-Member | Tsutomu Nagatsuma | NICT | ksr
 Member | Keisuke Hosokawa | UEC |
 Member | Chris Thomas | Leicester | han, pyk
 Member | Tim Yeoman | Leicester | han, pyk
