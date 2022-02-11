@@ -25,20 +25,20 @@ is below in the table:
 
 | Complete | Radars                   | Contact            | Status            |
 | -------- | -----------------------  | ----------------   | ----------------- |
-|  | sas, pgr, rkn, inv, cly  | Remington Rohel    | Reminder sent |
-| &#10004; | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded |
+|   | sas, pgr, rkn, inv, cly  | Remington Rohel    | Reminder sent |
+| yes | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded |
 |  | fhe, hfw, gbr, bks, kap  | Kevin Sterne       | Reminder sent |
-| &#10004; | sps, mcm, ade, adw, kod  | Bill Bristow       | Responded, no time |
-| &#10004; | cve, cvw                 | Simon Shepherd     | Responded, no time |
-| &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
-| &#10004; | ker                      | Aurélie Marchaudon | Responded and verified |
-| &#10004; | ksr                      | Tsutomu Nagatsuma  | Responded, new PI for ksr is B. Bristow |
+| yes | sps, mcm, ade, adw, kod  | Bill Bristow       | Responded, no time |
+| yes | cve, cvw                 | Simon Shepherd     | Responded, no time |
+| yes | han, pyk, sto            | Tim Yeoman         | Responded and verified |
+| yes | ker                      | Aurélie Marchaudon | Responded and verified |
+| yes | ksr                      | Tsutomu Nagatsuma  | Responded, new PI for ksr is B. Bristow |
 |  | tig, unw, bpk            | Jim Whittington, John Devlin, Mark Gentile | Responded, missing 202009 bpk files |
-| &#10004; | san                      | Judy Stephenson    | Responded and verified |
-| &#10004; | fir                      | Paul Breen, Tim Barnes | Responded and verified |
-| &#10004; | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
+| yes | san                      | Judy Stephenson    | Responded and verified |
+| yes | fir                      | Paul Breen, Tim Barnes | Responded and verified |
+| yes | wal                      | Alex Chartier, Jordan Wiker | Responded and verified |
 |  | dce, dcn                 | Enrico Simeoli     | Responded, not yet verified. Reminder sent |
-| &#10004; | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded, missing files uploaded |
+| yes | sye, sys                 | Akira Sessai Yukimatu, Yuka Kadowaki  | Responded, missing files uploaded |
 |          | zho                      | Jianjun Lui        | Reminder sent |
 |          | jme                      | Zhi Wei Wang, Fuli Ma       | Responded, not yet verified |
 
