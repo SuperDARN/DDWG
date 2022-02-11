@@ -12,24 +12,24 @@ The report periods are:
 1. November 1 to January 31 with an update due by February 15
 
 ## Executive Summary
-
+Several hundred files were retrieved after reconciling gaps in data.
+Future improvements to be made involve ensuring all mirrors have the same 
+standards for file inclusion.
 
 ## General Announcements
-
-The following are updates from Paul Breen at BAS:
-
 
 The following are general updates:
 
 1. Data gaps and failed files reconciliation emails were sent out in early November, the status
 is below in the table:
+
 | Complete | Radars                   | Contact            | Status            |
 | -------- | -----------------------  | ----------------   | ----------------- |
 |  | sas, pgr, rkn, inv, cly  | Remington Rohel    | Reminder sent |
 | &#10004; | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded |
 |  | fhe, hfw, gbr, bks, kap  | Kevin Sterne       | Reminder sent |
-| &#10004; | sps, mcm, ade, adw, kod  | Bill Bristow       | Responded |
-| &#10004; | cve, cvw                 | Simon Shepherd     | Responded |
+| &#10004; | sps, mcm, ade, adw, kod  | Bill Bristow       | Responded, no time |
+| &#10004; | cve, cvw                 | Simon Shepherd     | Responded, no time |
 | &#10004; | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | &#10004; | ker                      | Aurélie Marchaudon | Responded and verified |
 | &#10004; | ksr                      | Tsutomu Nagatsuma  | Responded, new PI for ksr is B. Bristow |
@@ -51,3 +51,6 @@ with final data file 20190321.2202.
 
 ## Outstanding Tasks & Future projects
 1. Ensure all mirrors have the same standards for file inclusion
+1. Upload 2019 and 2020 RAWACF files to FRDR
+1. Get 202009 BPK files 
+ 
