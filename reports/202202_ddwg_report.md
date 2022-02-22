@@ -25,10 +25,10 @@ is below in the table:
 
 | Complete | Radars                   | Contact            | Status            |
 | -------- | -----------------------  | ----------------   | ----------------- |
-|   | sas, pgr, rkn, inv, cly  | Remington Rohel    | Reminder sent |
+| yes | sas, pgr, rkn, inv, cly  | Remington Rohel    | Responded and missing files uploaded |
 | yes | hok, hkw                 | Nozomu Nishitani   | Responded and missing files uploaded |
-|  | fhe, hfw, gbr, bks, kap  | Kevin Sterne       | Reminder sent |
-| yes | sps, mcm, ade, adw, kod  | Bill Bristow       | Responded, no time |
+|  | fhe, fhw, gbr, bks, kap  | Kevin Sterne       | Reminder sent |
+| yes | sps, mcm, kod  | Bill Bristow       | Responded, no time |
 | yes | cve, cvw                 | Simon Shepherd     | Responded, no time |
 | yes | han, pyk, sto            | Tim Yeoman         | Responded and verified |
 | yes | ker                      | Aurélie Marchaudon | Responded and verified |
@@ -46,8 +46,8 @@ is below in the table:
 at the end of the summer 2021, and a trip to the site is expected in May 2022 to put up a new link.
 1. An update from Tim Yeoman regarding HAN and PYK: HAN is mothballed, estimated refurbishment 
 is end of 2022 with a Borealis system. PYK decommissioned with final data file 20180908.2201, it is to
-be replaced by an MSI radar by Simon. STO is also down and awaiting refurbishment from Simon, 
-with final data file 20190321.2202. 
+be replaced by a dual MSI radar by Simon with different radar IDs, as the replacement radars will have
+different hdw.dat values. STO is also decommissioned with final data file 20190321.2202. 
 
 ## Outstanding Tasks & Future projects
 1. Ensure all mirrors have the same standards for file inclusion
