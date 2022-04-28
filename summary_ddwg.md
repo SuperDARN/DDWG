@@ -16,21 +16,22 @@ another component of the SuperDARN data distribution system.
 
 ## Current Distribution Brief
 
-The current system consists of three main institutions: British Antarctic Survey, University of 
-Saskatchewan and Virginia Tech. Virginia Tech is considered a holding institution, meaning they collect
-and collate radar data from most institutions, and then stage that data for Usask. Usask is considered
-a mirror institution, and collects data from three sources: the five Canadian radars, Virginia Tech's 
-staging directory, and the BAS distribution. Usask collates the data and serves it via 
+The current system consists of four main institutions: British Antarctic Survey (BAS), University of 
+Saskatchewan, The Chinese Academy of Sciences (CAS) and Virginia Tech. Virginia Tech is considered a holding 
+institution, meaning they collect and collate radar data from most institutions, and then stage that data for Usask. 
+Usask is considered a mirror institution, and collects data from four sources: the five Canadian radars, Virginia Tech's 
+staging directory, the CAS distribution, and the BAS distribution. Usask collates the data and serves it via 
 [Globus](<https://www.globus.org/>). BAS is both a holding institution and a mirror, as it 
 gets radar data from most institutions as well as serving the data via an rsync server (that also
-supports scp and sftp).
+supports scp and sftp). The CAS server, located at the National Space Science Center (NSSC) is a mirror, it provides
+data via an rsync server (that supports scp and sftp as well).
 
 ## DIAGRAM HERE - K. Sterne **
 
 ## Usask Details
-As of January 15 2021.
+As of December 10 2021.
 
-The University of Saskatchewan downloads files from both the VT `sd-data1` server as
+The University of Saskatchewan downloads files from the VT `sd-data1` server, the NSSC data mirror as
 well as the BAS data mirror. These downloads are first staged onto the `superdarn-cssdp`
 server and then transferred over to the Globus system (`cedar.computecanada.ca`). In addition, the University of
 Saskatchewan downloads its own radars (cly, inv, pgr, rkn, sas) to the `superdarn-cssdp`
@@ -38,9 +39,9 @@ server in duplication with the path through the VT system. This is a system loop
 make sure files are maintaining integrity while being processed through the VT system.
 
 The `superdarn-cssdp` server checks the hashes files for all files for both the
-BAS mirror and the Globus mirror to compare the two. Files that are not found on the
-Globus mirror are downloaded from the BAS mirror to the `superdarn-cssdp` server to be
-placed on the Globus server. The BAS server has rsync access to the `cedar.computecanada.ca` server
+BAS/NSSC mirrors and the Globus mirror to compare the two. Files that are not found on the
+Globus mirror are downloaded from the BAS/NSSC mirrors to the `superdarn-cssdp` server to be
+placed on the Globus server. The BAS/NSSC servers have rsync access to the `cedar.computecanada.ca` server
 in order to synchronize with it. 
 
 Before files are uploaded to the `cedar.computecanada.ca` server, they are checked for dmap consistency,
@@ -83,4 +84,23 @@ documented catalogue API and web apps server that allows users to collect metada
 server is run on the bslsuperdarnc server.
 
 In 2020, BAS worked to get radar data syncing from each institution and should now be syncing data
-for most if not all radars.
+for most if not all radars
+
+.
+## NSSC Details
+As of Dec 10 2021. Fuli Ma to verify/update**
+
+The NSSC data mirror became operational in 2021. Users can contact Fuli Ma to get access to the NSSC mirror via rsync or FTP
+
+
+
+
+
+
+
+
+
+
+
+
+
