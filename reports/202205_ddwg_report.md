@@ -12,7 +12,7 @@ The report periods are:
 
 ## Executive Summary
 A file listing for differences betweeen USASK and BAS, USASK and NSSC was generated, please see files attached with this report.
-
+210 files have been retrieved since November 2021 due to gaps file checking.
 
 ## General Announcements
 
@@ -28,7 +28,8 @@ BAS has temporarily stopped transfers of JME.
 system software and drivers on March 21 to March 24 2022.
 5. An issue with Canadian files from CLY, INV and RKN with lag0 data from far ranges was found in late 2021. 
 The issue was fixed and affected files replaced by March 29 2022. Please ensure you have the updated versions.
-6. 48 files from 2020 and 2021 DCE and DCN were found from the gaps check and subsequently uploaded to the Globus and NSSC mirrors.
+6. 48 files from 2020 and 2021 DCE and DCN were found from the gaps check and subsequently uploaded to the Globus and NSSC mirrors. 
+This makes a total of 210 files since November 2021 when gaps emails were sent to the data managers.
 7. An analysis of file differences between BAS, USASK and NSSC was performed, relative to USASK. File lists will be sent along with this report
 A summary:
    1. 1303 blocked files are on BAS (mostly SAS commissioning files removed and blocked in 2021)
