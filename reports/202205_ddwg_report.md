@@ -31,7 +31,7 @@ system software and drivers on March 21 to March 24 2022.
 The issue was fixed and affected files replaced by March 29 2022. Please ensure you have the updated versions.
 6. 48 files from 2020 and 2021 DCE and DCN were found from the gaps check and subsequently uploaded to the Globus and NSSC mirrors. 
 This makes a total of 210 files since November 2021 when gaps emails were sent to the data managers.
-7. An analysis of file differences between BAS, USASK and NSSC was performed April 29th, relative to USASK. 
+7. An analysis of file differences between BAS, USASK and NSSC was performed April 28th, relative to USASK. 
 File lists will be sent along with this report. Here is a summary:
    1. 1303 blocked files are on BAS (mostly SAS commissioning files removed and blocked in 2021)
    2. 12,170 files are different between USASK and BAS from 202001 to present (there are previous differences not included here)
