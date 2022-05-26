@@ -11,7 +11,8 @@ The report periods are:
 1. November 1 to January 31 with an update due by February 15
 
 ## Executive Summary
-A file listing for differences betweeen USASK and BAS, USASK and NSSC was generated, please see files attached with this report.
+A current file listing for differences betweeen USASK and BAS, USASK and NSSC was generated, 
+please see files attached with this report.
 210 files have been retrieved since November 2021 due to gaps file checking.
 
 ## General Announcements
@@ -30,13 +31,13 @@ system software and drivers on March 21 to March 24 2022.
 The issue was fixed and affected files replaced by March 29 2022. Please ensure you have the updated versions.
 6. 48 files from 2020 and 2021 DCE and DCN were found from the gaps check and subsequently uploaded to the Globus and NSSC mirrors. 
 This makes a total of 210 files since November 2021 when gaps emails were sent to the data managers.
-7. An analysis of file differences between BAS, USASK and NSSC was performed, relative to USASK. File lists will be sent along with this report
-A summary:
+7. An analysis of file differences between BAS, USASK and NSSC was performed April 29th, relative to USASK. 
+File lists will be sent along with this report. Here is a summary:
    1. 1303 blocked files are on BAS (mostly SAS commissioning files removed and blocked in 2021)
-   2. 12,170 different files from USASK are on BAS from 202001 to present (there are previous differences not included here)
-   3. 1580 different files from USASK are on NSSC from 202104 and 202111
-   4. 1581 files are missing from BAS (201603 onwards)
-   5. 839 files are missing from NSSC (200807 onwards)
+   2. 12,170 files are different between USASK and BAS from 202001 to present (there are previous differences not included here)
+   3. 1580 files are different between USASK and NSSC from 202104 and 202111
+   4. 1581 files are missing from BAS that USASK has (201603 onwards)
+   5. 839 files are missing from NSSC that USASK has - most of these failed a DMAP check (200807 onwards)
 
 ## Outstanding Tasks & Future projects
 1. Ensure all mirrors have the same standards for file inclusion
