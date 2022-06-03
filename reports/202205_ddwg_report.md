@@ -41,4 +41,5 @@ File lists will be sent along with this report. Here is a summary:
 
 ## Outstanding Tasks & Future projects
 1. Ensure all mirrors have the same standards for file inclusion
-1. Get all 2020 files to include in https://www.frdr-dfdr.ca/repo/collection/superdarn
+2. Get all 2020 files to include in https://www.frdr-dfdr.ca/repo/collection/superdarn
+3. Get all 2021 files ready to include on FRDR by the end of December 2022.
