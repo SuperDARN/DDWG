@@ -21,7 +21,7 @@ The following are general updates:
 
 1. The consortium that hosts data using Globus for the University of Saskatchewan, Compute Canada, 
 is shut down effective March 31 2022. In its place is the Digital Research Alliance of Canada.
-2. Work has started on uploading 2019 and 2020 datasets to https://www.frdr-dfdr.ca/repo/collection/superdarn - 
+2. Work has started on uploading 2019 and 2020 datasets to [FRDR](https://www.frdr-dfdr.ca/repo/collection/superdarn) - 
 this would be a DOI'd dataset much like the rest of the datasets already there. 
 3. Corrupted JME files from 20220113-20220128 were found, and replaced by NSSC on their server in mid-March. 
 BAS has temporarily stopped transfers of JME.
@@ -41,5 +41,5 @@ File lists will be sent along with this report. Here is a summary:
 
 ## Outstanding Tasks & Future projects
 1. Ensure all mirrors have the same standards for file inclusion
-2. Get all 2020 files to include in https://www.frdr-dfdr.ca/repo/collection/superdarn
+2. Get all 2020 files to include in [FRDR](https://www.frdr-dfdr.ca/repo/collection/superdarn)
 3. Get all 2021 files ready to include on FRDR by the end of December 2022.
