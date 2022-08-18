@@ -101,6 +101,8 @@ but it was never placed on the mirror for whatever reason).
 
 ## Reporting
 
+This section is to comply with SuperDARN communication plan version 2022.06.01
+
 ### Annual Report
 
 At the annual SuperDARN workshop, the DDWG chair or co-chair(s) or their representative should
@@ -115,30 +117,26 @@ blocked files, updated files, and a comparison with previous years’ statistics
 * Any future work that will be performed
 
 
-### Quarterly reports
-Throughout the year 'quarterly' reports will be drafted with feedback from
-the DDWG. The reports will then be sent to the PIs for review.
+### Semi-annual report
+Half-way through the year a semi-annual report will be drafted with feedback from
+the DDWG. The report will then be sent to the PIs for review 4 weeks before their mid-year meeting.
 
+### Report Dates
 The relevant date ranges are:
-1. February 1 to April 30 with an update due by May 15
-1. May 1 to August 31 with an update due September 15
-1. September 1 to October 31 with an update due November 15
-1. November 1 to January 31 with an update due February 15
+1. October 1 to April 15 with an update due by May 1
+1. April 16 to September 30 with an update due October 15
 
+### Report content
 The basic information that should be included is:
 
-* An executive summary written by the Chair of the DDWG
+* An executive summary written by the Chair of the DDWG with status update and key issues for action
 * Any feedback from the DDWG
 * Any major or noteworthy events
 * Any help requested, any roadblocks or issues encountered, any outstanding tasks  
 
-### Annual Meeting
+## Annual Meeting
 
 At each annual SuperDARN workshop, there should be a meeting for the DDWG members to discuss current
 issues, future work, the charter, and these policies and procedures. Minutes shall be taken and 
 sent to the DDWG via the regular communication channels. A summary of the meeting shall be reported 
 to the SuperDARN community at the end of the annual SuperDARN workshop.
-
-### Quarterly Meetings
-
-TODO: (3 more virtual meetings a year? is discussion enough?)
