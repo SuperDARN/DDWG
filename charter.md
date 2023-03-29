@@ -13,6 +13,7 @@ This charter outlines the necessary information that the DDWG requires to operat
 | July 2021 | Members list updated, list of distribution institutions updated (NSSC) |
 | January 2022 | Members list updated, change of PI for ksr radar |
  | August 2022 | Members list updated |
+| March 2023 | Members list updated to include ice, icw radars |
 
 ## Definitions
  - IQDAT/BFIQ: Beamformed IQ data
@@ -75,8 +76,8 @@ Responsibilty | Name | Institution | Radars
 --- | --- | --- | ---
 Chair | Kevin Krieger | USASK | sas, pgr, rkn, inv, cly
 Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
-Member | Simon Shepherd | Dartmouth | cve, cvw
-Member | Evan Thomas | Dartmouth | cve, cvw
+Member | Simon Shepherd | Dartmouth | cve, cvw, ice, icw
+Member | Evan Thomas | Dartmouth | cve, cvw, ice, icw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
 Member | Yuka Kadowaki | NIPR | sye, sys
 Member | Jordan Wiker | JHU/APL | wal

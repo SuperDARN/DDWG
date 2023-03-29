@@ -45,8 +45,9 @@ placed on the Globus server. The BAS/NSSC servers have rsync access to the `ceda
 in order to synchronize with it. 
 
 Before files are uploaded to the `cedar.computecanada.ca` server, they are checked for dmap consistency,
-bzip2 compression problems, file size issues, and if a file with the same name already exists. There
-are [procedures](<https://github.com/SuperDARN/DDWG/blob/master/policies_procedures.md>) 
+bzip2 compression problems, file size issues, blocklist inclusion, and if a file with the same name 
+already exists. There are 
+[procedures](<https://github.com/SuperDARN/DDWG/blob/master/policies_procedures.md>) 
 for what to do in various circumstances if a file has a problem.
 
 Full details for the Usask data distribution system can be found 

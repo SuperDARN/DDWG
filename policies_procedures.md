@@ -1,8 +1,7 @@
 ## Quality Control
 
 Defining the scope of responsibility for the DDWG regarding quality control is important.
-The DDWG should be responsible for ensuring that files can be read and accessed properly. (... with 
-agreed-upon software tools?).
+The DDWG is responsible for ensuring that files located on the mirrors can be read and accessed properly.
 The DDWG is *NOT RESPONSIBLE* for the scientific quality of the data itself.
 That responsibility falls within the another working group's scope. TODO: Which WG?
 
@@ -88,7 +87,7 @@ the records?)
 Gap resolution is an important part of the data management process, it closes the loop to verify that
 all data produced at the radar sites reaches a data mirror where it is accessible by the community.
 Gap resolution refers to the periodic human-involved act of categorizing any gaps in level 1 data 
-across all SuperDARN radars. Normally this should be done on an annual basis. The procedure is:
+across all SuperDARN radars. Normally this should be done on a semi-annual basis. The procedure is:
 1. A member of the DDWG will generate a list of nominal level 1 data files that are not available 
 on any of the official SuperDARN data repositories. 
 1. The lists of data gaps are sent to the DDWG members who are responsible for those radars. 

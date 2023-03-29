@@ -1,30 +1,15 @@
 # Frequently Asked Questions
 
-## Why do Canadian files take two different paths to the Globus mirror?
-This is done for several reasons:
-1. This will act as a 'check' for files that are going through VT. If VT changes the files in any
-way (either inadvertently or on purpose), then the automated data processes will catch this. 
-2. Data transfers for Canadian data are done on a 2 hour cadence. This allows Canadian radar
-files to appear on the Globus mirror within ~45 minutes of being produced at the radar site.
-
-Please see [this summary](summary_data_transfers.md).
-
-## Why are the BAS, NSSC, and Globus mirrors not synchronized?
-The BAS and NSSC servers have been given rsync access to the Globus mirror. The BAS and NSSC mirrors do not make
-certain checks for file inconsistencies that the Globus mirror does, which may be a reason
-for some files being located on the BAS and NSSC servers that are not in the main distribution on the Globus
-server.
-
-## What checks are done on the files before they get to the mirror(s)?
-There are a few basic checks done on the files for quality control. Please see the 
-[Policies and Procedures](policies_procedures.md).
-
 ## How do I get access to SuperDARN data? 
-There are currently two official ways to access SuperDARN data. 
+There are currently four official ways to access SuperDARN data. 
 The options are:
-1. Access via scp, rsync or sftp with the British Antarctic Survey (BAS) mirror. 
-See [this page](https://www.bas.ac.uk/project/superdarn/#data) 
-1. Access via [Globus](https://www.globus.org/) with the University of Saskatchewan (USASK) mirror.
+1. Access via scp, rsync or sftp with the British Antarctic Survey (BAS) mirror.
+See [this page](https://www.bas.ac.uk/project/superdarn/#data)
+2. Access via https, scp, rsync or sftp with the Chinese National Space Science Centre (NSSC) mirror. 
+See [this page](https://superdarn.nssdc.ac.cn/commondataset/commonDataAccess?datasetid=)
+3. Access via The Federated Research Data Repository of Canada (FRDR). 
+See [this page](https://www.frdr-dfdr.ca/repo/collection/superdarn)
+4. Access via [Globus](https://www.globus.org/) with the University of Saskatchewan (USASK) mirror.
     1. Go to <https://www.globus.org/> and sign up. Globus is an environment for research data 
     management, and wraps `gridftp` to do fast, reliable parallel data transfers between endpoints.
     1. Go to <https://www.globus.org/globus-connect-personal> and get the `globusconnectpersonal` 
@@ -35,6 +20,10 @@ See [this page](https://www.bas.ac.uk/project/superdarn/#data)
     
 In addition to this, there is a utility python script so you can automate transfers using Globus.
 Please see documentation and the script here: <https://github.com/SuperDARNCanada/globus>
+
+## What checks are done on the files before they get to the mirror(s)?
+There are a few basic checks done on the files for quality control. Please see the 
+[Policies and Procedures](policies_procedures.md).
     
 ## How can I see what data is available on the mirrors?
 If you have access to Globus, you can download a listing of all the RAWACF files by navigating to 
@@ -65,11 +54,28 @@ raise this as an issue on the DDWG github [issue](https://github.com/SuperDARN/D
 and/or send mail to the DDWG mailing list <darn-ddwg@isee.nagoya-u.ac.jp>.
 
 ## How much data does SuperDARN have?
-Currently (202011) there is about 42 TB of RAWACF data and 2.2 TB of DAT data in the main distribution.
+Currently (202303) there is about 51,870 GB (50.6 TB) of RAWACF data and 2,233 GB (2.2 TB) of DAT 
+data in the main distribution.
 This information is gathered from the output of the linux command `du` on `cedar.computecanada.ca`.
 
 SuperDARN began producing data on September 14 1993 from three radars. Today, the network has 
-~36 radars. Data is nominally produced continuously, 24/7/365. 
+~39 radars. Data is nominally produced continuously, 24/7/365. 
+
+## Why do Canadian files take two different paths to the Globus mirror?
+This is done for several reasons:
+1. This will act as a 'check' for files that are going through other mirrors, or the VT server. 
+If VT changes the files in any way (either inadvertently or on purpose), then the automated data 
+processes will catch this. 
+2. Data transfers for Canadian data are done on a 2 hour cadence. This allows Canadian radar
+files to appear on the Globus mirror within ~45 minutes of being produced at the radar site.
+
+Please see [this summary](summary_data_transfers.md).
+
+## Why are the BAS, NSSC, and Globus mirrors not synchronized?
+The BAS and NSSC servers have been given rsync access to the Globus mirror. The BAS and NSSC mirrors do
+certain checks for file inconsistencies that may differ from the Globus mirror, which may be a reason
+for some files being located on the BAS and NSSC servers that are not in the main distribution on the Globus
+server, and visa versa.
 
 ## What would the ideal mirror setup look like for SuperDARN?
 I believe that the ideal situation would involve every radar sending 2 hour files 12 times per day
