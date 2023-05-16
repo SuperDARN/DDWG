@@ -13,7 +13,7 @@ Over the last six months, there were some files blocked and removed,
 the USASK mirror was updated to check files with the same method that 
 the NSSC mirror does, and two new radars (ICE/ICW) started contributing to the
 network. There are some items to be addressed in the near future.
-See https://superdarn.ca/server-status for a new comparison tool.
+See <https://superdarn.ca/server-status> for a new comparison tool.
 
 ## General Announcements
 
@@ -31,7 +31,7 @@ transfer set up to BAS. CVE/CVW transfers were re-enabled as well.
 5. Data gaps for 2021 data were sent to data managers in August 2022, and 
 reminder emails were sent in 202210.
 6. Globus had a scheduled downtime on Saturday March 11 at 10AM CST for a few hours.
-7. See new visualization tool for mirror file differences here: https://superdarn.ca/server-status
+7. See new visualization tool for mirror file differences here: <https://superdarn.ca/server-status>
 8. JME data are now transferred from NSSC mirror to BAS instead of the PI staging server
 9. BPK transfer to BAS is now using the new La Trobe staging server, and 
 TIG/UNW transfers were removed due to radars being offline
