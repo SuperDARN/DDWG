@@ -15,7 +15,7 @@ See [this page](https://www.frdr-dfdr.ca/repo/collection/superdarn)
     1. Go to <https://www.globus.org/globus-connect-personal> and get the `globusconnectpersonal` 
     software installed on your machine. This turns your machine into an endpoint if the 
     `globusconnectpersonal` software is running.
-    1. Let Kevin Krieger know what your globus ID is to be invited to have read-only access the 
+    1. Let the SuperDARN Canada Globus admin know what your globus ID is to be invited to have read-only access the 
     SuperDARN endpoint (an endpoint is like a server in the context of Globus).
     
 In addition to this, there is a utility python script so you can automate transfers using Globus.
