@@ -9,10 +9,12 @@ After hard drives were no longer used, the internet was utilized along with Netw
 Storage (NAS) storage provided by Westgrid, a Canadian computing resources group that supports research
 projects. After that, a scaled-up version of the NAS system was put in place using Globus and 
 storage provided by Compute Canada, which is a consortium of groups that includes Westgrid.
+In 2023, Compute Canada changed to the Digital Research Alliance of Canada.
 Along the way, other institutions have provided a lot of support to share the burden of data distribution:
 starting with [JHU/APL](<https://github.com/SuperDARN/DDWG/blob/master/appendices/appendix_a.md>) 
-until September/October 2013, as well as Virginia Tech. Finally in 2017 BAS came online as
-another component of the SuperDARN data distribution system.
+until September/October 2013, as well as Virginia Tech. In 2017 BAS came online as
+another component of the SuperDARN data distribution system. 
+In 2021, NSSC (CAS - Chinese Academy of Sciences) came online as another component of the SuperDARN data distribution system.
 
 ## Current Distribution Brief
 
@@ -29,7 +31,7 @@ data via an rsync server (that supports scp and sftp as well).
 ## DIAGRAM HERE - K. Sterne **
 
 ## Usask Details
-As of December 10 2021.
+As of September 21 2023.
 
 The University of Saskatchewan downloads files from the VT `sd-data1` server, the NSSC data mirror as
 well as the BAS data mirror. These downloads are first staged onto the `superdarn-cssdp`
@@ -39,8 +41,8 @@ server in duplication with the path through the VT system. This is a system loop
 make sure files are maintaining integrity while being processed through the VT system.
 
 The `superdarn-cssdp` server checks the hashes files for all files for both the
-BAS/NSSC mirrors and the Globus mirror to compare the two. Files that are not found on the
-Globus mirror are downloaded from the BAS/NSSC mirrors to the `superdarn-cssdp` server to be
+BAS/NSSC mirrors and the Globus mirror to compare them. Files that are not found on the
+Globus mirror are downloaded from the BAS and/or NSSC mirrors to the `superdarn-cssdp` server to be
 placed on the Globus server. The BAS/NSSC servers have rsync access to the `cedar.computecanada.ca` server
 in order to synchronize with it. 
 
@@ -60,7 +62,7 @@ The Virginia Tech (VT) system took over the single point of data collection from
 institutions from John Hopkins University/Applied Physics Lab (JHU/APL) in Sept 2013. This has 
 continued with the majority of radars/PI institutions even with the BAS
 data mirror coming online though they are not shown in the figure above. Of these, there
-are a number intermittent data downloads that do not occur on an automatic basis. These
+are a number of intermittent data downloads that do not occur on an automatic basis. These
 sporadic downloads are run manually due to data integrity issues at the PI institution
 which have not had any movement towards correcting or feedback in a number of
 months.
