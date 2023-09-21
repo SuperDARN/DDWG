@@ -132,8 +132,10 @@ All member types have the following responsibilities in addition to those listed
 
 Chair/Co-Chair(s): 
 1. Provide updates on the status of the SuperDARN data distribution system to the members of the 
-DDWG and the PIs. 
+DDWG and the PIs according to the communication plan from 2022.
 1. Host annual meetings.
+1. Perform data gaps reconciliation.
+1. Give update presentations at the annual workshop.
 
 Members who operate the SuperDARN holding and distribution institution systems: 
 1. Maintain technical aspects of the data distribution system, including codebase and hardware. 
