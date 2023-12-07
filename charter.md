@@ -75,36 +75,30 @@ The current membership includes:
 
 Responsibilty | Name | Institution | Radars
 --- | --- | --- | ---
-Chair | TBD | TBD | TBD
-Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
+Chair | Ma Fuli | NSSC | JME
+Member| He Dabin | NSSC | JME
 Member | Simon Shepherd | Dartmouth | cve, cvw, ice, icw
 Member | Evan Thomas | Dartmouth | cve, cvw, ice, icw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
 Member | Yuka Kadowaki | NIPR | sye, sys
-Member | Jordan Wiker | JHU/APL | wal
-Member | Enrico Simeoli | IAPS/INAF | dce, dcn
-Member | John Devlin | LaTrobe | tig, unw, bpk
-Member | Jim Whittington | LaTrobe | tig, unw, bpk
-Member | Mark Gentile | LaTrobe | tig, unw, bpk
-Member | Andrew McDonald | LaTrobe | tig, unw, bpk
-Member | Paul Breen | BAS | fir
-Member | Tim Barnes | BAS | fir
-Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod, ksr
+Member | Dag Lorentzen | UNIS | lyr
+Member | Lisa Baddeley | UNIS | lyr
+Member | Mikko Syrjäsuo | UNIS | lyr
 Member | Jianjun Liu | PRIC | zho
-Member | Hongqiao Hu | PRIC | zho
-Member | Judy Stephenson | UKZN | san
-Member | Tomoaki Hori | ISEE | hok, hkw
-Member | Nozomu Nishitani | ISEE | hok, hkw
-Member | Aurélie Marchaudon | IRAP | ker
-Member | Keisuke Hosokawa | UEC |
-Member | Chris Thomas | Leicester | han, pyk
-Member | Tim Yeoman | Leicester | han, pyk
-Member | Adrian Grocott | Lancaster | sto
-Member | Fuli Ma | NSSC | jme
-Member | Mikko Syrjäsuo| UNIS | lyr
-Member | Zanyang Xing | SDU
-Member | Remington Rohel | USASK | sas, pgr, rkn, inv, cly 
 Member | Theodore Kolkman | USASK | sas, pgr, rkn, inv, cly 
+Member | Draven Galeschuk | USASK | sas, pgr, rkn, inv, cly 
+Member | Kevin Sterne | VT | bks, kap, gbr, fhe, fhw
+Member | Enrico Simeoli | IAPS/INAF | dce, dcn
+Member | Jordan Wiker | JHU/APL | wal
+Member | Tim Barnes | BAS | fir, hal
+Member | Paul Breen | BAS | fir, hal
+Member | Aurélie Marchaudon | IRAP | ker
+Member | Tim Yeoman | Leicester | han
+Member | Bill Bristow | UAF/Penn State | sps, mcm, ade, adw, kod, ksr
+Member | Nozomu Nishitani | ISEE | hok, hkw
+Member | Tomoaki Hori | ISEE | hok, hkw
+Member | John Devlin | LaTrobe | tig, unw, bpk
+Member | Michael Kosch | UKZN | san
 Observer | Qinghe Zhang | SDU
 Observer | Mike Ruohoniemi | VT
 Observer | Kathryn McWilliams | USASK
