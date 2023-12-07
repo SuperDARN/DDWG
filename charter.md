@@ -75,8 +75,8 @@ The current membership includes:
 
 Responsibilty | Name | Institution | Radars
 --- | --- | --- | ---
-Chair | Ma Fuli | NSSC | JME
-Member| He Dabin | NSSC | JME
+Chair | Ma Fuli | NSSC | jme
+Member| He Dabin | NSSC | jme
 Member | Simon Shepherd | Dartmouth | cve, cvw, ice, icw
 Member | Evan Thomas | Dartmouth | cve, cvw, ice, icw
 Member | Akira Sessai Yukimatu | NIPR | sye, sys
