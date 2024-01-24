@@ -1,11 +1,11 @@
-# Summary of SuperDARN Data Transfers
-Kevin Sterne, May 1, 2020
+Summary of SuperDARN Data Transfers
 
-![summary](img/data_transfers_summary.png)
+Ma Fuli, 24th, Jan. 2024
+
+<img width="633" alt="SuperDARN DDWG" src="https://github.com/SuperDARN/DDWG/assets/12843089/07c7c565-2816-492a-944c-f5a555883758"># 
 
 This figure shows the general state of data transfers within the SuperDARN institutions
-of Virginia Tech, University of Saskatchewan and the British Antarctic Survey (BAS), as it
-was on May 1 2020.
+of Virginia Tech, University of Saskatchewan, the British Antarctic Survey (BAS) and Chinese National Space Science Center, as it was on 24th, Jan. 2024.
 The purpose is not to detail how the transfers occur (scp, sftp, etc.), but to provide a high 
 level overview of how things are working. This figure does not reflect or account for
 current radar operating status, so some transfers are empty/ghost transfers due to
