@@ -113,10 +113,11 @@ maintained at Nagoya University. To send email to the list, send mail to <darn-d
 Previously, a mailing list set up by Julian Thornhill, maintained by Leicester University, was used. 
 That list address was <darn-ddwg@ion.le.ac.uk>.
 
-A person wishing to subscribe to the DDWG emailing list should contact the Chair 
-(or co-Chairs) or the current PI institution’s member about subscribing to this list. 
+A person wishing to subscribe to the DDWG emailing list should contact the Chair Ma Fuli (mafuli007@nssc.ac.cn) or the current PI institution’s member about subscribing to this list. 
 Subscribing to the list should be only at the approval of the Chair (or co-Chairs) so that they 
 are aware of an addition or change within a PI institution.
+
+If someone encounter problems with downloading the files or have no idea of how to get access to the SuperDARN data, you could contact the Chair Ma Fuli (mafuli007@nssc.ac.cn) to get some help.
 
 ## Responsibilities
 
