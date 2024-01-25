@@ -21,4 +21,4 @@ Take FlashFXP as an example. The configuration is as follows:
 
 The interface of success connected is show in the picture above.
 The FTP service of this mirror station only provides the function of view and download data files, and does not support the function of modify or upload data files.
-Any issues could contact with the Chair Ma Fuli (mafuli007@nssc.ac.cn)
+If you encounter any problems, could contact with the Chair Ma Fuli (mafuli007@nssc.ac.cn)
